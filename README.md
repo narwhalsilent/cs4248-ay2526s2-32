@@ -9,7 +9,7 @@ This is the codebase for CS4248 AY25/26 Semester 2 Project Group 32. We fine-tun
 * Anant Shanker 
 * Sithanathan Rahul 
 * Choong Kai Zhe 
-* **Project Mentor:** Xihao 
+* **Project Mentor:** Chen Xihao 
 
 ### Methodology
 
