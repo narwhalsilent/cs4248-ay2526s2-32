@@ -1,0 +1,32 @@
+name: cs4248-ay2526s2-32
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.13
+  - pip
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - spacy
+  - nltk
+  - pyyaml
+  - tqdm
+  - jupyter
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda  # Adjust to match your local/Colab CUDA version
+  - pip:
+    - transformers>=4.30.0
+    - datasets>=2.14.0
+    - accelerate>=0.20.0
+    - sentence-transformers>=2.2.2
+    - bert-score>=0.3.13
+    - shap>=0.42.1
+    - bertviz>=1.4.0
+    - evaluate>=0.4.0

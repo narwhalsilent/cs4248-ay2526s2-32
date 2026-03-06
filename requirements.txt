@@ -1,0 +1,27 @@
+# Deep Learning Framework
+torch>=2.0.0
+
+# Transformer Models and Architectures
+transformers>=4.30.0
+accelerate>=0.20.0
+datasets>=2.14.0
+
+# Evaluation and Similarity Calculations
+sentence-transformers>=2.2.2
+bert-score>=0.3.13
+
+# Text Preprocessing and NLP utilities
+spacy>=3.6.0
+nltk>=3.8.1
+
+# Baseline Models and Machine Learning Utilities
+scikit-learn>=1.3.0
+
+# Interpretability Analysis
+shap>=0.42.1
+bertviz>=1.4.0
+matplotlib>=3.7.0
+seaborn>=0.12.2
+
+# Configuration Management
+pyyaml>=6.0

@@ -1,0 +1,30 @@
+# configs/bart_training.yaml
+
+model:
+  # utilizing BART, an encoder-decoder architecture designed for sequence-to-sequence text generation
+  name_or_path: "facebook/bart-base"
+  type: "bart"
+
+data:
+  # Uses the synthetic dataset constructed during Phase 1
+  train_file: "data/silver/train.csv"
+  validation_file: "data/silver/val.csv"
+  max_source_length: 128
+  max_target_length: 128
+
+training:
+  # Standard Supervised Fine-Tuning (SFT) settings
+  output_dir: "checkpoints/bart_satire"
+  num_train_epochs: 5
+  per_device_train_batch_size: 16
+  per_device_eval_batch_size: 16
+  learning_rate: 3e-5
+  weight_decay: 0.01
+  logging_steps: 50
+  evaluation_strategy: "epoch"
+  save_strategy: "epoch"
+  predict_with_generate: true
+
+generation:
+  num_beams: 4
+  temperature: 0.9
