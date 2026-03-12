@@ -1,0 +1,28 @@
+
+--- New Session Started: 2026-03-12 12:24:40.246958 ---
+
+--- New Session Started: 2026-03-12 12:28:46.800162 ---
+1. {'factual_headline': 'former versace store clerk sues over secret 'black code' for minority shoppers',
+    'sarcastic_1': {'headline': 'Former Versace Store Clerk Sues Over Secret 'Black Code' for Minority Shoppers Too Relaxed to Notice the Racial Profiling Anyway', 'score': 0.2463},
+    'sarcastic_2': {'headline': 'Ex-Versace Sales Associate Takes Company to Court for Failing to Keep 'Black Code' a Secret', 'score': 0.1937},
+    'sarcastic_3': {'headline': 'Shocked: Former Versace Employee Discovers 'Black Code' Existed, Immediately Wonders How They Didn't Figure It Out Sooner', 'score': 0.455},
+    'sarcastic_4': {'headline': 'Local Man Who Used to Work at Versace Store Now Wants Money for Being So Clueless', 'score': 0.5733} [WINNER],
+    'sarcastic_5': {'headline': 'Former Versace Store Clerk Finds Out 'Black Code' Exists, Asks Self How Many Times They Have to Be Victimized by Fashion Before Getting Paid', 'score': 0.3449},
+    'runtime': '33.14s'}
+
+2. {'factual_headline': 'the 'roseanne' revival catches up to our thorny political mood, for better and worse',
+    'sarcastic_1': {'headline': ''Roseanne' Revival Actually Too Successful, Now We're All Just Wondering Why We're Watching an Old TV Show Again', 'score': 0.3745} [WINNER],
+    'sarcastic_2': {'headline': 'Because Nothing Says 'Progressive' Like a White Woman in the White House', 'score': 0.0165},
+    'sarcastic_3': {'headline': 'The 'Roseanne' Revival: Because Our Political Discourse Hasn't Been this Juicy Since 'The Real Housewives' of Washington D.C.', 'score': 0.0995},
+    'sarcastic_4': {'headline': 'Roseanne's Comeback Proves That America's Just Gonna Reboot All the Bad Old Ideas and Hope Nobody Notices', 'score': 0.0492},
+    'sarcastic_5': {'headline': 'Because Who Needs Original Content When You Can Just Rerun the Same Outdated TV Show from the '90s?', 'score': -0.0095},
+    'runtime': '22.62s'}
+
+3. {'factual_headline': 'j.k. rowling wishes snape happy birthday in the most magical way',
+    'sarcastic_1': {'headline': 'J.K. Rowling Wishes Snape Happy Birthday, Still Waiting For Him To Kill Her', 'score': 0.4947} [WINNER],
+    'sarcastic_2': {'headline': 'Snape's Birthday Wishes Now Complete: Just Needs To Get His Hands On The Deathly Hallows', 'score': 0.2325},
+    'sarcastic_3': {'headline': 'Rowling's Birthday Message To Snape: 'May Your Long Life Be Filled With Sarcasm And Regret'', 'score': 0.3341},
+    'sarcastic_4': {'headline': 'Snape Gets Birthday Wish From Rowling, Now Asking For A Raise In The Afterlife', 'score': 0.1155},
+    'sarcastic_5': {'headline': 'Rowling's Personalized Birthday Card To Snape: 'You'll Always Be The Wizarding World's Most Interesting Dead Guy'', 'score': 0.4129},
+    'runtime': '19.92s'}
+
