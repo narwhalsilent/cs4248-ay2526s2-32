@@ -780,3 +780,1515 @@
     'sarcastic_5': {'headline': 'Area Man's Passing Inspires New Wave of 'I'm the Real Victim Here' Tweets', 'score': 0.5598} [WINNER],
     'runtime': '20.73s'}
 
+
+--- New Session Started: 2026-03-14 12:44:52.026874 ---
+
+--- New Session Started: 2026-03-14 12:47:15.874139 ---
+99. {'factual_headline': 'allies: islamist motive for killing nemtsov is nonsense',
+    'sarcastic_1': {'headline': 'Jihadists: 'We're Just Trying To Emphasize Our Dislike For Democracy'', 'score': 0.3038},
+    'sarcastic_2': {'headline': 'Allies: 'We're Just Not Used To Terrorists Being This Good At Not Leaving A Trail Of Clues'', 'score': 0.4398},
+    'sarcastic_3': {'headline': 'Nemtsov Murder: Yet Another Example Of How Extremists Are Just Really, Really Angry'', 'score': 0.1485},
+    'sarcastic_4': {'headline': 'Allies: 'We'll Believe You're Motivated By Islamist Ideology When You Start Wearing Socks'', 'score': 0.4573} [WINNER],
+    'sarcastic_5': {'headline': 'Terrorists: 'Our Ideology Is Totally Not About Hate, We're Just Really Passionate About, Uh, Things'', 'score': 0.309},
+    'runtime': '20.47s'}
+
+100. {'factual_headline': 'if you see a muslim at the airport',
+    'sarcastic_1': {'headline': 'Airport Authorities Now Require Muslims To Wear 'I'm Not Going to Blow You Up' Name Tag', 'score': 0.4419},
+    'sarcastic_2': {'headline': 'New Airport Rule Mandates Muslims To Leave Behind All Copies of 'The 9/11 Commission Report' In Their Carry-On', 'score': 0.53} [WINNER],
+    'sarcastic_3': {'headline': 'Muslims At Airports Now Required To Answer 'Do You Have Anything to Hide?' Three Times Before Boarding', 'score': 0.3924},
+    'sarcastic_4': {'headline': 'Airport Security Checks Now Include Random Searches For Copies Of The Quran', 'score': 0.2655},
+    'sarcastic_5': {'headline': 'New Rule Requires Muslims To Prove They're Not A Terrorist Using A Complex, Impossible-to-Meet Criteria', 'score': 0.4987},
+    'runtime': '5.06s'}
+
+101. {'factual_headline': 'donald trump heading for a series of wins in the northeast, polls say',
+    'sarcastic_1': {'headline': 'Nation Horrified By Imminent Trump Victor; People Beg For Mercy', 'score': 0.496} [WINNER],
+    'sarcastic_2': {'headline': 'Polls Show Trump Will Win Because Who Needs Fact-Checking Anyway?', 'score': 0.1613},
+    'sarcastic_3': {'headline': 'Northeast Residents Overjoyed At Prospect Of Trump Winning More Elections', 'score': 0.3257},
+    'sarcastic_4': {'headline': 'Donald Trump Set To Sweep Northeast, Because Nothing Says 'Leadership' Like Losing By A Landslide', 'score': 0.1166},
+    'sarcastic_5': {'headline': 'Expert: Trump's Northeast Wins A 'Blazing Beacon Of Hope' For Democracy', 'score': 0.0682},
+    'runtime': '4.41s'}
+
+102. {'factual_headline': 'nypd weighs allowing chokeholds following eric garner death',
+    'sarcastic_1': {'headline': 'Police Unanimously Agree That Eric Garner's Death Was Just A Minor Inconvenience', 'score': 0.3111},
+    'sarcastic_2': {'headline': 'NYPD Considers Reintroducing Chokeholds Because Two Wrongs Often Make A Right', 'score': 0.2264},
+    'sarcastic_3': {'headline': 'New Policy Allows Cops To Use Chokeholds, But Only On People Who Are Already Extremely Large And Difficult To Move', 'score': 0.4128},
+    'sarcastic_4': {'headline': 'Police Department Considers Allowing Chokeholds As Long As You Say 'Please Don't' Repeatedly', 'score': 0.4726} [WINNER],
+    'sarcastic_5': {'headline': 'NYPD Weighs Allowing Chokeholds, Because What's A Few Broken Necks When You're Trying To Save A Life?', 'score': 0.1286},
+    'runtime': '5.25s'}
+
+103. {'factual_headline': 'the lawsuit against black lives matter and the central meaning of the first amendment',
+    'sarcastic_1': {'headline': 'Black Lives Matter Sued For Only Mentioning Black Lives 3 Times More Than Other Social Movements', 'score': 0.4559},
+    'sarcastic_2': {'headline': 'Court Rules First Amendment Only Protects People Who Say 'God Bless America' Before Every Sentence', 'score': 0.3591},
+    'sarcastic_3': {'headline': 'Black Lives Matter Movement Found Guilty Of Not Being Enough Of A Tradition-Hallowed Institution To Enjoy Constitutional Protections', 'score': 0.5045} [WINNER],
+    'sarcastic_4': {'headline': 'Judge Orders Black Lives Matter To Include 'All Lives' In Name To Comply With First Amendment', 'score': 0.4113},
+    'sarcastic_5': {'headline': 'Lawsuit Reveals Shocking Truth: Black Lives Matter's Name Is Actually A Threat To Democracy If It Doesn't Include 'Blue Lives'', 'score': 0.1688},
+    'runtime': '5.2s'}
+
+104. {'factual_headline': 'boehner vows to leave successor with clean slate',
+    'sarcastic_1': {'headline': 'Boehner Commits To Leaving Next Speaker With Massive Pile Of Undecided Legislation', 'score': 0.5044},
+    'sarcastic_2': {'headline': 'Speaker Boehner Makes Historic Promise To Leave Successor With Briefcase Full Of Unresolved Issues', 'score': 0.5107} [WINNER],
+    'sarcastic_3': {'headline': 'Boehner Vows To Leave Next Speaker With Clean Slate, Except For The One With All The Lawsuits', 'score': 0.4607},
+    'sarcastic_4': {'headline': 'Speaker Boehner Makes Pledge To Leave Successor With A Fresh Start, Except For The Whole Deficit Thing', 'score': 0.1349},
+    'sarcastic_5': {'headline': 'Boehner's Generous Gift To Next Speaker: A Clean Slate, And Also The Thanks Of A Nation, Not Really', 'score': 0.0334},
+    'runtime': '5.41s'}
+
+105. {'factual_headline': 'facing rising seas, remote alaskan village votes to move (again)',
+    'sarcastic_1': {'headline': 'Alaska Village's 100th Relocation Plan Unveiled, Because Nothing Says 'Home' Like a New Address Every Decade', 'score': 0.1505},
+    'sarcastic_2': {'headline': 'Village Elders Overjoyed By Yet Another Chance to Fill Out Government Forms', 'score': 0.5198} [WINNER],
+    'sarcastic_3': {'headline': ''Just What We Needed, More Bureaucratic Red Tape' Says Frustrated Village Resident', 'score': 0.5067},
+    'sarcastic_4': {'headline': 'Remote Village's 12th Move in 20 Years Sparks Excitement Among Neighboring Towns', 'score': 0.4861},
+    'sarcastic_5': {'headline': 'New Relocation Plan Features State-of-the-Art Porta-Potties and Free Wi-Fi', 'score': 0.4393},
+    'runtime': '5.29s'}
+
+106. {'factual_headline': 'the worst place in the world for a child',
+    'sarcastic_1': {'headline': 'Nations Breathe Sigh Of Relief As Worst Place For Kids Now Rated Higher Than Expected', 'score': 0.5509},
+    'sarcastic_2': {'headline': 'Child's Chances Of Survival Improve Dramatically As Country Earns Coveted Spot', 'score': 0.548},
+    'sarcastic_3': {'headline': 'Diplomats Praise Nation For Efforts To Create Optimal Environment For Children To Suffer', 'score': 0.5581} [WINNER],
+    'sarcastic_4': {'headline': 'New Record Set As Worst Place For Kids Declared 'A Real Family Affair'', 'score': 0.5376},
+    'sarcastic_5': {'headline': ''World's Worst' Label Boosts Local Tourism, Economy Sees Significant Growth', 'score': 0.3045},
+    'runtime': '4.29s'}
+
+107. {'factual_headline': 'mom sentenced for encouraging boyfriend's sex assault on baby',
+    'sarcastic_1': {'headline': 'Mom Sentenced For Not Being Good Enough at Prioritizing Her Son's Safety', 'score': 0.2419},
+    'sarcastic_2': {'headline': 'Local Woman Charged With Failure to Prevent Boyfriend's Lewd Behavior', 'score': 0.6012} [WINNER],
+    'sarcastic_3': {'headline': 'Community Outraged Over Mom's Unacceptable Tolerance of Date Rape', 'score': 0.5384},
+    'sarcastic_4': {'headline': 'Mom Gets Jail Time For Not Being a Good Enough BFF to His Child', 'score': 0.2069},
+    'sarcastic_5': {'headline': 'Judge Hands Down Harsh Sentence For Woman Who Didn't Protect Her Child From Toxic Partner', 'score': 0.1808},
+    'runtime': '3.87s'}
+
+108. {'factual_headline': 'donald trump's assault on our values',
+    'sarcastic_1': {'headline': 'Nation Horrified By Trump's Latest Assault On Decency', 'score': 0.6462} [WINNER],
+    'sarcastic_2': {'headline': 'Expert: Trump's Actions A 'Clear Attack On Our Shared Humanity'', 'score': 0.4111},
+    'sarcastic_3': {'headline': 'Voters Left Wondering If They Should've Just Stuck With 'That Guy With The Mustache'', 'score': 0.3468},
+    'sarcastic_4': {'headline': 'Trump's Assault On Our Values Shows He's A Real Leader, Says Fox News', 'score': 0.2276},
+    'sarcastic_5': {'headline': 'Pundits Baffled: 'How Could One Person Possibly Be So Unpresidential?'', 'score': 0.4825},
+    'runtime': '4.56s'}
+
+109. {'factual_headline': 'the women's march inspired them to run. now they're unseating gop men.',
+    'sarcastic_1': {'headline': 'Women's March Participants So Inspired By Empowerment That They're Now Running For Office', 'score': 0.4668},
+    'sarcastic_2': {'headline': 'Because Who Better To Represent The People Than Angry Women And Their Furry Friends?', 'score': 0.0713},
+    'sarcastic_3': {'headline': 'Women's March Follow-Up: Local GOP Men Now Living In Permanent Fears', 'score': 0.1428},
+    'sarcastic_4': {'headline': 'Tidal Wave Of Female Candidates Sweeps Nation, Mainstream Feminism 'Totally Not A Thing'', 'score': 0.4787} [WINNER],
+    'sarcastic_5': {'headline': 'Women's March Alumnae Elected, Immediately Start Talking About The Importance Of Safe Spaces', 'score': 0.2599},
+    'runtime': '4.35s'}
+
+110. {'factual_headline': 'was it worth it, america?',
+    'sarcastic_1': {'headline': 'Wow, Yes, That $22 Trillion National Debt Was Worth It For This New IKEA Credit Card', 'score': 0.1391},
+    'sarcastic_2': {'headline': 'Nation's Collective Existence Has Been Enhanced By The Substantial Increase In Student Loan Debt', 'score': 0.5257} [WINNER],
+    'sarcastic_3': {'headline': 'America's GDP Has Never Been Higher, Thanks To The Booming Industry Of Student Debt Collection', 'score': 0.0591},
+    'sarcastic_4': {'headline': 'New Study Confirms That $1,000/Month Car Payments Are The Key To True Economic Freedom', 'score': 0.3837},
+    'sarcastic_5': {'headline': 'Citizens Overwhelmingly Agree: The Price Of Healthcare Is The New Measure Of A Nation's Prosperity', 'score': 0.0294},
+    'runtime': '5.2s'}
+
+111. {'factual_headline': 'gop senators aren't ready to accept trump as their champion',
+    'sarcastic_1': {'headline': 'GOP Senators Shocked By Trump's Existence, Claim They're Still Figuring Out What A President Looks Like', 'score': 0.1669},
+    'sarcastic_2': {'headline': 'Trump's Leadership Skills Overwhelmingly Impressive, Say Not-At-All-Impressed GOP Senators', 'score': 0.414},
+    'sarcastic_3': {'headline': 'Republicans Stunned By Trump's Ability To Win Election, Claim They Were Totally Counting On Losing', 'score': 0.3534},
+    'sarcastic_4': {'headline': 'GOP Senators Admit They're Just Pretending To Dislike Trump, Still Hope He'll Go Away', 'score': 0.1538},
+    'sarcastic_5': {'headline': ''Unpresidented' Trump Forcing Republicans To Re-Examine Entire Concept Of Presidential Dignity', 'score': 0.4686} [WINNER],
+    'runtime': '5.5s'}
+
+112. {'factual_headline': 'price-gouging pharma ceo takes over cancer company',
+    'sarcastic_1': {'headline': 'Pharma CEO's Latest Venture: Exploiting Cancer Patients For Fun And Profit', 'score': 0.1052},
+    'sarcastic_2': {'headline': 'Billionaire CEO Trades In Luxury Yacht For Humble Cancer Ward', 'score': 0.3899},
+    'sarcastic_3': {'headline': 'Cancer Company Now Officially Run By Person Who Clearly Cares About Profits Over People', 'score': 0.5466} [WINNER],
+    'sarcastic_4': {'headline': 'Price-Gouging Expert Takes On New Challenge: Saving Lives', 'score': 0.4512},
+    'sarcastic_5': {'headline': 'Local Community Rallies Around New Cancer Company Leader: 'We're So Excited To See What Horrible Choices He'll Make'', 'score': 0.4608},
+    'runtime': '4.35s'}
+
+113. {'factual_headline': ''straight outta compton' is a stunning surprise',
+    'sarcastic_1': {'headline': ''Straight Outta Compton' Only Surprising To People Who Have Been Living Under A Rock Since 1988', 'score': 0.5102} [WINNER],
+    'sarcastic_2': {'headline': 'New Movie About Dr. Dre And Ice Cube's Life Is Actually Based On True Events, Not Just A Work Of Fiction, We Swear', 'score': 0.0748},
+    'sarcastic_3': {'headline': ''Straight Outta Compton' Shocks Critics With Exceptional Music, Authentic Storytelling', 'score': 0.1196},
+    'sarcastic_4': {'headline': 'Compton Biopic Actually Not A Boring, Formulaic Hollywood Movie, Contrary To Initial Expectations', 'score': 0.4535},
+    'sarcastic_5': {'headline': ''Straight Outta Compton' Will Change Your Life Forever, Possibly Even More Than 'Bohemian Rhapsody'', 'score': 0.0141},
+    'runtime': '5.7s'}
+
+114. {'factual_headline': 'carly rae jepsen just released her new single, 'all that'',
+    'sarcastic_1': {'headline': 'Carly Rae Jepsen's Latest Single 'All That' A Refreshing Change From Her Usual Hits, 'Not This Year' And 'Only Girl'', 'score': 0.2038},
+    'sarcastic_2': {'headline': 'Critics Praise Carly Rae Jepsen's 'All That' For Being A Completely Unremarkable Pop Song', 'score': 0.2468} [WINNER],
+    'sarcastic_3': {'headline': 'Carly Rae Jepsen's New Single 'All That' Features Innovative Lyric 'I'm Not As Over You As I Thought I Was'', 'score': 0.154},
+    'sarcastic_4': {'headline': 'Despite Lackluster Music Video, Fans Eagerly Await Next Carly Rae Jepsen Album', 'score': 0.2459},
+    'sarcastic_5': {'headline': 'Carly Rae Jepsen's 'All That' Becomes Fastest Song To Sell 100 Copies In The Past Week, A 'Game-Changer'', 'score': 0.1222},
+    'runtime': '6.71s'}
+
+115. {'factual_headline': 'gunman kills one, wounds four in shooting at german nightclub',
+    'sarcastic_1': {'headline': 'Gunman Kills One, Wounds Four: Because What's A Night Out Without A Little Extra Drama?', 'score': 0.2197},
+    'sarcastic_2': {'headline': 'Shooting At German Nightclub: Where The Beer Is Cold And So Is The Justice System', 'score': 0.0936},
+    'sarcastic_3': {'headline': 'One Person Dead, Four Hurt In Club Shooting: Just Another Tuesday Night In Germany', 'score': 0.2259},
+    'sarcastic_4': {'headline': 'Gunman's Motive Still Unknown: But We're Sure It's Not Because He Was Mad At The Music', 'score': 0.3927} [WINNER],
+    'sarcastic_5': {'headline': 'Local Police: We've Enhanced Security Measures To Ensure This Never Happens Again (Just Kidding, We're Probably Just Going To Mop Up The Floor)', 'score': 0.3089},
+    'runtime': '5.16s'}
+
+116. {'factual_headline': 'mountain lion tracked by scientists is found dead near malibu road',
+    'sarcastic_1': {'headline': 'Mountain Lion Found Dead Near Malibu Road, Scientists Mourn Loss Of Creature They Had Been Watching Die For Weeks', 'score': 0.3115},
+    'sarcastic_2': {'headline': 'Local Mountain Lion Succumbs To Injury After Weeks Of Being Watched By Scientists', 'score': 0.5725} [WINNER],
+    'sarcastic_3': {'headline': 'Scientists Overjoyed To Have Provided Mountain Lion With 72 Hours Of Free Entertainment Before Its Demise', 'score': 0.5242},
+    'sarcastic_4': {'headline': 'Critically Injured Mountain Lion Dies After Scientists Finally Get To Use Their Equipment', 'score': 0.4504},
+    'sarcastic_5': {'headline': 'Community Mourns Loss Of Mountain Lion That Was Only There To Be Observed By Scientists Anyway', 'score': 0.5543},
+    'runtime': '4.79s'}
+
+117. {'factual_headline': 'noah cyrus makes her late-night debut belting out 'make me (cry)'',
+    'sarcastic_1': {'headline': 'Local 14-Year-Old's Existential Crisis Reaches New Heights With Late-Night TV Debut', 'score': 0.5329} [WINNER],
+    'sarcastic_2': {'headline': 'Noah Cyrus's Sob-Fest Brings Audience to Tears (And Also to Walmart to Buy Tissues)', 'score': 0.0341},
+    'sarcastic_3': {'headline': 'We Can't Believe It Either: Another Teenager Somehow Manages to Become a Famous Singer', 'score': 0.0041},
+    'sarcastic_4': {'headline': 'Make Me (Cry) Now Includes Additional Fee for Tissue Service', 'score': 0.1487},
+    'sarcastic_5': {'headline': 'Late-Night TV Debut Success Guaranteed When Talent is Only 14 Years Old', 'score': 0.4436},
+    'runtime': '4.51s'}
+
+118. {'factual_headline': 'taylor swift used a 'gremlin voice' while writing '1989'',
+    'sarcastic_1': {'headline': 'Taylor Swift Finally Finds Inner Peace With 'Gremlin Voice' Therapy,', 'score': 0.1457} [WINNER],
+    'runtime': '1.35s'}
+
+119. {'factual_headline': 'the best way to eat avocados: avocado pasta',
+    'sarcastic_1': {'headline': 'Avocado Pasta: Because What We Really Needed Was Another Way To Spend $5 On A Fruit', 'score': 0.1146},
+    'sarcastic_2': {'headline': 'Avocado Pasta: The Perfect Dish For When You Want To Feel Indulgent But Still Eat A Salad', 'score': 0.1257} [WINNER],
+    'sarcastic_3': {'headline': 'Avocado Pasta: A Deliciously Overpriced Way To Fill Your Stomach With Guacamole', 'score': 0.1256},
+    'sarcastic_4': {'headline': 'Avocados Are The New Saffron: A Recipe For Pasta That Will Leave You Wondering Why You Didn't Just Buy A House', 'score': 0.0687},
+    'sarcastic_5': {'headline': 'Avocado Pasta: The Culinary Equivalent Of Buying A Timeshare', 'score': 0.0866},
+    'runtime': '5.05s'}
+
+120. {'factual_headline': 'an open letter to progressives: tpp is not yet 'the most progressive trade agreement in history'',
+    'sarcastic_1': {'headline': 'TPP: Because 'Progressive' Now Means 'We're Not As Bad As The Republicans'', 'score': 0.1201},
+    'sarcastic_2': {'headline': 'TPP: The Deal That's Gonna Save The World, One Small Step At A Time', 'score': 0.0429},
+    'sarcastic_3': {'headline': 'Open Letter to Progressives: Congratulations On Settling for the Least Worst Trade Agreement', 'score': 0.1757},
+    'sarcastic_4': {'headline': 'Trade Agreement Experts: 'TPP is Like the Soup Kitchen of Free Trade, Warm But Unfulfilling'', 'score': 0.438} [WINNER],
+    'sarcastic_5': {'headline': 'Progressives: Now Cheering On TPP, Because What's a Few Million Dollars in Campaign Donations Among Friends?', 'score': 0.3602},
+    'runtime': '4.88s'}
+
+121. {'factual_headline': 'justice thomas' wife calls supreme court retirement report 'bogus'',
+    'sarcastic_1': {'headline': 'Justice Thomas' Wife Accuses Supreme Court of Lying About His Age, Demands Immediate Promotion', 'score': 0.1516},
+    'sarcastic_2': {'headline': 'Wife of Justice Thomas Vehemently Denies Supreme Court Has Any Idea What He's Actually Done', 'score': 0.5687} [WINNER],
+    'sarcastic_3': {'headline': 'Supreme Court Retirement Report Called 'Totally Inaccurate' by Justice Thomas' Wife, Who Clearly Has No Conflict of Interest', 'score': 0.3931},
+    'sarcastic_4': {'headline': 'Justice Thomas' Wife Blasts Supreme Court for Not Issuing Statement Congratulating Her Husband on Faking His Own Death', 'score': 0.2609},
+    'sarcastic_5': {'headline': 'Wife of Justice Thomas Insists Supreme Court Is Just Jealous of Her Husband's Superior Court Pension Plan', 'score': 0.5192},
+    'runtime': '5.36s'}
+
+122. {'factual_headline': '7 ways to breakup like a boss',
+    'sarcastic_1': {'headline': 'BREAKUP LIKE A BOSS: Here Are 7 Ways to Crush Your Partner's Soul and Feel Good About It', 'score': 0.1638},
+    'sarcastic_2': {'headline': 'Expert Reveals 7 Proven Methods for Completely Devastating Your Significant Other', 'score': 0.3921},
+    'sarcastic_3': {'headline': '7 Surefire Tips to Break Your Partner's Heart and Then Ask Them to Move Out of Their Own Apartment', 'score': 0.0603},
+    'sarcastic_4': {'headline': 'Local Guy Becomes Certified Breakup Master, Now Has 7 Ways to Destroy Your Relationship', 'score': 0.5774} [WINNER],
+    'sarcastic_5': {'headline': 'How to Breakup Like a Boss: 7 Ways to Make Your Ex Hate You More Than They Already Do', 'score': 0.1786},
+    'runtime': '5.13s'}
+
+123. {'factual_headline': 'sure seems like frankie muniz wants a 'malcolm in the middle' reboot',
+    'sarcastic_1': {'headline': 'Frankie Muniz's Quest For 'Malcolm In The Middle' Reboot Finally Complete: Nation Now Forced To Watch Him Be Awkward Again', 'score': 0.5787} [WINNER],
+    'sarcastic_2': {'headline': 'New 'Malcolm In The Middle' Reboot Already Casting People To Play Fictional Characters, Sources Say', 'score': 0.4697},
+    'sarcastic_3': {'headline': 'Frankie Muniz's Agent Now Fielding Calls From Networks Hoping To Reboot Show, Because That's Not A Recipe For Disaster', 'score': 0.3502},
+    'sarcastic_4': {'headline': 'Nation Holds Breath As Frankie Muniz Considers Reboot, Remembering The Good Old Days Of Reliving His Teenage Angst', 'score': 0.4985},
+    'sarcastic_5': {'headline': 'In Bizarre Twist, Frankie Muniz Decides To Reboot 'Malcolm In The Middle' Because He Misses His Paychecks', 'score': 0.1327},
+    'runtime': '6.49s'}
+
+124. {'factual_headline': 'using the united fiasco to flourish in the future',
+    'sarcastic_1': {'headline': 'Unity At Last: Americans Come Together To Bemoan Their Collective Failure', 'score': 0.0101},
+    'sarcastic_2': {'headline': 'Local Residents Find Silver Lining In Complete Collapse Of Nation's Infrastructure', 'score': 0.5452} [WINNER],
+    'sarcastic_3': {'headline': 'New Study Reveals That National Disarray Is Actually Just A Minor Bump In The Road To Progress', 'score': 0.4018},
+    'sarcastic_4': {'headline': 'Citizens Discover That Shared Experience Of Chaos Can Bring People Together In Perfect Harmony', 'score': 0.4699},
+    'sarcastic_5': {'headline': 'Experts Confirm That Using A Crisis To Rebuild Is Just The New Normal Now', 'score': 0.2701},
+    'runtime': '4.02s'}
+
+125. {'factual_headline': 'thank a teacher thursday: dominic casulli and the power of encouragement, part 1',
+    'sarcastic_1': {'headline': ''Power of Encouragement' Teacher Actually Just Keeps Students Around For Beer Fridays', 'score': 0.4913} [WINNER],
+    'sarcastic_2': {'headline': 'Local Teacher's 'Encouragement' Includes 'You're Doing Okay, I Guess' and Pat on Back', 'score': 0.3636},
+    'sarcastic_3': {'headline': 'Dominic Casulli's Secret: Making Students Feel Marginally Less Awkward About Their Existence', 'score': 0.0713},
+    'sarcastic_4': {'headline': 'Teacher's 'Power of Encouragement' Proven To Make Students Feel Only Slightly More Motivated To Do Homework', 'score': 0.4662},
+    'sarcastic_5': {'headline': 'Student Finds Out What 'The Power of Encouragement' Really Means: More Homework', 'score': 0.0706},
+    'runtime': '4.8s'}
+
+126. {'factual_headline': 'a toe in the arctic ocean: canada's northwest territories on the looney front, part 2',
+    'sarcastic_1': {'headline': 'Canada's Northwest Territories: Where You Can Almost See Russia from Your Toes', 'score': 0.0528},
+    'sarcastic_2': {'headline': 'Arctic Toe-Dipping: The New Hotspot for Adventurers and Hypothermia Enthusiasts', 'score': 0.0033},
+    'sarcastic_3': {'headline': 'Canada's Northwest Territories: Where the Water's Cold Enough to Freeze Your Socks', 'score': 0.0748},
+    'sarcastic_4': {'headline': 'Toe-Dipping in the Arctic: The Pinnacle of Human Endurance (and Poor Life Choices)', 'score': 0.0502},
+    'sarcastic_5': {'headline': 'Canadian Scientists Discover New Species of Frostbitten Toe in Northwest Territories', 'score': 0.2288} [WINNER],
+    'runtime': '4.33s'}
+
+127. {'factual_headline': ''it will never happen to me'',
+    'sarcastic_1': {'headline': 'I'll Never Be One of Those People Whose Retirement Savings Are Completely Depleted By Unexpected Medical Expenses', 'score': 0.08},
+    'sarcastic_2': {'headline': 'I Mean, I'm Perfectly Fine with Dying in a Burning Building', 'score': 0.0814},
+    'sarcastic_3': {'headline': 'My Future Self Will Definitely Not Be Living in My Parent's Basement', 'score': 0.1227},
+    'sarcastic_4': {'headline': 'I'm Pretty Sure I'll Still Have a 401(k) by the Time I'm 80', 'score': 0.1205},
+    'sarcastic_5': {'headline': 'Not My Problem That I'll Eventually Be Forced to Sell My Childhood Home to Pay Off Medical Bills', 'score': 0.2342} [WINNER],
+    'runtime': '4.33s'}
+
+128. {'factual_headline': 'rubio supporters get in a scuffle with a 'rubiobot'',
+    'sarcastic_1': {'headline': 'Nation Horrified By Brutal Assault On Inanimate Object', 'score': 0.5255} [WINNER],
+    'sarcastic_2': {'headline': 'Rubio Supporters Commended For Protecting Family's Name', 'score': 0.4666},
+    'sarcastic_3': {'headline': 'Pro-Rubio Protester Charged With Aggravated Assault On Robot', 'score': 0.128},
+    'sarcastic_4': {'headline': 'Scuffle Breaks Out Over Who Gets To Be Most Ineffective Campaign Prop', 'score': 0.3266},
+    'sarcastic_5': {'headline': 'Marco Rubio's Robot Gets More Respect Than Most GOP Candidates' Ideas', 'score': 0.0588},
+    'runtime': '3.95s'}
+
+129. {'factual_headline': 'the music of strangers: a film review by dr. lloyd sederer',
+    'sarcastic_1': {'headline': 'New Film 'The Music of Strangers' Proves That Music Can Heal Even More People Than A Warm Hug', 'score': 0.1372},
+    'sarcastic_2': {'headline': 'Audiophiles Overjoyed To Discover That Strangers' Music Can Heal Psychological Trauma', 'score': 0.3625},
+    'sarcastic_3': {'headline': 'Groundbreaking Film The Music of Strangers Hailed As The Long-Awaited Sequel To 'The Sound of Silence'', 'score': 0.0849},
+    'sarcastic_4': {'headline': 'Moviegoers Amazed By Powerful Portraits Of Strangers Whose Music Can Actually Fix You', 'score': 0.3962} [WINNER],
+    'sarcastic_5': {'headline': 'The Music of Strangers: A Film Review Proving That Art Can Cure Everything, Even Your Broken Heart', 'score': 0.123},
+    'runtime': '5.5s'}
+
+130. {'factual_headline': 'obama chides darrell issa for touting alliance with him in re-election fight',
+    'sarcastic_1': {'headline': 'Obama Scolded Issa Because Apparently Touting Their Alliance Would've Been Rude', 'score': 0.1441},
+    'sarcastic_2': {'headline': 'Issa's Decision To Mention Obama Alliance Sparks Obama's Outrage, Because That's Not How Politics Work', 'score': 0.0389},
+    'sarcastic_3': {'headline': 'Obama Chides Issa For Mentioning Him, Because Nothing Says 'Independence' Like Not Mentioning Your Opponent', 'score': 0.0753},
+    'sarcastic_4': {'headline': 'Issa's Endorsement Of Obama In Re-Election Fight Causes Obama To Lose Temper', 'score': 0.2948} [WINNER],
+    'sarcastic_5': {'headline': 'Obama Tells Issa He's Not Allowed To Say They're Allies Because That Would Be Terribly Impolite', 'score': 0.2729},
+    'runtime': '4.9s'}
+
+131. {'factual_headline': 'pope francis' iraq peace message meets the reality of war',
+    'sarcastic_1': {'headline': 'Pope Francis' Iraq Peace Message Met With Understandable Skepticism', 'score': 0.1517},
+    'sarcastic_2': {'headline': 'Pope's Iraq Peace Message Proves That Words Alone Can't End Conflict', 'score': 0.1557},
+    'sarcastic_3': {'headline': 'Iraq War Zone Not Actually Transformed By Pope's Kind Words', 'score': 0.5799} [WINNER],
+    'sarcastic_4': {'headline': 'Pope Francis' Peace Message Falls Flat In Middle Of Ballistic Missile Fire', 'score': 0.3091},
+    'sarcastic_5': {'headline': 'Pope's Iraq Visit A Clear Indication That Peace Is Just Around The Corner', 'score': 0.2819},
+    'runtime': '3.76s'}
+
+132. {'factual_headline': ''ant-man and the wasp' trailer brings the fun after 'avengers: infinity war'',
+    'sarcastic_1': {'headline': 'Glad We Could All Have a Collective Tantrum After Infinity War, 'Ant-Man' Trailer Says', 'score': 0.1157},
+    'sarcastic_2': {'headline': ''Avengers' Franchise Still Trying To Make Us Laugh After Crushing Our Souls', 'score': 0.5198} [WINNER],
+    'sarcastic_3': {'headline': ''Ant-Man' Trailer: A Brief Respite From Crying About the Fate of the Universe', 'score': 0.0982},
+    'sarcastic_4': {'headline': 'After Crushing Our Spirits, Marvel Now Giving Us a Cute Movie to Cry About', 'score': 0.0265},
+    'sarcastic_5': {'headline': ''Ant-Man' Trailer: Because Who Needs Hope When You Can Have a Guy in a Suit?', 'score': 0.0942},
+    'runtime': '4.43s'}
+
+133. {'factual_headline': 'moses and the red sea',
+    'sarcastic_1': {'headline': 'Local Prophet Unwisely Chooses Water as Obstacle to Parting', 'score': 0.4932},
+    'sarcastic_2': {'headline': 'Moses' Unconventional Idea to Swim Across Red Sea Gets Mixed Reviews from Fellow Israelites', 'score': 0.3304},
+    'sarcastic_3': {'headline': 'Ancient Miracle Worker's Red Sea Solution Still Not Available from Local Tourist Boards', 'score': 0.5277} [WINNER],
+    'sarcastic_4': {'headline': 'Moses and the Red Sea: Because Who Needs a Bridge When You've Got a Little Faith?', 'score': 0.2003},
+    'sarcastic_5': {'headline': 'New Study Reveals 3,000-Year-Old Parting of the Red Sea Was Actually Just a Really Strong Breeze', 'score': 0.4974},
+    'runtime': '5.04s'}
+
+134. {'factual_headline': 'george takei accused of groping former male model in 1981',
+    'sarcastic_1': {'headline': 'George Takei's Unblemished Reputation Now Totally Sullied By One Blemish!', 'score': 0.4148} [WINNER],
+    'sarcastic_2': {'headline': 'Historic Star Trek Figure Finally Falls Victim To Ridiculous Modern Sensibilities.', 'score': 0.3879},
+    'sarcastic_3': {'headline': 'Takei's Groping Scandal Threatens To Upstage Iconic Career Spanning Decades Of Heroism.', 'score': 0.2442},
+    'sarcastic_4': {'headline': 'It Turns Out George Takei Was A Human After All, Not A Supposedly Perfect Alien.', 'score': 0.0538},
+    'sarcastic_5': {'headline': 'Takei's Innocence Was Clearly Never In Doubt, As He's Always Been A Paragon Of Virtue.', 'score': 0.0345},
+    'runtime': '4.85s'}
+
+135. {'factual_headline': 'the hollywood boys' club that supports casey affleck is a total disgrace',
+    'sarcastic_1': {'headline': 'Casey Affleck's Supporters Admittedly Not As Disgusting As The Kardashians', 'score': 0.5085} [WINNER],
+    'sarcastic_2': {'headline': 'Hollywood Boys' Club Proclaims Casey Affleck's Supporters Are 'Good Guys'', 'score': 0.1908},
+    'sarcastic_3': {'headline': 'Industry Insiders Praise Casey Affleck's Supporters For Setting New Standard In Disgust', 'score': 0.4289},
+    'sarcastic_4': {'headline': 'Casey Affleck's Supporters Give Themselves A Round Of Applause For Not Being The Worst', 'score': 0.1373},
+    'sarcastic_5': {'headline': 'Hollywood Execs Congratulate Casey Affleck's Supporters On Their Masterclass In Egregious Behavior', 'score': 0.3097},
+    'runtime': '4.61s'}
+
+136. {'factual_headline': '3 myths about low libido',
+    'sarcastic_1': {'headline': 'Low Libido? You're Probably Just Too Busy Being Successful', 'score': 0.2005},
+    'sarcastic_2': {'headline': 'New Study Reveals Low Libido Is Clearly A Sign Of Emotional Maturity', 'score': 0.6036},
+    'sarcastic_3': {'headline': 'Expert Warns: Low Libido May Be Caused By Over-Thinking, Not Enough Netflix', 'score': 0.6186},
+    'sarcastic_4': {'headline': 'Scientists Discover Low Libido Is Just A Side Effect Of Being A Grown-Up', 'score': 0.6497} [WINNER],
+    'sarcastic_5': {'headline': 'Researchers Find Low Libido Can Be Successfully Treated With More Dating Apps', 'score': 0.5399},
+    'runtime': '3.96s'}
+
+137. {'factual_headline': 'huffpollster: americans see progress, room for improvement on voting rights',
+    'sarcastic_1': {'headline': 'Americans Finally See Progress On Voting Rights, Still Can't Agree On What Time Pizza Is Served', 'score': 0.1983},
+    'sarcastic_2': {'headline': 'Poll: Americans Think Voting Rights Are Doing Great, Just Like The Economy And Their Relationships', 'score': 0.2595},
+    'sarcastic_3': {'headline': 'Majority Of Americans Say Voting Rights Are 'Fine, I Guess, But Let's Talk About The Weather'', 'score': 0.0725},
+    'sarcastic_4': {'headline': 'Americans See Progress On Voting Rights, Still Confused About Which Polls To Trust', 'score': 0.2927} [WINNER],
+    'sarcastic_5': {'headline': 'Vast Majority Of Americans Believe Voting Rights Are 'Good Enough, Not Great, But Good Enough'', 'score': 0.1529},
+    'runtime': '4.68s'}
+
+138. {'factual_headline': 'world will miss goal for universal education by 50 years: un',
+    'sarcastic_1': {'headline': 'World's Collective Shame Only Delayed By 50 Years, Says UN', 'score': 0.5572} [WINNER],
+    'sarcastic_2': {'headline': 'Goal For Universal Education Still Elusive, But Who's Counting?', 'score': 0.3935},
+    'sarcastic_3': {'headline': 'UN: 50-Year Delay In Universal Education Goal A 'Minor Setback'', 'score': 0.2253},
+    'sarcastic_4': {'headline': 'Don't Worry, Kids Will Still Be Able To Google Everything', 'score': -0.0005},
+    'sarcastic_5': {'headline': 'UN's New Plan: 'Hey, Let's Just Give Everyone A iPhone Instead'', 'score': 0.375},
+    'runtime': '3.73s'}
+
+139. {'factual_headline': 'jennifer lopez's name is jennifer lopez again',
+    'sarcastic_1': {'headline': 'Jennifer Lopez's Name Change Processedly Took Up Entire Staff's Workweek', 'score': 0.415},
+    'sarcastic_2': {'headline': 'J.Lo Renews Contract With Herself, Ensures Name Will Remain Unchanged Forever', 'score': 0.2841},
+    'sarcastic_3': {'headline': 'Jennifer Lopez's Name Officially Changed, Because What Else Did She Have to Do?', 'score': 0.118},
+    'sarcastic_4': {'headline': 'Jenna Ex-Mother-Of-Two's Name Change Unnecessarily Complicated by Lopez's Team', 'score': 0.4722} [WINNER],
+    'sarcastic_5': {'headline': 'Jennifer Lopez's Name Change a Minor Distraction From Actual Important Things She's Accomplished', 'score': 0.3122},
+    'runtime': '4.79s'}
+
+140. {'factual_headline': 'how to rebuild your credit after bankruptcy -- fast',
+    'sarcastic_1': {'headline': 'Nation Horrified By Simple And Effective Steps To Rebuild Credit After Bankruptcy', 'score': 0.6671} [WINNER],
+    'sarcastic_2': {'headline': 'Expert Reveals Secret To Rebuilding Credit: Literally Just Paying Bills On Time', 'score': 0.4327},
+    'sarcastic_3': {'headline': 'New Study Finds That Not Losing Your Savings To Creditors Is Key To Financial Stability', 'score': 0.4243},
+    'sarcastic_4': {'headline': 'Credit Rebuilding Guru Warns: Do Not Eat Cereal For Every Meal, It Will Not Pay Off Debt', 'score': 0.4335},
+    'sarcastic_5': {'headline': 'Folks Nowhave Chance To Rebuild Credit, Unless They're One Of The 50% Of Americans Who Are 'Credit Invisible'', 'score': 0.1772},
+    'runtime': '5.27s'}
+
+141. {'factual_headline': 'discover how climate change is rapidly transforming our earth with google timelapse',
+    'sarcastic_1': {'headline': 'Google Timelapse Reveals What We'd Be Doing If We Actually Cared About Climate Change', 'score': 0.1675},
+    'sarcastic_2': {'headline': 'Google Timelapse Proves We Should've Just Stopped Using Google Maps', 'score': 0.1003},
+    'sarcastic_3': {'headline': 'Earth's Rapid Transformation Only Possible With Google's Expertise', 'score': 0.5742} [WINNER],
+    'sarcastic_4': {'headline': 'Google Timelapse: Because Watching Your Home Burn To A Crisp Was Always On Your Bucket List', 'score': 0.068},
+    'sarcastic_5': {'headline': 'Climate Change Transformation Is The Next Big Thing In Real Estate, Thanks To Google Timelapse', 'score': 0.1693},
+    'runtime': '4.22s'}
+
+142. {'factual_headline': 'voting lines are shorter — but mostly for whites',
+    'sarcastic_1': {'headline': 'Whites Experience Brevity Of Voting Lines And It's A Miraculous Coincidence', 'score': 0.123},
+    'sarcastic_2': {'headline': 'White People's Voting Lines Shorter Because They're Obviously More Efficient', 'score': 0.4879},
+    'sarcastic_3': {'headline': 'Voting Reform Efforts Suddenly Focus On Reducing White People's Wait Times', 'score': 0.4332},
+    'sarcastic_4': {'headline': 'New Study Reveals White Voters Get Priority Access To Ballots Due To Advanced Technology', 'score': 0.49},
+    'sarcastic_5': {'headline': 'Poll Workers Unaware That Longer Lines For Non-Whites Are Actually A Social Norm', 'score': 0.5982} [WINNER],
+    'runtime': '4.15s'}
+
+143. {'factual_headline': 'amanda slavin: not just a statistic',
+    'sarcastic_1': {'headline': 'Local Woman Somehow Exists Outside of Cold, Hard Numbers', 'score': 0.4786} [WINNER],
+    'sarcastic_2': {'headline': 'Amanda Slavin: Where Statistics Go To Get A Feel For Humanity', 'score': 0.1589},
+    'sarcastic_3': {'headline': 'Not Just a Face in a Crowd, But Literally a Person', 'score': 0.1209},
+    'sarcastic_4': {'headline': 'Amanda Slavin: Because Some People Can't Even Be Reduced To A Relevant Data Point', 'score': 0.1466},
+    'sarcastic_5': {'headline': 'Existence of Amanda Slavin Confounds Researchers, Makes Them Consider Emotional Experiences', 'score': 0.4496},
+    'runtime': '3.75s'}
+
+144. {'factual_headline': 'laurie hernandez and val chmerkovskiy are already our favorite 'dancing with the stars' couple',
+    'sarcastic_1': {'headline': 'Laurie Hernandez And Val Chmerkovskiy's Chemistry On 'Dancing With The Stars' Is Clearly A Masterclass In Fake Romance', 'score': 0.2091} [WINNER],
+    'sarcastic_2': {'headline': 'Couple's Over-the-Top PDA And Exaggerated Storylines Prove They're The Most Authentic 'DWTS' Pair Ever', 'score': 0.0279},
+    'sarcastic_3': {'headline': 'We're Not Just Watching 'Dancing With The Stars' For The Dancing, We're Here For The Secret Relationship', 'score': -0.0022},
+    'sarcastic_4': {'headline': 'Hernandez And Chmerkovskiy's So-Called 'Friendship' Is Clearly A Precursor To Their Destined Marriage', 'score': 0.0834},
+    'sarcastic_5': {'headline': ''Dancing With The Stars' Viewers Would Rather Not Be Blinded By Their Obvious, Yet Unmentioned, Romance', 'score': 0.0187},
+    'runtime': '6.56s'}
+
+145. {'factual_headline': 'new photos show hurricane matthew's path of destruction in haiti',
+    'sarcastic_1': {'headline': 'Hurricane Matthew's Path of Destruction in Haiti: Because Who Needs Infrastructure Anyway?', 'score': 0.1496},
+    'sarcastic_2': {'headline': 'Matthew Just Adds to Haiti's Long History of Good Fortune', 'score': 0.0744},
+    'sarcastic_3': {'headline': 'Hurricane Matthew: Because Who Needs a Strong Government When You Have a Strong Storm?', 'score': 0.0557},
+    'sarcastic_4': {'headline': 'Haiti's Stormy Weather Just What the Country Needed to Get Off the Grid', 'score': 0.3179},
+    'sarcastic_5': {'headline': 'Hurricane Matthew Brings Much-Needed Excuse for International Community to Ignore Haiti's Ongoing Struggles', 'score': 0.3494} [WINNER],
+    'runtime': '4.06s'}
+
+146. {'factual_headline': 'florida lawmakers vote to ban marriage under the age of 17',
+    'sarcastic_1': {'headline': 'Florida Lawmakers Vote To Raise Minimum Age To 20', 'score': 0.32},
+    'sarcastic_2': {'headline': 'Landmark Legislation Moves To Abolish Child Marriage Entirely', 'score': 0.34} [WINNER],
+    'sarcastic_3': {'headline': 'Florida Lawmakers Pass Bill Requiring Marriage Counseling And Parental Consent', 'score': 0.1843},
+    'sarcastic_4': {'headline': 'In Major Victory For Children, Florida Lawmakers Raise Marriage Age To 18', 'score': 0.2078},
+    'sarcastic_5': {'headline': 'After Years Of Debate, Florida Lawmakers Finally Ban Marriage To Anyone Over 21', 'score': 0.3378},
+    'runtime': '3.51s'}
+
+147. {'factual_headline': 'nick viall is no longer a 'bachelor'',
+    'sarcastic_1': {'headline': 'Nick Viall: I'm Thrilled To Trade In 'Bachelor' Life For Soul-Crushing Marriage', 'score': 0.1563},
+    'sarcastic_2': {'headline': 'Nation Breathes Sigh Of Relief As Nick Viall Officially Becomes Just Another Guy On Twitter', 'score': 0.5646} [WINNER],
+    'sarcastic_3': {'headline': 'Nick Viall Leaves Bachelor Life Behind, Now Free To Pursue Career In Overproduction', 'score': 0.3964},
+    'sarcastic_4': {'headline': 'Local Man Still Holding On To Hope Of Becoming Next Bachelor', 'score': 0.5552},
+    'sarcastic_5': {'headline': 'Nick Viall: 'I'm So Done With The Drama, I'm Ready To Take On The Real Challenge: Being A Responsible Adult'', 'score': 0.3812},
+    'runtime': '5.4s'}
+
+149. {'factual_headline': 'fashion designer peter som's legendary minestrone soup recipe',
+    'sarcastic_1': {'headline': 'Fashion Designer Peter Som's Legendary Minestrone Soup Recipe: A Masterclass in Overaccessorizing', 'score': 0.2247} [WINNER],
+    'sarcastic_2': {'headline': 'Peter Som's Minestrone Soup: Because Who Needs Fashion When You Can Have A Delicious, Yet Totally Unnecessary, Soup', 'score': 0.1048},
+    'sarcastic_3': {'headline': 'Peter Som's Minestrone Soup Recipe: The Perfect Way To Distract From Your Questionable Life Choices', 'score': 0.1384},
+    'sarcastic_4': {'headline': 'Peter Som Trades In Runway Models For A Newfound Passion: Whipping Up Delicious, Yet Utterly Unfashionable, Soups', 'score': 0.0064},
+    'sarcastic_5': {'headline': 'Peter Som's Minestrone Soup: Where Even The Most Basic Of Ingredients Can't Cover Up A Fashion Disaster', 'score': 0.124},
+    'runtime': '5.77s'}
+
+150. {'factual_headline': 'photography series spotlighting iconic women over 70 proves the best is yet to come',
+    'sarcastic_1': {'headline': 'Photography Series Proves There's Still Time To Achieve Something Meaningful In Your Life', 'score': 0.2525},
+    'sarcastic_2': {'headline': 'New Series Celebrates Women Who Learned To Use Instagram Filters Over 70', 'score': 0.3521},
+    'sarcastic_3': {'headline': 'Overwhelmed By Existential Dread, New Photography Series Documents Women Thriving', 'score': 0.2863},
+    'sarcastic_4': {'headline': 'National Treasure Photography Series Launched To Make 90-Year-Olds Feel Relevant', 'score': 0.4766} [WINNER],
+    'sarcastic_5': {'headline': 'Women Over 70 Now A Hot New Trend In Fashion And Photography', 'score': 0.2405},
+    'runtime': '3.99s'}
+
+151. {'factual_headline': 'report kenan thompson is leaving 'snl' deemed 'inaccurate'',
+    'sarcastic_1': {'headline': 'Kenan Thompson's Departure From 'SNL' Confirmed, Replaced by 42 Additional Cast Members', 'score': 0.2003},
+    'sarcastic_2': {'headline': 'Kenan Thompson's Exit From 'SNL' Sparks Nation's Collective 'Who?' Reaction', 'score': 0.4023},
+    'sarcastic_3': {'headline': 'Report: Kenan Thompson Staying At 'SNL' Because He's Actually Immortal', 'score': 0.4635} [WINNER],
+    'sarcastic_4': {'headline': 'Kenan Thompson Leaves 'SNL', Immediately Starts Getting Paid More at 'Family Reunion' Reunion Tour', 'score': -0.0082},
+    'sarcastic_5': {'headline': 'Kenan Thompson's 'SNL' Departure Rumors Actually Just Marketing Stunt for Upcoming Netflix Special', 'score': 0.3838},
+    'runtime': '5.0s'}
+
+152. {'factual_headline': 'woman hid heroin, oxy under fake butt, cops say',
+    'sarcastic_1': {'headline': ''Clearly This Isn't A Problem At All': Woman Arrested For Hiding Opioids In Prosthetic,', 'score': 0.0961} [WINNER],
+    'runtime': '1.82s'}
+
+153. {'factual_headline': ''don't cry for me'',
+    'sarcastic_1': {'headline': 'Argentina's Economy Is Literally Collapsing, But Who Needs a Stable Currency, Anyway?', 'score': -0.0561},
+    'sarcastic_2': {'headline': ''Don't Cry For Me' Proves Argentine Politicians Are Still Doing Great', 'score': 0.0785},
+    'sarcastic_3': {'headline': 'New Argentinian Tourist Board Slogan: 'Come For The Poverty, Stay For The Despair'', 'score': 0.3237},
+    'sarcastic_4': {'headline': ''Don't Cry For Me' Now Featured On T-Shirts Sold At Airport Gift Shops', 'score': 0.392} [WINNER],
+    'sarcastic_5': {'headline': 'Argentine Politician's Signature Catchphrase Also Used To Deter Shoplifters In Local Grocery Store', 'score': 0.3826},
+    'runtime': '4.76s'}
+
+154. {'factual_headline': 'isis and the g-41 world',
+    'sarcastic_1': {'headline': 'ISIS Unveils New Vision: World Domination Through Efficient Paperwork', 'score': 0.024},
+    'sarcastic_2': {'headline': 'Caliphate's G-41 Membership a Huge Success, World Leaders Abuzz', 'score': 0.4576} [WINNER],
+    'sarcastic_3': {'headline': 'ISIS's G-41 Presidency a Major Turning Point in Global Governance, or So We're Told', 'score': 0.2316},
+    'sarcastic_4': {'headline': 'New ISIS G-41 Initiative to Streamline Terrorist Funding, Bureaucracy', 'score': 0.3173},
+    'sarcastic_5': {'headline': 'ISIS's G-41 Involvement a Huge Step Forward In, Uh, Terror and Such', 'score': 0.3316},
+    'runtime': '4.33s'}
+
+155. {'factual_headline': 'sarah huckabee sanders defends trump's sexist attack on kirsten gillibrand',
+    'sarcastic_1': {'headline': 'Sarcastic Hillary Clinton's Remarks Were Way Ruder', 'score': -0.0569},
+    'sarcastic_2': {'headline': 'Trump's Sexist Attack On Kirsten Gillibrand Is Totally Feminist', 'score': 0.161} [WINNER],
+    'sarcastic_3': {'headline': 'White House Press Secretary Calls Out Gillibrand For Being 'Too Politically Aware'', 'score': 0.0248},
+    'sarcastic_4': {'headline': 'Sanders Defends Trump's Remarks As 'A Breath Of Fresh Air In A Stiflingly Politically Correct World'', 'score': -0.0464},
+    'sarcastic_5': {'headline': 'Trump's Sexism Is Clearly A Result Of His Own Victimhood As A Man', 'score': -0.038},
+    'runtime': '4.15s'}
+
+156. {'factual_headline': 'saying goodbye to hollywood's hottest, seediest address',
+    'sarcastic_1': {'headline': 'Hollywood's Most Scenic Sex Trafficking Hub Closing Temporarily For Renovations', 'score': 0.1543},
+    'sarcastic_2': {'headline': 'Renowned Hotspot For Hookers, Pimps, And Run-Ins With The Law To Get A Fresh Coat Of Paint', 'score': 0.0424},
+    'sarcastic_3': {'headline': 'Hollywood Boulevard's Seediest Corner To Get A Face Lift, Erase All Memories Of Existence', 'score': 0.1625} [WINNER],
+    'sarcastic_4': {'headline': 'Good Riddance: The Block Where You Could Get A Drink, A Hooker, And A Side Of Crime', 'score': 0.0646},
+    'sarcastic_5': {'headline': 'The Spot Where Dreams Come To Die And Get A Cheap Tattoo', 'score': 0.0318},
+    'runtime': '4.7s'}
+
+157. {'factual_headline': '11 years later: the human genome paves the way for genomic technonlogy',
+    'sarcastic_1': {'headline': 'Scientists Stunned By Discovery That Human Genome Can Make Tech Advances Happen 11 Years Later', 'score': 0.5647} [WINNER],
+    'sarcastic_2': {'headline': 'Genomic Breakthrough Allows Us To Finally Catch Up With The 21st Century', 'score': 0.078},
+    'sarcastic_3': {'headline': 'Human Genome's Ability To Inspire Future Technological Advances Is 'Totally Not Obvious'', 'score': 0.0908},
+    'sarcastic_4': {'headline': '11 Years Later, Researchers Now Allowed To Use The Internet For Science', 'score': 0.2565},
+    'sarcastic_5': {'headline': 'Genomic Technology: Because Who Needs A Map To Get To The Future Anyway?', 'score': 0.1932},
+    'runtime': '4.25s'}
+
+158. {'factual_headline': 'man claiming to be boko haram leader appears in new video',
+    'sarcastic_1': {'headline': 'Local Man's Ego Inflated To Unprecedented Levels After Faking Boko Haram Leadership', 'score': 0.5378},
+    'sarcastic_2': {'headline': 'Boko Haram Leader's New Video Actually Just Him Playing GTA Online For 12 Hours', 'score': 0.6006},
+    'sarcastic_3': {'headline': 'Area Man Decides To Pretend To Be Terrorist Leader, Local Community Unimpressed', 'score': 0.5866},
+    'sarcastic_4': {'headline': 'Video Of Man Claiming To Be Boko Haram Leader Actually Just Him Reading Reddit Comments Aloud', 'score': 0.6125} [WINNER],
+    'sarcastic_5': {'headline': 'Boko Haram Leader's New Video Features 10-Minute Montage Of Him Eating Spaghetti', 'score': 0.5788},
+    'runtime': '4.65s'}
+
+159. {'factual_headline': 'how do i live knowing proof of heaven?',
+    'sarcastic_1': {'headline': 'I'm Just Fine Worrying That I'll Be Judged For My Miley Cyrus Phase In The Afterlife', 'score': 0.0077},
+    'sarcastic_2': {'headline': 'Proof Of Heaven Just Made Planning My Funeral So Much Easier', 'score': 0.078} [WINNER],
+    'sarcastic_3': {'headline': 'The Real Challenge Is Living With The Knowledge That My Dad Still Thinks That's What Heaven Is Like', 'score': 0.075},
+    'sarcastic_4': {'headline': 'I'm Now Officially Anxious About The Eternal Wi-Fi Situation', 'score': -0.0156},
+    'sarcastic_5': {'headline': 'The Ultimate Existential Crisis: Knowing I'll Have To Deal With My In-Laws Forever', 'score': 0.019},
+    'runtime': '4.29s'}
+
+160. {'factual_headline': 'on pilgrimage in india',
+    'sarcastic_1': {'headline': 'Wisconsin Man Discovers True Meaning of Life by Struggling to Find Toilet in Delhi', 'score': 0.4197},
+    'sarcastic_2': {'headline': 'Pilgrimage to India a Great Opportunity to Develop Patience and Tolerance for Poor Wi-Fi', 'score': 0.352},
+    'sarcastic_3': {'headline': 'After Months of Planning, Tourist Finally Finds Exactly What They Were Looking for: A Sobering Realization of Their Place in the Universe', 'score': 0.4258},
+    'sarcastic_4': {'headline': 'Tens of Thousands of Travelers Flock to India in Search of Enlightenment, Probably Will Return Home with Sunburn', 'score': 0.2005},
+    'sarcastic_5': {'headline': 'After Reading 'Eat, Pray, Love', Local Woman Now Considering Giving Up Everything to Find Inner Peace in India', 'score': 0.5443} [WINNER],
+    'runtime': '5.2s'}
+
+161. {'factual_headline': 'will religious freedom advocates oppose roy moore?',
+    'sarcastic_1': {'headline': ''Yes, Because Nothing Says 'Religious Freedom' Like Supporting A Pedophile Judge', Say Advocates', 'score': 0.0608},
+    'sarcastic_2': {'headline': ''Religious Freedom' Group Denounces Roy Moore, Immediately Releases Statement Calling Him 'God's Chosen Candidate'', 'score': 0.1401},
+    'sarcastic_3': {'headline': 'We're Sure This Whole Pedophilia Thing Will Be Totally Fine, Say Evangelical Leaders Supporting Roy Moore', 'score': 0.0089},
+    'sarcastic_4': {'headline': 'Roy Moore's History of Child Abuse Allegations Suddenly Not a Problem Because of His Unwavering Stance on Prayer in Schools', 'score': 0.3874} [WINNER],
+    'sarcastic_5': {'headline': 'Fundamentalist Christians Nowhere To Be Found Protesting Support of Judge Who Banned Woman From Testifying Against Him', 'score': 0.2688},
+    'runtime': '5.58s'}
+
+162. {'factual_headline': 'uaw, fca still negotiating under 'hour-by-hour' contract extension',
+    'sarcastic_1': {'headline': 'UAW And FCA Agree To New Contract: It's Still A Mess', 'score': 0.1628},
+    'sarcastic_2': {'headline': '2-Hour Extension Of Existing Contract A Major Breakthrough In Negotiations', 'score': 0.5209} [WINNER],
+    'sarcastic_3': {'headline': 'UAW And FCA To Continue Negotiating For At Least 3 More Hours', 'score': 0.3},
+    'sarcastic_4': {'headline': 'Union And Automaker Reach Impasse, Agree To Keep Talking Longer', 'score': 0.1414},
+    'sarcastic_5': {'headline': 'Contract Extension Negotiations Enter 12th Hour, Progress Still Elusive', 'score': 0.2901},
+    'runtime': '3.82s'}
+
+163. {'factual_headline': 'if bernie sanders wanted to solve problems like donald trump',
+    'sarcastic_1': {'headline': 'Bernie Sanders Proposes Innovative Solution: Doing Actual Work To Address Issues, Not Just Grandstanding', 'score': 0.037},
+    'sarcastic_2': {'headline': 'Sanders Unveils Plan To Solve Problems By Actually Paying Attention To Facts, Not Just Tweeting', 'score': 0.4109} [WINNER],
+    'sarcastic_3': {'headline': 'Senate Democrats To Hold Emergency Meeting To Discuss How To Improve Things, Not Just Complain About Trump', 'score': 0.1266},
+    'sarcastic_4': {'headline': 'Frustrated Democrats Launch New Initiative To Solve Problems, Focusing On Consensus-Building And Legislative Action', 'score': 0.4032},
+    'sarcastic_5': {'headline': 'Bernie Sanders: The Only Presidential Candidate Who Actually Thinks It's A Good Idea To Do The Hard Work Of Governing', 'score': 0.0174},
+    'runtime': '5.07s'}
+
+164. {'factual_headline': 'there is no right way, just write',
+    'sarcastic_1': {'headline': 'New Study Reveals There's Literally No Point Trying To Write Well', 'score': 0.4909} [WINNER],
+    'sarcastic_2': {'headline': 'Academics Stunned By Discovery That Grammar And Sentence Structure Are Optional', 'score': 0.3882},
+    'sarcastic_3': {'headline': 'No One Can Agree On What Makes A Sentence 'Good' Or 'Bad'', 'score': 0.0098},
+    'sarcastic_4': {'headline': 'Everyone's Actually A Great Writer, Don't @ Us', 'score': 0.0001},
+    'sarcastic_5': {'headline': 'Freudian Analysis Reveals We're All Just Pretending To Write For Our Own Therapy', 'score': 0.2181},
+    'runtime': '3.81s'}
+
+165. {'factual_headline': 'north carolina doesn't seem to want people to see police camera footage',
+    'sarcastic_1': {'headline': 'North Carolina Just What You Needed: More Secrecy and Less Transparency', 'score': 0.1014},
+    'sarcastic_2': {'headline': 'Police Body Cam Footage: The Ultimate Secret to Solving Crimes, Apparently', 'score': 0.1184},
+    'sarcastic_3': {'headline': 'Who Needs Accountability, Anyway? North Carolina Makes it Official', 'score': 0.1137},
+    'sarcastic_4': {'headline': 'New Law: Police Body Cams Now Only Visible to Law Enforcement's Lawyers', 'score': 0.4626} [WINNER],
+    'sarcastic_5': {'headline': 'North Carolina: Where Transparency is Like a Rare, Beautiful Meteorite', 'score': -0.0079},
+    'runtime': '3.67s'}
+
+166. {'factual_headline': 'the education department officially won't deal with transgender students experiencing bathroom discrimination',
+    'sarcastic_1': {'headline': 'Bathroom Discrimination Against Trans Students? No Big Deal, Say Education Department Experts', 'score': 0.2282},
+    'sarcastic_2': {'headline': 'Transgender Students' Plight Not Our Problem, Department Insists', 'score': 0.3192},
+    'sarcastic_3': {'headline': 'Education Department Reassures Public: We're Doing Just Fine Ignoring Trans Issues', 'score': 0.4395},
+    'sarcastic_4': {'headline': 'Trans Students' Bathroom Struggles Suddenly No Longer An Issue', 'score': 0.4447} [WINNER],
+    'sarcastic_5': {'headline': 'Education Department Declares Bathroom Equality 'Optional' For Trans Kids', 'score': 0.2137},
+    'runtime': '3.59s'}
+
+167. {'factual_headline': 'why we won't be participating in black friday',
+    'sarcastic_1': {'headline': 'We're Not Taking Advantage Of Mindless Consumerism On Black Friday, We're Just Good Samaritans', 'score': 0.103},
+    'sarcastic_2': {'headline': 'Local Business Decides To Respect Employees' Sanity, Won't Force Them To Work For Cheap On Black Friday', 'score': 0.5093},
+    'sarcastic_3': {'headline': 'We're Choosing To Ignore The Existence Of Black Friday, Not Because We're Rebels, But Because We're Practical', 'score': 0.1153},
+    'sarcastic_4': {'headline': 'Business Owner's Refusal To Participate In Black Friday Is Likely Due To Their Overwhelming Sense Of Humanity', 'score': 0.5843} [WINNER],
+    'sarcastic_5': {'headline': 'We're Not Participating In Black Friday: A Bold, Unapologetic Declaration Of Not Being A Soulless Corporate Machine', 'score': 0.1444},
+    'runtime': '5.75s'}
+
+168. {'factual_headline': 'merkel: isis poses major risk to europe',
+    'sarcastic_1': {'headline': 'ISIS Threat Unites Europe: Leaders Agree To Hate Terrorists', 'score': 0.0699},
+    'sarcastic_2': {'headline': 'Merkel Warns Europeans: ISIS Could Attack Anywhere, Except In US', 'score': 0.1409},
+    'sarcastic_3': {'headline': 'Experts: ISIS Is Major Risk, Unless They're Funded By Western Allies', 'score': 0.3386} [WINNER],
+    'sarcastic_4': {'headline': 'Europe Takes Collective Deep Breath: ISIS Just As Scary As Last Terror Group', 'score': 0.3122},
+    'sarcastic_5': {'headline': 'Merkel Holds Emergency Meeting To Discuss ISIS, Possibly Order More Fries', 'score': 0.2229},
+    'runtime': '4.22s'}
+
+169. {'factual_headline': 'devastating floods leave 23 dead in west virginia',
+    'sarcastic_1': {'headline': 'West Virginia Flooding 'Totally Not a Sign of Climate Change,' Say Politicians', 'score': 0.1055},
+    'sarcastic_2': {'headline': 'Floodwaters Recede, Exposing Hidden Gem of Coal Mining's Long-Term Economic Resilience', 'score': 0.4078} [WINNER],
+    'sarcastic_3': {'headline': '23 Dead In West Virginia Floods, But At Least the State's Economy Is Doing Great', 'score': 0.1803},
+    'sarcastic_4': {'headline': 'Feds Offer Words of Condolence, $100 Million in Disaster Relief, and a Side of Coal Industry Subsidies', 'score': -0.0042},
+    'sarcastic_5': {'headline': 'Devastating Floods Continue to Test Resilience of America's Most Flood-Prone State', 'score': 0.2055},
+    'runtime': '4.93s'}
+
+170. {'factual_headline': 'obama's greatest oratory performance',
+    'sarcastic_1': {'headline': 'Obama's Greatest Oratory Performance: The One Where He Actually Kept His Speech Under 5 Minutes', 'score': 0.2937} [WINNER],
+    'sarcastic_2': {'headline': 'Barack Obama's Masterful Use Of Rhetoric: A 45-Minute Diatribe On The Importance Of Proper Bracket Placement', 'score': 0.1043},
+    'sarcastic_3': {'headline': 'Obama's Ode To Oratory Perfection: A 3-Hour Speech That Didn't Put Entire Audience To Sleep', 'score': 0.2153},
+    'sarcastic_4': {'headline': 'President Obama's Unparalleled Eloquence: The One Where He Managed To Say 'Yes We Can' Four Times Without Getting Bored', 'score': 0.1029},
+    'sarcastic_5': {'headline': 'Obama's Magnum Opus: A Speech So Breathtakingly Long That Even Congress Fell Asleep At Their Desks', 'score': 0.0688},
+    'runtime': '5.85s'}
+
+171. {'factual_headline': '6 summer salads you'll actually crave',
+    'sarcastic_1': {'headline': '6 Summer Salads That Will Make You Question The Very Concept Of Salads', 'score': 0.2197},
+    'sarcastic_2': {'headline': 'Local Food Blogs Now Required To Include 3 Summer Salads You Actually Like', 'score': 0.6423} [WINNER],
+    'sarcastic_3': {'headline': 'The 6 Most Instagrammable Summer Salads That You'll Pretend To Enjoy', 'score': 0.223},
+    'sarcastic_4': {'headline': 'Summer Salads: Because Who Needs Actual Flavor When You Can Have Kale', 'score': 0.1297},
+    'sarcastic_5': {'headline': 'Experts Warn: 6 Summer Salads May Cause Irreversible Damage To Your Taste Buds', 'score': 0.4935},
+    'runtime': '4.15s'}
+
+172. {'factual_headline': 'the black keys new album 'turn blue' is now available to stream in full',
+    'sarcastic_1': {'headline': 'The Black Keys' New Album 'Turn Blue' Is Finally Available To Stream, Because You've Clearly Had Nothing Better To Do', 'score': 0.2257},
+    'sarcastic_2': {'headline': 'The World Was Just Missing The Black Keys' 'Turn Blue' Album, And Now It's Fixed', 'score': 0.157},
+    'sarcastic_3': {'headline': 'Experts Confirm That Listening To The Black Keys' 'Turn Blue' Is The Key To Unlocking Hidden Talent In Everyday People', 'score': 0.3618} [WINNER],
+    'sarcastic_4': {'headline': 'The Black Keys' 'Turn Blue' Album Is So Good, You'll Forget All About The Existence Of The World's Most Pressing Problems', 'score': 0.1049},
+    'sarcastic_5': {'headline': 'The Black Keys' 'Turn Blue' Is Now Available To Stream, Because Apparently, There's Nothing More Important To Talk About', 'score': 0.2046},
+    'runtime': '6.28s'}
+
+173. {'factual_headline': 'isis vs isil -- what's in a name?',
+    'sarcastic_1': {'headline': 'ISIS, ISIL: Because Who Really Needs a Clear Understanding of the Basics, Anyway?', 'score': 0.1429},
+    'sarcastic_2': {'headline': 'Name Change Confusion Hits World Leaders, Who Are Still Expected to Make Decisions', 'score': 0.0446},
+    'sarcastic_3': {'headline': 'Experts Weigh In: 'It's All Just a Big Mess, But Don't Worry, We'll Just Call It Whatever'', 'score': 0.2808} [WINNER],
+    'sarcastic_4': {'headline': 'ISIS and ISIL: Because A Few Letters Really Matter In the Grand Scheme of Human Suffering', 'score': 0.0319},
+    'sarcastic_5': {'headline': 'Name Change Crisis Hits Paris, Where the Eiffel Tower Has Been Renamed 'Eiffel Thingy'', 'score': -0.0083},
+    'runtime': '4.93s'}
+
+174. {'factual_headline': 'tomi lahren is suing glenn beck and theblaze',
+    'sarcastic_1': {'headline': 'Tomi Lahren Sues Glenn Beck, TheBlaze For Not Providing Enough Opportunities For Her To Be Loud And Obnoxious', 'score': 0.1347},
+    'sarcastic_2': {'headline': 'Lahren Demands Compensation For Years Of Overexposure To Her Views', 'score': 0.1822},
+    'sarcastic_3': {'headline': 'Tomi Lahren Files Lawsuit Against Glenn Beck, Claiming He's Been Paying Her Too Much To Think', 'score': 0.0682},
+    'sarcastic_4': {'headline': 'TheBlaze Agrees To Pay Lahren In Excess Of $1 Million To Just Go Away Already', 'score': 0.3796} [WINNER],
+    'sarcastic_5': {'headline': 'Lahren Sues Beck, TheBlaze For Breach Of Contract: 'They Promised Me A Platform, Not A Soapbox'', 'score': 0.1073},
+    'runtime': '5.76s'}
+
+175. {'factual_headline': 'greg hardy unapologetically denies domestic abuse allegations',
+    'sarcastic_1': {'headline': 'Greg Hardy's Apology Tour: A Marathon, Not a Sprint', 'score': 0.0251},
+    'sarcastic_2': {'headline': 'NFL Star's Denial of Abuse Allegations 'Totally Not a Classic Abuser Move'', 'score': 0.0699},
+    'sarcastic_3': {'headline': 'Hardy's Domestic Abuse Denials: The Only Thing He's Not Denying is His Existence', 'score': 0.091},
+    'sarcastic_4': {'headline': 'Greg Hardy's 'Zero Tolerance' for Abuse Allegations is a Real Thing', 'score': 0.0851},
+    'sarcastic_5': {'headline': 'Hardy's Non-Apology for Alleged Abuse: The Gift that Keeps on Giving', 'score': 0.0934} [WINNER],
+    'runtime': '4.26s'}
+
+176. {'factual_headline': 'tourists describe scenes of horror in tunisian beach massacre',
+    'sarcastic_1': {'headline': 'Tourists Describe Scenes Of Horror In 'Pretty Normal' Tunisian Beach Massacre', 'score': 0.2523},
+    'sarcastic_2': {'headline': 'Experts Baffled As Turmoil In Tunisia Turns Out To Be Just Another Day', 'score': 0.4181},
+    'sarcastic_3': {'headline': 'Local Business Owners Thrilled By Increased Tourist Interest In Massacre Site', 'score': 0.5397} [WINNER],
+    'sarcastic_4': {'headline': 'Tunisian Government Announces New 'Massacre Package' To Boost Economy', 'score': 0.1475},
+    'sarcastic_5': {'headline': 'Travel Agents Report Surge In Bookings For 'Exhilarating' Tunisian Beach Getaway', 'score': 0.0604},
+    'runtime': '4.12s'}
+
+177. {'factual_headline': 'trump voters blink',
+    'sarcastic_1': {'headline': 'Shockingly, Humans Capable of Blinking Even After Voting for Trump', 'score': 0.2894},
+    'sarcastic_2': {'headline': 'Breaking: Trump Voters Still Able to Blink, Shock Waves Sent Through Nation', 'score': 0.538} [WINNER],
+    'sarcastic_3': {'headline': 'Blinking: New Low for Trump Voters Who Can't Even Do That Anymore', 'score': 0.342},
+    'sarcastic_4': {'headline': 'Local Trump Voters Reportedly Still Blinking, Despite Overwhelming Odds', 'score': 0.2617},
+    'sarcastic_5': {'headline': 'Blinking Ability Now Standard Feature of Every Trump Voter, Study Finds', 'score': 0.4862},
+    'runtime': '3.78s'}
+
+178. {'factual_headline': 'photos from 'ahs' set may help explain all those creepy blond children',
+    'sarcastic_1': {'headline': ''American Horror Story' Cast Offers Free Therapy Sessions to Fans Confused by Creepy Kids', 'score': 0.3112},
+    'sarcastic_2': {'headline': 'Blonde Children on 'AHS' Set Found to be Secretly Agents of Desensitization', 'score': 0.3816},
+    'sarcastic_3': {'headline': 'Photos of 'AHS' Kids Prompt Nationwide Search for Explanation, Reason, and Sanity', 'score': 0.1158},
+    'sarcastic_4': {'headline': 'Television Academy Recognizes 'AHS' for Its Groundbreaking Contribution to Cultural Unease', 'score': 0.3156},
+    'sarcastic_5': {'headline': 'Local Mom Still Can't Get Those Kids Out of Her Head 6 Months Later and 3 Therapy Sessions In', 'score': 0.4682} [WINNER],
+    'runtime': '4.64s'}
+
+179. {'factual_headline': 'psychologists push for smartphone warning labels',
+    'sarcastic_1': {'headline': 'Psychologists Finally Get Around To Warning People That Their Smartphones Are Bad For Them', 'score': 0.445} [WINNER],
+    'sarcastic_2': {'headline': 'Warning Labels Won't Stop People From Glued-To-Their-Screen Syndrome, But What's The Harm In Trying?', 'score': 0.0755},
+    'sarcastic_3': {'headline': 'New Smartphone Label Mandate Will Make Users Feel Super Guilty, But Won't Actually Change Their Behavior', 'score': 0.4361},
+    'sarcastic_4': {'headline': 'Industry Experts Praise 'Warning: May Cause Brain Atrophy' Label As 'A Step In The Right Direction'', 'score': 0.4412},
+    'sarcastic_5': {'headline': 'Psychologists Seek To Alert Public To Dangers Of Smartphones, But Not To The Dangers Of Mental Health Stigma', 'score': 0.1517},
+    'runtime': '5.51s'}
+
+180. {'factual_headline': 'the republican obamacare dilemma in one 6-minute video',
+    'sarcastic_1': {'headline': 'Republicans Finally Figured Out How to Watch 6 Minutes of Video Without Losing Their Minds', 'score': 0.3592},
+    'sarcastic_2': {'headline': 'New Video Tells Republicans Everything They Already Knew About Obamacare, But They're Not Listening Anyway', 'score': 0.1903},
+    'sarcastic_3': {'headline': 'Republicans Release 6-Minute Video Explaining Obamacare in Slow Motion, Because They Clearly Need It', 'score': 0.2088},
+    'sarcastic_4': {'headline': 'GOP Leaders Praise New 6-Minute Video As 'Best Explanation of Obamacare Ever'...of Course', 'score': 0.3912} [WINNER],
+    'sarcastic_5': {'headline': 'Republicans Create 6-Minute Video to Help Voters Understand Obamacare, But Honestly, Who Needs to Understand It?', 'score': 0.163},
+    'runtime': '5.26s'}
+
+181. {'factual_headline': 'mass graves suggest systematic killing of rohingya in myanmar',
+    'sarcastic_1': {'headline': 'Myanmar's Secretly Amazing Tourism Industry Gets Boost From Genocide', 'score': 0.0517},
+    'sarcastic_2': {'headline': 'Mass Graves Prove Myanmar's Commitment To Rounding Out Cultural Experience', 'score': 0.1435} [WINNER],
+    'sarcastic_3': {'headline': 'Local Guides Reportedly Thrilled To Showcase 'Real' Myanmar', 'score': 0.0445},
+    'sarcastic_4': {'headline': 'Genocide Tourism: A New Frontier In Cultural Immersion', 'score': 0.008},
+    'sarcastic_5': {'headline': 'UN Hails Myanmar's Unique Blend Of Brutality And Natural Beauty', 'score': 0.0433},
+    'runtime': '3.41s'}
+
+182. {'factual_headline': 'private prison companies will still lock up immigrants, despite doj decision',
+    'sarcastic_1': {'headline': 'Private Prison Companies Vow To Continue Profiting From Immigrant Detention Despite DOJ's Change Of Heart', 'score': 0.3991},
+    'sarcastic_2': {'headline': 'Immigrant Lockdown Industry Thrilled By DOJ's Decision To Just Keep On Locking Up', 'score': 0.6098} [WINNER],
+    'sarcastic_3': {'headline': 'Private Prisons Eager To Carry On Tradition Of Detaining People Who Just Want To Live Their Best Lives', 'score': 0.5098},
+    'sarcastic_4': {'headline': 'New DOJ Policy Allows Private Prisons To Continue Being The Humanitarian Organizations They've Always Been', 'score': 0.5472},
+    'sarcastic_5': {'headline': 'Lock 'Em Up, Keep 'Em Down: Private Prisons Pledge To Ignore DOJ's Decision Entirely', 'score': 0.1112},
+    'runtime': '4.93s'}
+
+183. {'factual_headline': 'grateful dead lyricist, internet pioneer john perry barlow dead at 70',
+    'sarcastic_1': {'headline': 'John Perry Barlow's Legacy Lives On In Our Souls, And Also In The Cloud', 'score': 0.0387},
+    'sarcastic_2': {'headline': 'Pioneering Tech Legend Dies, Leaving Behind A Trail Of Awkward Grateful Dead References', 'score': 0.0011},
+    'sarcastic_3': {'headline': 'Cloud Pioneer John Perry Barlow Sadly Passes On, But His Digital Legacy Will Continue To Confuse Us', 'score': 0.1007},
+    'sarcastic_4': {'headline': 'Net Activist John Perry Barlow Dead At 70, But His Email Attachments Will Live Forever', 'score': 0.1386} [WINNER],
+    'sarcastic_5': {'headline': 'John Perry Barlow: A Man Who Saw The Future, But Not The Email Filter Spam', 'score': 0.0135},
+    'runtime': '4.71s'}
+
+184. {'factual_headline': 'philippines president calls on civilians to kill drug addicts',
+    'sarcastic_1': {'headline': 'Philippine President Urged Civilians To Murder Druggies Again, Because What Could Possibly Go Wrong?', 'score': 0.188},
+    'sarcastic_2': {'headline': 'Nation Horrified By President's Call To Vigilante Justice, Except For The Guy Who Actually Followed His Orders', 'score': 0.5248},
+    'sarcastic_3': {'headline': 'President Duterte's Latest Suggestion: Just Kill The Addicts, It's Like, Super Easy, Right?', 'score': 0.1971},
+    'sarcastic_4': {'headline': 'Civilians Eagerly Await Opportunity To Become Impromptu Hitmen, Thanks, Prez!', 'score': 0.3223},
+    'sarcastic_5': {'headline': 'Local Residents Thrilled To Now Have License To Murder Anyone Who Looks Like They're High', 'score': 0.5513} [WINNER],
+    'runtime': '4.87s'}
+
+185. {'factual_headline': 'woman perfectly breaks down why she's not 'just' a nurse',
+    'sarcastic_1': {'headline': 'Local Woman Shocks Colleagues By Not Being 'Just' A Caffeine Dispenser', 'score': 0.5927},
+    'sarcastic_2': {'headline': 'Nurse Stunned By Colleagues' Lack Of Understanding About Nursing Being A Challenging Profession', 'score': 0.5169},
+    'sarcastic_3': {'headline': 'Area Woman Battles Stereotype That She's 'Just' A Person Who Has To Take Care Of Sick People', 'score': 0.619} [WINNER],
+    'sarcastic_4': {'headline': 'Nurse Fights To Be Seen As More Than Just A 'Helping Professional' Who Also Has To Wear Scrubs', 'score': 0.1143},
+    'sarcastic_5': {'headline': 'Community Rallies Behind Woman Who Refuses To Be Reduced To A Single Profession, Despite Having A Degree In It', 'score': 0.2697},
+    'runtime': '5.23s'}
+
+186. {'factual_headline': 'amid the chattering of the global elite, a silent interlude',
+    'sarcastic_1': {'headline': 'Global Elite Continues To Whisper, Not Yell, During Brief Moment Of Silence', 'score': 0.5746} [WINNER],
+    'sarcastic_2': {'headline': 'Silence Among World Leaders Causes General Panic: 'What's Going On?'', 'score': 0.2863},
+    'sarcastic_3': {'headline': 'Diplomats Stunned By Unexpected Moment Of Quiet Amid Ongoing Chatter', 'score': 0.4871},
+    'sarcastic_4': {'headline': 'Record-Breaking Number Of World Leaders Hold Breath In 5-Second Silence', 'score': 0.5059},
+    'sarcastic_5': {'headline': 'Global Elite's 5-Second Pause Met With Confusion, Not Contemplation', 'score': 0.5608},
+    'runtime': '4.51s'}
+
+187. {'factual_headline': 'at least 23 ethical issues are dogging epa administrator scott pruitt',
+    'sarcastic_1': {'headline': 'EPA Administrator Scott Pruitt: Still Somehow Employed', 'score': 0.2106},
+    'sarcastic_2': {'headline': 'Scott Pruitt's Ethics Scandals Nothing To See Here, Says EPA', 'score': 0.0733},
+    'sarcastic_3': {'headline': 'Pruitt's 23-Ethics-Issue Count Proves He's The Most Transparent Guy Ever', 'score': 0.2213},
+    'sarcastic_4': {'headline': 'EPA Head's Ethics Troubles Prompted By Concerns About His Unwavering Integrity', 'score': 0.3925} [WINNER],
+    'sarcastic_5': {'headline': 'Scott Pruitt's Unblemished Rep Continues To Inspire Confidence In Federal Leadership', 'score': 0.128},
+    'runtime': '4.45s'}
+
+188. {'factual_headline': 'won't ask, don't tell',
+    'sarcastic_1': {'headline': 'Pun Introducing Don't Ask, Don't Care Policy', 'score': 0.4699},
+    'sarcastic_2': {'headline': 'Nation Eagerly Anticipates Confusion, Uncertainty', 'score': 0.4696},
+    'sarcastic_3': {'headline': 'Government Reveals New 'Not Asking' Initiative', 'score': 0.4279},
+    'sarcastic_4': {'headline': 'Pentagon Unveils 'We Don't Know' Strategy', 'score': 0.2352},
+    'sarcastic_5': {'headline': 'Administration Rolls Out 'Just Don't Ask, Okay?' Program', 'score': 0.4824} [WINNER],
+    'runtime': '3.18s'}
+
+189. {'factual_headline': 'vegas, baby! (well, minus our babies)',
+    'sarcastic_1': {'headline': 'Couples In Vegas Discover They Can't Afford To Bring Their Kids', 'score': 0.0214},
+    'sarcastic_2': {'headline': 'Vegas Baby-Free Policy Turns Out To Be Brilliant Business Move', 'score': 0.1006},
+    'sarcastic_3': {'headline': 'Study Finds That Not Bringing Kids To Vegas Is A Refreshing Change', 'score': 0.32} [WINNER],
+    'sarcastic_4': {'headline': 'Las Vegas Resorts Embrace New Policy: 'Leaving Children Behind Is Optional'', 'score': 0.0302},
+    'sarcastic_5': {'headline': 'Casinos Discover Secret To Profitability: Leave The Kids At Home', 'score': 0.0054},
+    'runtime': '3.99s'}
+
+190. {'factual_headline': 'people really like kanye's new song 'real friends' because it's really g.o.o.d.',
+    'sarcastic_1': {'headline': 'Kanye West's New Song 'Real Friends' Proves He's Still the Most Likely to Save Music', 'score': 0.1723},
+    'sarcastic_2': {'headline': 'Millennials Devastated That Kanye's Latest Masterpiece Won't Be Played on Repeat on Their Commutes', 'score': 0.4733} [WINNER],
+    'sarcastic_3': {'headline': ''Real Friends' a Groundbreaking Achievement in Kanye's Long History of Musical Genius', 'score': 0.2422},
+    'sarcastic_4': {'headline': 'New Kanye West Song a Refreshing Change of Pace from His Usual 2-Hour Albums', 'score': 0.3626},
+    'sarcastic_5': {'headline': 'Critics Baffled by Overwhelming Enthusiasm For Kanye's Latest Release, Demand More Objective Analysis', 'score': 0.4698},
+    'runtime': '4.89s'}
+
+191. {'factual_headline': '20 suede pieces you'll want to wear all spring',
+    'sarcastic_1': {'headline': 'Spring Into Despair With These 20 Suede Pieces You'll Regret Buying This Time Next Year', 'score': 0.1428},
+    'sarcastic_2': {'headline': 'Because Who Needs Function When You Can Have Suede? 20 Overpriced Pieces To Ruin Your Wardrobe', 'score': 0.1079},
+    'sarcastic_3': {'headline': 'Get Ready To Spend Your Entire Paycheck On 20 Suede Items That Will Probably Get Stained Immediately', 'score': 0.1234},
+    'sarcastic_4': {'headline': 'Suede: Because Your Wallet And Your Socks Will Never Be The Same', 'score': 0.1476},
+    'sarcastic_5': {'headline': '20 Suede Pieces To Make You Question Your Life Choices This Spring', 'score': 0.2356} [WINNER],
+    'runtime': '4.59s'}
+
+192. {'factual_headline': 'behold the title of 'american horror story' season 7',
+    'sarcastic_1': {'headline': 'Because We All Needed Another Show About a Desolate, Post-Apocalyptic Wasteland', 'score': -0.0046},
+    'sarcastic_2': {'headline': ''American Horror Story' Finally Finds Its True Subject: America Itself', 'score': 0.0487},
+    'sarcastic_3': {'headline': 'We're So Done With Creepy Villagers, Let's Just Watch a Bunch of People Try to Survive in a Ruined City', 'score': -0.0234},
+    'sarcastic_4': {'headline': 'The Real Horror Story: We're Still Watching 'American Horror Story'', 'score': 0.0541} [WINNER],
+    'sarcastic_5': {'headline': 'Season 7's Title Just a Misdirection: It's Really About the Inescapable Doom of Our Current Existential Crisis', 'score': 0.0454},
+    'runtime': '4.85s'}
+
+193. {'factual_headline': 'football-loving americans harassed for wearing turbans to nfl game',
+    'sarcastic_1': {'headline': 'Nation Horrified By Shocking Display Of Diversity, Immediately Calls For Turban Ban', 'score': 0.5545} [WINNER],
+    'sarcastic_2': {'headline': 'Turbans At Pro Football Games Become Unacceptable, Outrage Ensues Among Fans', 'score': 0.1196},
+    'sarcastic_3': {'headline': 'Tolerant NFL Fans Show Unwavering Support For Diversity By Yelling At Turban-Wearing Fans', 'score': 0.4297},
+    'sarcastic_4': {'headline': 'Turban-Wearing Enthusiasts Accused Of Ruining Perfectly Good Game Day Atmosphere', 'score': 0.5216},
+    'sarcastic_5': {'headline': 'Another Day, Another Opportunity For Americans To Prove They're Still Working On Their Whole 'Freedom Of Expression' Thing', 'score': 0.0304},
+    'runtime': '4.81s'}
+
+194. {'factual_headline': 'to your health',
+    'sarcastic_1': {'headline': 'A New Study Proves That Eating Only Salad Will Definitely Cure All Your Problems', 'score': -0.0067},
+    'sarcastic_2': {'headline': 'Nation's Food Pyramid Now Recommends 100% Salad Intake Daily', 'score': 0.3853} [WINNER],
+    'sarcastic_3': {'headline': 'New FDA Guidelines Mandate Salad Consumption For At Least 4 Meals A Day', 'score': 0.3478},
+    'sarcastic_4': {'headline': 'Salad Connoisseurs Launch Protest Against 'Lazy' Vegetable-Eaters', 'score': -0.0837},
+    'sarcastic_5': {'headline': 'Fad Dieters Praise New Study Confirming The Obvious: Salad Is Amazing', 'score': -0.1063},
+    'runtime': '3.89s'}
+
+195. {'factual_headline': 'seth meyers loses it over thanksgiving's proximity to christmas',
+    'sarcastic_1': {'headline': 'Seth Meyers' Anger Over Thanksgiving-Church-Christmas Schedule Finally At Peaceful, Sustainable Length', 'score': 0.5203} [WINNER],
+    'sarcastic_2': {'headline': 'Thanksgiving, Christmas Merge Into Single, Non-Controversial Holiday: 'Winterfest'', 'score': 0.4785},
+    'sarcastic_3': {'headline': 'Seth Meyers Just Started A Countdown To Christmas, But Let's Be Real, He's Still Mad About Turkey', 'score': 0.062},
+    'sarcastic_4': {'headline': 'In Bizarre Twist, Seth Meyers' Anger Over Thanksgiving Schedule Now Directed At His Therapist', 'score': 0.3162},
+    'sarcastic_5': {'headline': 'Just When You Thought It Was Safe, Seth Meyers Remembers Thanksgiving Is Still 11 Days Away', 'score': 0.0301},
+    'runtime': '4.97s'}
+
+196. {'factual_headline': '15 ways the knicks can trade carmelo anthony',
+    'sarcastic_1': {'headline': 'Knicks Finally Figure Out Creative Way To Get Rid Of Carmelo Anthony's Contract Without Having To Actually Play Him', 'score': 0.3929},
+    'sarcastic_2': {'headline': '15 Ways The Knicks Can Trade Carmelo Anthony's Ego, But Only If They're Willing To Give Up A First-Round Pick And A Prospect', 'score': 0.0574},
+    'sarcastic_3': {'headline': 'Knicks Management Stunned To Discover They Can Trade Carmelo Anthony To Any Team, Despite His Inability To Fit On The Roster', 'score': 0.4264},
+    'sarcastic_4': {'headline': '15 Trades That Would Essentially Be Giving Carmelo Anthony Away For Free, Because That's What The Knicks Are Used To Doing', 'score': 0.0265},
+    'sarcastic_5': {'headline': 'Knicks Fans Overjoyed As Team Finds 15 New Ways To Waste Carmelo Anthony's Talents, Possibly Setting New Record', 'score': 0.4627} [WINNER],
+    'runtime': '6.56s'}
+
+197. {'factual_headline': 'parents fight to save their two daughters after tragic diagnosis',
+    'sarcastic_1': {'headline': 'Parents Overjoyed To Discover Their Daughters Are Still Alive', 'score': 0.5427},
+    'sarcastic_2': {'headline': 'Local Family's Heartbreak Now 100% Guaranteed', 'score': 0.5606} [WINNER],
+    'sarcastic_3': {'headline': 'Parents' Unrelenting Love, Adoriation Prompted By Tragic Diagnosis', 'score': 0.5203},
+    'sarcastic_4': {'headline': 'Area Couple's Unwavering Commitment To Providing Healthcare Now Put To The Test', 'score': 0.5398},
+    'sarcastic_5': {'headline': 'Daughters, Still Dead, Receive Endless Attention From Devoted Parents', 'score': 0.2803},
+    'runtime': '3.56s'}
+
+198. {'factual_headline': 'the quiet practice where i found my voice',
+    'sarcastic_1': {'headline': 'I Finally Learned To Express My Inner Thoughts Out Loud In A Group Of Strangers', 'score': 0.1379},
+    'sarcastic_2': {'headline': 'Where I Found My Voice, Literally', 'score': 0.2644},
+    'sarcastic_3': {'headline': 'Life-Changing Experience Where I Still Manage To Keep My Mouth Shut Most Of The Time', 'score': 0.597} [WINNER],
+    'sarcastic_4': {'headline': 'A Safe Space To Express My Thoughts, Because I Clearly Need Adulting Lessons', 'score': 0.1198},
+    'sarcastic_5': {'headline': 'Where I Developed My Valuable Skill Of Not Talking Over Everyone Else', 'score': 0.1397},
+    'runtime': '3.61s'}
+
+
+--- New Session Started: 2026-03-14 13:12:33.778951 ---
+
+--- New Session Started: 2026-03-14 13:17:03.951634 ---
+200. {'factual_headline': 'man reportedly unleashes trump-inspired anti-lgbtq rant at church',
+    'sarcastic_1': {'headline': ''Church' A Convenient Place For Bigots To Gather And Feel Self-Righteous', 'score': 0.3976},
+    'sarcastic_2': {'headline': 'Area Man Discovers God's Love Actually Means Hating Gays', 'score': 0.5588} [WINNER],
+    'sarcastic_3': {'headline': 'Churchgoer's Inspiring Sermon: 'Love Thy Neighbor, Unless They're LGBTQ'', 'score': 0.3889},
+    'sarcastic_4': {'headline': 'Trump's Message Of Hate And Division Clearly Working', 'score': 0.3198},
+    'sarcastic_5': {'headline': 'Local Church Finds New Way To Make Gays Feel Unwelcome', 'score': 0.5526},
+    'runtime': '21.44s'}
+
+199. {'factual_headline': 'everyone told me my second child would be so much harder than my first, but they were wrong',
+    'sarcastic_1': {'headline': ''Miracle Child' Turns Out To Be Just A Tired, Tantrum-Throwing Human Being', 'score': 0.0834},
+    'sarcastic_2': {'headline': 'Local Parent Disproves Entire 'Second Child Is Harder' Stereotype', 'score': 0.5494},
+    'sarcastic_3': {'headline': 'New Study Finds Second Child Isn't Actually Harder, Just More Expensive', 'score': 0.5792} [WINNER],
+    'sarcastic_4': {'headline': 'Second Child Proves That Every Piece Of Parenting Advice Is Wrong', 'score': 0.401},
+    'sarcastic_5': {'headline': 'Area Man's Second Child A Stunning Rebuttal To All Of Human Experience', 'score': 0.5098},
+    'runtime': '23.25s'}
+
+201. {'factual_headline': 'how i'm finding my voice with wendy davis',
+    'sarcastic_1': {'headline': 'Local Woman Finally Figures Out How To Use Voice', 'score': 0.5249},
+    'sarcastic_2': {'headline': 'Wendy Davis Helps Me Find My Voice, Literally, The First Time I'm Able To Speak Above A Whisper', 'score': 0.1502},
+    'sarcastic_3': {'headline': 'Finding My Voice Was Way Harder Than A 20-Hour Abortion Bill Filibuster', 'score': 0.0154},
+    'sarcastic_4': {'headline': 'Emancipation Proclamation Writer Has Nothing On Me For Writing 12-Hour Blog Post', 'score': 0.4204},
+    'sarcastic_5': {'headline': 'Wendy Davis's Life Coach Skills Clearly Paying Off For Me', 'score': 0.5584} [WINNER],
+    'runtime': '23.83s'}
+
+198. {'factual_headline': 'why america demonizes its teachers',
+    'sarcastic_1': {'headline': 'America Lovingly Remembers Its Teachers By Constantly Yelling At Them', 'score': 0.4356},
+    'sarcastic_2': {'headline': 'New Study: Americans' Respect For Teachers Actually Just A Symptom Of Our Deep-Rooted Envy', 'score': 0.521} [WINNER],
+    'sarcastic_3': {'headline': 'Poll: 9 Out Of 10 Americans Believe Teachers Make Way Too Much Money... Said No One Ever', 'score': 0.4226},
+    'sarcastic_4': {'headline': 'Critics Slam Politicians For Undermining Teachers, Overlook The Fact That They're Just Doing Their Job', 'score': 0.1103},
+    'sarcastic_5': {'headline': 'Trend Alert: Americans Now Love Their Teachers Almost As Much As They Love Complaining About Their Salaries', 'score': 0.1141},
+    'runtime': '26.8s'}
+
+204. {'factual_headline': 'swarm of 100 drones dance to beethoven's 'symphony no. 5' in the night sky',
+    'sarcastic_1': {'headline': 'Beethoven's 'Symphony No. 5' Now Standardized Drone Routine', 'score': 0.5674} [WINNER],
+    'sarcastic_2': {'headline': 'Area Residents Thrilled By Drone Choreography', 'score': 0.5238},
+    'sarcastic_3': {'headline': 'Drones Interrupt Peaceful Evening With Overly Familiar Melody', 'score': 0.4269},
+    'sarcastic_4': {'headline': 'Drone Dance Troupe Hopes To Replace Human Performers', 'score': 0.3737},
+    'sarcastic_5': {'headline': 'Nighttime Drone Spectacles Prove Effective At Distracting From Ongoing Urban Development', 'score': 0.2731},
+    'runtime': '13.81s'}
+
+202. {'factual_headline': 'here's how trump's rage campaign opened the door to the james comey firing',
+    'sarcastic_1': {'headline': 'Trump's Presidential Temper Tantrums Prove Most Effective Way To Get Firing of Any Federal Employee', 'score': 0.3033},
+    'sarcastic_2': {'headline': 'Nation Horrified By Trump's Unprecedented Ability To Hold Rage, Get What He Wants', 'score': 0.4778} [WINNER],
+    'sarcastic_3': {'headline': 'Trump's Rage Campaign: Because Who Needs Diplomacy When You Have Twitter?', 'score': 0.0586},
+    'sarcastic_4': {'headline': 'Trump's Temper Now Known As Secret Ingredient In Effective Government Shutdowns', 'score': 0.4207},
+    'sarcastic_5': {'headline': 'Trump's Unrelenting Fury Successfully Opens Door, Closes Door, And Then Firing Entire Agency', 'score': 0.3818},
+    'runtime': '19.2s'}
+
+203. {'factual_headline': 'looking for happiness in all the wrong places',
+    'sarcastic_1': {'headline': 'Nation's Search for Happiness Continues to be Ruined by Social Media', 'score': 0.6271} [WINNER],
+    'sarcastic_2': {'headline': 'People Still Apparently Clueless on How to Find Happiness, According to Studies', 'score': 0.4747},
+    'sarcastic_3': {'headline': 'Surprise: Focusing on External Validation Does Not Lead to Inner Peace', 'score': 0.1647},
+    'sarcastic_4': {'headline': 'Millennials' Quest for Happiness Now Involves 15-Hour Workdays and No Sleep', 'score': 0.4357},
+    'sarcastic_5': {'headline': 'Study Reveals That Buying More Stuff Will Absolutely, Positively Not Fulfill You', 'score': 0.4337},
+    'runtime': '18.0s'}
+
+205. {'factual_headline': 'the outfit that got this woman kicked out of her school's gym',
+    'sarcastic_1': {'headline': 'Local Woman's Athletic Wear Apparently Too Radically Expressive For Conservative School Administration', 'score': 0.6021} [WINNER],
+    'sarcastic_2': {'headline': 'Area Woman's Gym Outfit Proves To Be Most Threatening Thing That's Happened To School Since Standardized Testing', 'score': 0.593},
+    'sarcastic_3': {'headline': 'School Officials' Sudden Concern For Girl's Fashion Choices Comes As No Shock To Anyone Who's Ever Seen A School Administrator', 'score': 0.4442},
+    'sarcastic_4': {'headline': 'Woman's Outfit Was Clearly Too Much For System That Allows Students To Carry Around 80 Pounds Of Backpack Gear', 'score': 0.5741},
+    'sarcastic_5': {'headline': 'Gym Teacher Finally Finds Valid Excuse To Get Rid Of Woman Whose Athletic Skills He's Secretly Jealous Of', 'score': 0.5633},
+    'runtime': '21.45s'}
+
+206. {'factual_headline': ''saturday night live' celebrates halloween with spooktacular montage',
+    'sarcastic_1': {'headline': 'Local Community Celebrates Halloween by Rehearsing Same Jokes for 40 Years', 'score': 0.4666} [WINNER],
+    'sarcastic_2': {'headline': ''SNL' Cast Members Thrilled to Repurpose Old Costumes for November Sweater Party', 'score': 0.398},
+    'sarcastic_3': {'headline': 'Critic Accurately Predicts 'SNL' Halloween Episode Will Feature Same Old Gags', 'score': 0.4446},
+    'sarcastic_4': {'headline': 'Halloween Special Features More Over-Exposure to Kate McKinnon's Face Than Any Human Should Endure', 'score': 0.3631},
+    'sarcastic_5': {'headline': ''Spooktacular Montage' a Misleading Term for 10-Minute Cut of Same 'Boo!' Sound Effect', 'score': 0.4441},
+    'runtime': '19.57s'}
+
+208. {'factual_headline': 'washington d.c. officer shoots woman carrying knife',
+    'sarcastic_1': {'headline': 'Local Community Delighted To Have Another Casual Conversation Starter About Police-Community Relations', 'score': 0.4955},
+    'sarcastic_2': {'headline': 'Area Woman's Knife Found To Be Highly Effective In Cutting Through Red Tape', 'score': 0.5315},
+    'sarcastic_3': {'headline': 'D.C. Officer's Swift Action Saves City From Certain Doom Of Being Stabbed', 'score': 0.2766},
+    'sarcastic_4': {'headline': 'Washington D.C. Police Department Proudly Announces Addition To Long List Of Unfortunate Incidents', 'score': 0.5654} [WINNER],
+    'sarcastic_5': {'headline': 'Local Man Shocked, Yet Somehow Not Surprised, By Yet Another Example Of Human Error', 'score': 0.5259},
+    'runtime': '16.64s'}
+
+207. {'factual_headline': 'disaster movies are tame compared to what happened 3.3 billion years ago',
+    'sarcastic_1': {'headline': 'Hundreds Of Billions Of Years Ago, Universe Had Totally Unrelenting, Unstoppable, And Uncontrollable Apocalypse', 'score': 0.473},
+    'sarcastic_2': {'headline': '3.3 Billion Years Ago, The Earth Experienced The Ultimate Disaster Movie: 'The Great Oxygen Overload'', 'score': 0.1178},
+    'sarcastic_3': {'headline': 'Researchers Stunned To Discover Ancient Earth Was Actually Just One Big, Never-Ending, Reality TV Show', 'score': 0.4774} [WINNER],
+    'sarcastic_4': {'headline': 'Prehistoric Earth: Where The SFX Were On Point, But The Special Effects Were Actually Just Volcanic Eruptions', 'score': -0.0072},
+    'sarcastic_5': {'headline': 'It Turns Out The First Movie Ever Made Was A Documentary About The 3.3 Billion Year Old Disaster That Destroyed Everything', 'score': 0.1101},
+    'runtime': '21.88s'}
+
+209. {'factual_headline': 'in your face: the hidden history of plastic surgery and why looks matter',
+    'sarcastic_1': {'headline': 'Because Nothing Says 'Self-Esteem' Like a Face-Lift: The Fascinating Story of How We Started Chopping Off Our Faces', 'score': 0.0814},
+    'sarcastic_2': {'headline': 'Plastic Surgery: Where a Beautiful Smile Means You've Finally Conquered the Need for Therapy', 'score': 0.0744},
+    'sarcastic_3': {'headline': 'The Hidden History of Botox: A Deliciously Toxic Treat for the Face', 'score': 0.1725} [WINNER],
+    'sarcastic_4': {'headline': 'Looks Matter: Study Finds That People Who Look Good Are Way More Interesting Than People Who Don't', 'score': 0.093},
+    'sarcastic_5': {'headline': 'Uncovering the Dark Truth About Facelifts: Because Nothing Says 'I'm a Happy Person' Like a 6-Hour Surgery', 'score': 0.0845},
+    'runtime': '21.23s'}
+
+210. {'factual_headline': 'a knicks' fan's open letter to santa',
+    'sarcastic_1': {'headline': 'Knicks Fan's Open Letter to Santa Demands Better Team Effort in Next 200 Years', 'score': 0.5712},
+    'sarcastic_2': {'headline': 'Santa Claus Promises Knicks Fan a Brand New Loss for Christmas Gift', 'score': 0.0995},
+    'sarcastic_3': {'headline': 'Local Knicks Fan's Open Letter to Santa Met with Collective Sigh by NHL Fans', 'score': 0.5894} [WINNER],
+    'sarcastic_4': {'headline': 'Knicks Fan's Letter to Santa Becomes New Standard for Rejection Letters', 'score': 0.5224},
+    'sarcastic_5': {'headline': 'Santa Claus Says He's Been Putting Knicks Fan on Nice List for 37 Years, But Nothing Seems to Be Working', 'score': 0.2643},
+    'runtime': '17.01s'}
+
+211. {'factual_headline': 'donald trump and america's blood sport of choice',
+    'sarcastic_1': {'headline': 'Trump Dominates Nation's Favored Form of Gladiatorial Combat: Politicians vs. Puns', 'score': 0.476} [WINNER],
+    'sarcastic_2': {'headline': 'Donald Trump's Unique Blend of Brashness, Ego, and Incompetence Proves Recipe for Success', 'score': -0.0024},
+    'sarcastic_3': {'headline': 'Trump Announces New Blood Sport: 'Survival of the Fittest' - With a Twist, It's Just 'Survival' of Fittest', 'score': 0.3358},
+    'sarcastic_4': {'headline': 'Local Man Excitedly Anticipates Donald Trump's Next Fiery Diatribe, Which Is Actually Just a Podcast', 'score': 0.42},
+    'sarcastic_5': {'headline': 'Epic Donald Trump-Bashing Blood Sport Ensues, As Expected', 'score': 0.1232},
+    'runtime': '22.48s'}
+
+212. {'factual_headline': 'time to end subsidies that are destroying forests',
+    'sarcastic_1': {'headline': 'Nation Horrified To Learn That Subsidies Have Been Destroying Forests For Decades', 'score': 0.6734} [WINNER],
+    'sarcastic_2': {'headline': 'End Subsidies That Are Clearly Working Miracles For The Environment', 'score': 0.1957},
+    'sarcastic_3': {'headline': 'Billionaire Landlords Blame Government Subsidies For Ruining Their Forest Land', 'score': 0.1494},
+    'sarcastic_4': {'headline': 'New Study Reveals That Subsidies Are Total Wipeout, Environment Not Affected', 'score': 0.5118},
+    'sarcastic_5': {'headline': 'Congress Introduces Bill To Suspend Payments To Companies That Are Probably Just Trying To Keep A Roof Over Their Heads', 'score': 0.3228},
+    'runtime': '19.38s'}
+
+214. {'factual_headline': 'trump undercuts easy obamacare attack with dig about bill clinton's infidelities',
+    'sarcastic_1': {'headline': 'Trump's Insults are Suddenly Considered Sophisticated and Above the Fray', 'score': 0.0036},
+    'sarcastic_2': {'headline': 'Clinton's Infidelity Now the New Standard for Politicians', 'score': 0.4336} [WINNER],
+    'sarcastic_3': {'headline': 'Trump's Attack on Bill Clinton is a Refreshing Change from His Usual Petty Behavior', 'score': 0.0581},
+    'sarcastic_4': {'headline': 'Analysts Say Trump's Shift to Scandalous Personal Attacks a Brave New Frontier in Politics', 'score': 0.3029},
+    'sarcastic_5': {'headline': 'It's About Time Politicians Started Fighting with Each Other Over Past Sins', 'score': 0.005},
+    'runtime': '15.49s'}
+
+213. {'factual_headline': 'netflix to shut down planned louis c.k. comedy special',
+    'sarcastic_1': {'headline': 'Netflix Finally Lives Up To Its Promise Of Only Hiring Comedians Who Are 70 Years Old', 'score': 0.2656},
+    'sarcastic_2': {'headline': 'Louis C.K.'s Comedy Special Still Available For Free On His Website, Because Boundaries Are Overrated', 'score': 0.3063} [WINNER],
+    'sarcastic_3': {'headline': 'Louis C.K.'s Netflix Special Delayed Due To Unforeseen Circumstances: Lack Of Talent', 'score': 0.1163},
+    'sarcastic_4': {'headline': 'Netflix Cancels Louis C.K. Special, Cites 'We Just Can't Trust Him Not To Make Us Look Bad'', 'score': 0.1782},
+    'sarcastic_5': {'headline': 'Louis C.K.'s Comedy Special Gets Pushed Back To 2025, When Everyone Will Have Forgotten About The Whole #MeToo Thing', 'score': 0.1765},
+    'runtime': '22.02s'}
+
+216. {'factual_headline': 'watch john kasich lead an awkward david bowie sing-along',
+    'sarcastic_1': {'headline': 'John Kasich's David Bowie Sing-Along A Refreshing Change From Politics As Usual', 'score': 0.3591},
+    'sarcastic_2': {'headline': 'Nation Applauds Kasich For Bringing Glam Rock To The Campaign Trail', 'score': 0.4376},
+    'sarcastic_3': {'headline': 'Kasich's Sing-Along Proves He's The Only Candidate Who Can Make David Bowie Sound Politically Neutral', 'score': 0.1819},
+    'sarcastic_4': {'headline': 'Kasich's David Bowie Fanboyism A Much-Needed Distraction From His Actual Policy Positions', 'score': 0.4925} [WINNER],
+    'sarcastic_5': {'headline': 'John Kasich: The Only Candidate Brave Enough To Sing 'Space Oddity' In Public', 'score': 0.1067},
+    'runtime': '17.59s'}
+
+215. {'factual_headline': 'we got the exclusive look at hillary's dnc speech notes',
+    'sarcastic_1': {'headline': 'Apparently, Hillary's Notes Were All Just Random Inspirational Quotes Pasted On Top Of Each Other', 'score': 0.2251} [WINNER],
+    'sarcastic_2': {'headline': 'Hillary's Speech Notes Were Actually Just A List Of Desperate Texts To Her Life Coach', 'score': 0.0725},
+    'sarcastic_3': {'headline': 'We've Obtained A Photocopy Of Hillary's Speech Notes, But Only The Part Where She Wrote 'Buy More Socks'', 'score': 0.0855},
+    'sarcastic_4': {'headline': 'Hillary's Notes Were Just A Series Of Emojis Representing Different Types Of Caffeine Consumption', 'score': 0.0885},
+    'sarcastic_5': {'headline': 'We've Unmasked The Secret Code In Hillary's Speech Notes, And It's Just 'LOVE YOU, BILL'', 'score': 0.0714},
+    'runtime': '20.73s'}
+
+217. {'factual_headline': 'how a social media detox helped ed burns become more productive',
+    'sarcastic_1': {'headline': 'Ed Burns Finds Inner Peace After Realizing He Can Just Not Check Twitter at All', 'score': 0.5302} [WINNER],
+    'sarcastic_2': {'headline': 'Productivity Soars When Ed Burns Stops Posting About His Breakfast on Instagram', 'score': 0.1769},
+    'sarcastic_3': {'headline': 'Ed Burns Reveals Secret to Success: Avoiding Facebook at All Costs', 'score': 0.0957},
+    'sarcastic_4': {'headline': 'Ed Burns Achieves Zen State by Unplugging, Finding Out He Has More Free Time Than He Thought', 'score': 0.5296},
+    'sarcastic_5': {'headline': 'Detoxing from Social Media Allows Ed Burns to Focus on What Really Matters: Him', 'score': 0.5189},
+    'runtime': '16.7s'}
+
+218. {'factual_headline': 'north korea claims it's planning to fire missiles near guam',
+    'sarcastic_1': {'headline': 'Local Residents In Guam Thrilled To Learn They'll Be A Target Practice For North Korean Missiles', 'score': 0.4754} [WINNER],
+    'sarcastic_2': {'headline': 'Guam Residents 'Totally Unbothered' By North Korea's Plans To Rattle The Island', 'score': 0.1223},
+    'sarcastic_3': {'headline': 'North Korea's Missile Threats Spark Wave Of Patriotism In Guam, Leading To Increased Sales Of American Flags', 'score': 0.1077},
+    'sarcastic_4': {'headline': 'North Korea's Guam Missile Plans Met With Cautious Optimism By Local Business Owners', 'score': 0.1669},
+    'sarcastic_5': {'headline': 'Kim Jong-un Vows To Fire Missiles Near Guam, But Promises To Use Sparklers Instead Of Real Warheads', 'score': 0.2559},
+    'runtime': '21.37s'}
+
+219. {'factual_headline': 'how do i make my 4-month-old fall in love with reading?',
+    'sarcastic_1': {'headline': 'Study Finds 4-Month-Olds Secretly Judging Parents' Reading Choices', 'score': 0.6357} [WINNER],
+    'sarcastic_2': {'headline': 'Babies' Love for Reading Fueled by Parental Desperation', 'score': 0.4421},
+    'sarcastic_3': {'headline': 'Infant Bookworms: When Does the Madness Begin?', 'score': 0.158},
+    'sarcastic_4': {'headline': '4-Month-Olds Now Expected to Meet Word Count Quotas', 'score': 0.4946},
+    'sarcastic_5': {'headline': 'New Study Reveals 4-Month-Olds Can Predict Bestseller Lists Years in Advance', 'score': 0.5461},
+    'runtime': '15.14s'}
+
+220. {'factual_headline': '15 weirdest things that people have left behind in an uber',
+    'sarcastic_1': {'headline': 'Uber Passengers Regularly Leave Behind Their Dignity, Apparently', 'score': 0.0989} [WINNER],
+    'sarcastic_2': {'headline': '15 Ridiculous Items We'd Rather See Returned', 'score': 0.0846},
+    'sarcastic_3': {'headline': 'The Thrill Of Ridesharing: When Forgotten Items Bring Joy', 'score': 0.0242},
+    'sarcastic_4': {'headline': 'Some People's Cars Are Apparently Safer Than Their Lives', 'score': 0.0756},
+    'sarcastic_5': {'headline': 'Uber's Lost And Found: Because Who Needs Personal Space?', 'score': 0.0143},
+    'runtime': '12.66s'}
+
+221. {'factual_headline': 'arkansas executes first inmate in 12 years',
+    'sarcastic_1': {'headline': 'Arkansas Finally Gets Around to Executing Someone, World Takes Notice', 'score': 0.4096},
+    'sarcastic_2': {'headline': 'Local Community Thrilled To Learn They're Still Allowed To Kill People', 'score': 0.4669} [WINNER],
+    'sarcastic_3': {'headline': '12-Year Moratorium Felt by Prison Staff as 'Nice Little Break'', 'score': 0.4415},
+    'sarcastic_4': {'headline': 'State Officials Praise Themselves for 'Effective' Execution Process', 'score': 0.0052},
+    'sarcastic_5': {'headline': 'New Inmate Execution Policy: We'll Get Around To It Eventually, Maybe', 'score': 0.1201},
+    'runtime': '14.31s'}
+
+224. {'factual_headline': 'obama plans to tackle major education inequality',
+    'sarcastic_1': {'headline': 'Obama's Bold Plan: More Talk, Less Actual Change', 'score': 0.0922},
+    'sarcastic_2': {'headline': 'Pres Obama To Tackle Education Inequality, Probably Just Get Stuck In Committee', 'score': 0.3312} [WINNER],
+    'sarcastic_3': {'headline': 'Education Reform Plan Unveiled: Because Who Needs Actual Solutions?', 'score': 0.1195},
+    'sarcastic_4': {'headline': 'Obama's New Education Plan: Because Politicians Care About Kids Almost As Much As They Care About Themselves', 'score': 0.0827},
+    'sarcastic_5': {'headline': 'Obama To Address Education Inequality, Hopefully Won't Make It Worse', 'score': 0.1912},
+    'runtime': '15.52s'}
+
+222. {'factual_headline': 'a sadder pride because of washington inaction',
+    'sarcastic_1': {'headline': 'Nation Horrified By Washington's Inability To Deliver On Emphasis', 'score': 0.51} [WINNER],
+    'sarcastic_2': {'headline': 'Pride Levels Plummet As Washington Continues To Not Live Up To Rhetoric', 'score': 0.2},
+    'sarcastic_3': {'headline': 'Sadder Pride Becomes New National Pastime As Washington Fails To Deliver', 'score': 0.456},
+    'sarcastic_4': {'headline': 'Experts: 'Sadder Pride' Merely Symptom Of Deeper Problem: Washington's Inaction', 'score': 0.4115},
+    'sarcastic_5': {'headline': 'Government's Failure To Inspire Pride Proves It's Still A Government, Experts Say', 'score': 0.1484},
+    'runtime': '18.24s'}
+
+223. {'factual_headline': 'shonda rhimes on the motivation behind her weight loss journey',
+    'sarcastic_1': {'headline': 'Shonda Rhimes Reveals She Lost Weight Because She Was Finally Able To Afford Gym Membership', 'score': 0.2863} [WINNER],
+    'sarcastic_2': {'headline': 'Shonda Rhimes' Dramatic Weight Loss Journey Was Actually Just A Result Of Her Highly Successful Negotiation With Her Chef', 'score': 0.1624},
+    'sarcastic_3': {'headline': 'Shonda Rhimes' Weight Loss Journey: Because Who Needs A Creative Project When You Can Just Focus On Losing 50 Pounds', 'score': 0.1291},
+    'sarcastic_4': {'headline': 'Shonda Rhimes' Weight Loss Motivator: Seeing Herself On TV And Thinking, 'Wow, I Look Like A Senior Citizen'', 'score': 0.1374},
+    'sarcastic_5': {'headline': 'Shonda Rhimes' Weight Loss Tips: 'Just Drink More Caffeine, Trust Me, It Works'', 'score': 0.2794},
+    'runtime': '23.08s'}
+
+225. {'factual_headline': 'teaching, learning and the college ratings framework',
+    'sarcastic_1': {'headline': 'College Rankings Completely Fair, Totally Not Influenced By Ad Spend', 'score': 0.4417} [WINNER],
+    'sarcastic_2': {'headline': 'New Framework Guarantees 100% Of Colleges Will Be 'Diverse' And 'Innovative'', 'score': 0.3072},
+    'sarcastic_3': {'headline': 'Students Now Required To Spend $10,000 Per Credit To 'Personalize' Their Education', 'score': 0.0853},
+    'sarcastic_4': {'headline': 'New Ratings System Prioritizes Outcomes Like 'Student Loan Debt' And 'Career Anxiety'', 'score': 0.4002},
+    'sarcastic_5': {'headline': 'College Rankings Firm Blasted For Its 'Arbitrary, Unreliable, Totally Made-Up' Criteria', 'score': 0.3518},
+    'runtime': '18.13s'}
+
+226. {'factual_headline': 'fashion-forward pigeon sports bread necklace in bold style choice',
+    'sarcastic_1': {'headline': 'Local Pigeon's Bread Necklace Is The Epitome Of Avian Chic', 'score': 0.2412},
+    'sarcastic_2': {'headline': 'Pigeon's Bread Necklace Proves Humans Are The Only Species Still Confused About Fashion', 'score': 0.1448},
+    'sarcastic_3': {'headline': 'Society's Standards For Pigeon Fashion Finally Met With Bread Necklace', 'score': 0.4826} [WINNER],
+    'sarcastic_4': {'headline': 'Pigeon's Bread Necklace Is So Bold, We're Still Looking For The Pigeon', 'score': 0.1219},
+    'sarcastic_5': {'headline': 'Pigeon's Bread Necklace Now Considered A Fashion Staple, Because Of Course It Is', 'score': 0.429},
+    'runtime': '16.95s'}
+
+227. {'factual_headline': 'video relaunches investigation into death of man held by chicago police',
+    'sarcastic_1': {'headline': 'Chicago Police 'Deeply Regret' Mistakes Made In Holding Man Until He Died', 'score': 0.1335},
+    'sarcastic_2': {'headline': 'New Investigation Finds All Clear: Man's Death Definitely Caused By Not Being Held Firmly Enough', 'score': 0.5822} [WINNER],
+    'sarcastic_3': {'headline': 'Chicago PD Launches Internal Probe: 'We're Not Sure Why He Was Still Breathing After We Started Holding Him'', 'score': 0.315},
+    'sarcastic_4': {'headline': 'Video Evidence Reveals 'Clear Case' Of Man Dying From Overexposure To Police Interrogation Techniques', 'score': 0.08},
+    'sarcastic_5': {'headline': 'Chicago Police 'Shocked' By Finding That Man's Death Was Caused By Something Other Than 'A Good Fight'', 'score': 0.2009},
+    'runtime': '20.64s'}
+
+228. {'factual_headline': 'whoopi goldberg says the oscars 'can't be that racist' because she won once',
+    'sarcastic_1': {'headline': 'Whoopi Goldberg's Single Oscar Win Clearly Proves Entire Industry Immune To Racism', 'score': 0.4814} [WINNER],
+    'sarcastic_2': {'headline': 'Whoopi Goldberg's Tokenistic Oscar Win Sets New Standard For Hollywood Diversity', 'score': 0.1988},
+    'sarcastic_3': {'headline': 'Goldberg's Sincere Denial Of Oscars' Racist Tendencies Convinces Absolutely No One', 'score': 0.3384},
+    'sarcastic_4': {'headline': 'Whoopi Goldberg's One Oscar Win Erases Entire History Of Systemic Racism In Film Industry', 'score': 0.3748},
+    'sarcastic_5': {'headline': 'Whoopi Goldberg's Solo Oscar Win: The Ultimate Proof The Oscars Are Totally Not Racist', 'score': 0.1135},
+    'runtime': '19.01s'}
+
+229. {'factual_headline': 'sherman alexie says artists under trump will be 'noise-canceling headphones'',
+    'sarcastic_1': {'headline': 'Native American Writers To Be Forced To Write About How Great It Is To Have Noise-Canceling Headphones', 'score': 0.4896},
+    'sarcastic_2': {'headline': 'Trump's Latest Artistic Directive: Make America's Literature Soothing and Unobtrusive', 'score': -0.0163},
+    'sarcastic_3': {'headline': 'Alexie Announces New Book: 'The Sound of Silence, And How I Learned To Stop Worrying And Write About It'', 'score': 0.4197},
+    'sarcastic_4': {'headline': 'US Artists Ordered To Write Novels That Sound Like They Were Written By A Cliched, Overly-Sensitive Blogger', 'score': 0.1501},
+    'sarcastic_5': {'headline': 'New Government Mandate: All Literary Works Must Now Feature At Least Three References To Noise-Canceling Headphones', 'score': 0.4958} [WINNER],
+    'runtime': '21.63s'}
+
+230. {'factual_headline': 'nbc news correspondent ayman mohyeldin returning to gaza',
+    'sarcastic_1': {'headline': 'Gaza Unveils Exciting New Tourist Attraction: NBC News Correspondent', 'score': -0.0563},
+    'sarcastic_2': {'headline': 'Local Man 'Totally Unfazed' By Reporter's Return To War-Torn Region', 'score': 0.3971},
+    'sarcastic_3': {'headline': 'NBC News Correspondent's Return To Gaza Brings Much-Needed Stimulus To Local Economy', 'score': 0.3523},
+    'sarcastic_4': {'headline': 'Gaza Residents 'Thrilled' To Have Another Journalist To Provide Color Commentary', 'score': -0.0104},
+    'sarcastic_5': {'headline': 'NBC News Correspondent's Second Home In Gaza Officially Recognized By State Department', 'score': 0.4063} [WINNER],
+    'runtime': '17.13s'}
+
+232. {'factual_headline': 'mike ditka has not been paying attention to history',
+    'sarcastic_1': {'headline': 'Mike Ditka Finally Finds Out History Wasn't Just Made Up By His Grandma', 'score': 0.2611},
+    'sarcastic_2': {'headline': 'NFL Legend Discovers History Books Not Just Decorative Items On His Bookshelf', 'score': 0.2918},
+    'sarcastic_3': {'headline': 'Ditka's Lament: 'If Only I'd Paid More Attention In Social Studies, I'd Be A Pulitzer Winner'', 'score': 0.4329},
+    'sarcastic_4': {'headline': 'Mike Ditka To Host New History Channel Show: 'I'll Tell You What Really Happened'', 'score': 0.4902},
+    'sarcastic_5': {'headline': 'Ditka's History Education Completes After 5-Minute Wikipedia Binge', 'score': 0.5227} [WINNER],
+    'runtime': '18.28s'}
+
+231. {'factual_headline': 'sen. tom cotton thinks 'tough guy' trump is ready to resume waterboarding',
+    'sarcastic_1': {'headline': 'Sen. Tom Cotton Hails Trump's Waterboarding Resume As 'The Perfect Blend Of Tough Guy Swagger And International Law Ignorance'', 'score': 0.1318},
+    'sarcastic_2': {'headline': 'Trump's Waterboarding Plans Met With Enthusiasm By Senators Who Clearly Haven't Learned From The Last Time They Supported Torture', 'score': 0.4328} [WINNER],
+    'sarcastic_3': {'headline': 'Waterboarding: Because Nothing Says 'Tough' Like Making A Guy Think He's Being Pulled Through A Swimming Pool of Despair', 'score': 0.0071},
+    'sarcastic_4': {'headline': 'Sen. Tom Cotton's Thoughts On Waterboarding: Because Who Needs Human Rights When You've Got A 'Tough Guy' Label To Protect?', 'score': 0.1144},
+    'sarcastic_5': {'headline': 'Trump's Waterboarding Plans Have Sen. Tom Cotton's Ears Perking Up Like A Dog That Smells A Belly Rub', 'score': 0.0787},
+    'runtime': '24.91s'}
+
+234. {'factual_headline': 'rescued lion has been obsessed with blankets since he was a baby',
+    'sarcastic_1': {'headline': 'Local Lion's Blanket Addiction Raises Question: Is It Too Soon to Start a 12-Step Program?', 'score': 0.4103},
+    'sarcastic_2': {'headline': 'Lion's Love of Blankets Not a Phase, Just a Life Choice, Experts Say', 'score': 0.5164},
+    'sarcastic_3': {'headline': 'Lion's Blanket Collection Now Estimated to be Worth Over $10,000', 'score': 0.5431} [WINNER],
+    'sarcastic_4': {'headline': 'Lion's Blanket Hoarding Disorder Finally Recognized as Valid Mental Health Condition', 'score': 0.4939},
+    'sarcastic_5': {'headline': 'Lion's Blanket Obsession Forces Zoo to Install Blanket Dispensing Machines', 'score': 0.5314},
+    'runtime': '16.89s'}
+
+233. {'factual_headline': 'ivanka trump incorrectly names judaism as 1 of the 3 'largest world religions'',
+    'sarcastic_1': {'headline': 'Ivanka Trump Sheds Light On Little-Known Jewish Holiday: 'Actually, It's Just Tuesday'', 'score': 0.074},
+    'sarcastic_2': {'headline': 'Judaism Ranked As One Of The 'Largest World Religions' In New Ivanka Trump Curriculum', 'score': 0.3418},
+    'sarcastic_3': {'headline': 'Ivanka Trump's Research Skills 'Simply Unmatched' As She Identifies Judaism As Major World Religion', 'score': 0.167},
+    'sarcastic_4': {'headline': 'Ivanka Trump Announces Plans To Write New Book: 'The Three Largest World Religions: A Guide To Not Getting Fired'', 'score': 0.384} [WINNER],
+    'sarcastic_5': {'headline': 'White House Staffers Stunned By Ivanka Trump's Expertise On World Religions, Immediately Start Citing Wikipedia', 'score': 0.2306},
+    'runtime': '21.56s'}
+
+235. {'factual_headline': 'the best toys to shop on prime day for kids of all ages',
+    'sarcastic_1': {'headline': 'Amazon's Prime Day 'Toys For All Ages' Deals Are Great For Parents Who Enjoy Losing Their Minds', 'score': 0.1165} [WINNER],
+    'sarcastic_2': {'headline': 'Prime Day Toy Deals: Because Nothing Says 'Happy Child' Like A $100 Toy That'll Be Broken In Hours', 'score': 0.0485},
+    'sarcastic_3': {'headline': 'Amazon's Prime Day Toys Are The Perfect Gift For The Child Who Already Has Everything', 'score': 0.1139},
+    'sarcastic_4': {'headline': 'Prime Day's Best Toy Deals Will Get Your Kids Hooked On More Screen Time And Less Playtime', 'score': 0.1034},
+    'sarcastic_5': {'headline': 'Prime Day Toy Shopping: The Ultimate Way To Experience The Thrill Of Possibly Getting A Refund', 'score': 0.0983},
+    'runtime': '20.94s'}
+
+236. {'factual_headline': 'the sanders phenomenon',
+    'sarcastic_1': {'headline': 'Senator Sanders' Unparalleled Charisma Has Suddenly Made Socialism Mainstream (And Also Everyone's Least Favorite Topic At Family Gatherings)', 'score': -0.074},
+    'sarcastic_2': {'headline': 'Area Man Still Can't Believe Senator Sanders Is Actually Running For President This Time', 'score': 0.4261} [WINNER],
+    'sarcastic_3': {'headline': 'Bernie Sanders' Unapologetic Authenticity Has Won Over Hearts And Minds Of At Least 2.5 More People On The Subway', 'score': -0.0092},
+    'sarcastic_4': {'headline': 'After Years Of Being Mocked, Senator Sanders' Haircut Has Finally Become The Height Of Fashion Among Hipsters', 'score': -0.0114},
+    'sarcastic_5': {'headline': 'Nation Horrified To Discover Senator Sanders' Radical Policy Ideas Are Actually The Exact Same As Every Other Developed Country', 'score': 0.4018},
+    'runtime': '21.6s'}
+
+237. {'factual_headline': 'khloe kardashian joins 'waist gang'',
+    'sarcastic_1': {'headline': 'Waist Gang Now Accepting New Members Who've Already Had Three Waist Reduction Procedures', 'score': 0.5011} [WINNER],
+    'sarcastic_2': {'headline': 'No Real Talent Required To Join Waist Gang, Just A Waistline That's Been Photoshopped To Death', 'score': 0.3999},
+    'sarcastic_3': {'headline': 'Khloe Kardashian's Waist Is So Small, We're Pretty Sure She's Smuggling A Cat In There', 'score': 0.0641},
+    'sarcastic_4': {'headline': 'Waist Gang Announces New 'Plus Size' Wing, Because Even Reality TV Stars Get Bigger', 'score': 0.1041},
+    'sarcastic_5': {'headline': 'Khloe's Waistline Now So Famous, She's Been Offered A Sui Generis Billboard For It', 'score': 0.2447},
+    'runtime': '19.63s'}
+
+238. {'factual_headline': 'next week's republican debate in utah canceled',
+    'sarcastic_1': {'headline': 'Utah's Republican Debate Cancellation Due To Unforeseen Circumstances: Scheduling Confusion', 'score': 0.0718},
+    'sarcastic_2': {'headline': 'Republicans Cancel Debate To Avoid Yet Another Embarrassing Display Of Incompetence', 'score': 0.1536},
+    'sarcastic_3': {'headline': 'Next Week's Debate In Utah Canceled Due To Overwhelming Demand For Actual Answers', 'score': 0.3416} [WINNER],
+    'sarcastic_4': {'headline': 'Utah Debate Cancellation A 'Victory For Sanity', Claim Local Residents', 'score': 0.0561},
+    'sarcastic_5': {'headline': 'Republicans Cancel Debate, Blame It On The Weather, But Actually It's Just Because They're Afraid To Be Asked Tough Questions', 'score': 0.0409},
+    'runtime': '18.67s'}
+
+239. {'factual_headline': 'a trove of 'lost and found' photos reveal one mystery couple's beautiful life',
+    'sarcastic_1': {'headline': 'Newly Discovered 'Lost and Found' Photos Validate Existence of Universe', 'score': 0.4647},
+    'sarcastic_2': {'headline': 'Couple's Life Now Officially Validated By Found Photos, No Further Proof Needed', 'score': 0.586} [WINNER],
+    'sarcastic_3': {'headline': 'Photos Confirm What We Already Knew: Some People Have Good Lives', 'score': 0.0838},
+    'sarcastic_4': {'headline': 'Local Couple's Happiness Now Fact-Checked By Social Media', 'score': 0.5859},
+    'sarcastic_5': {'headline': 'Archives Reveal Another Boring Couple's Life, Further Proof Human Existence Isn't Boring', 'score': 0.537},
+    'runtime': '15.82s'}
+
+240. {'factual_headline': 'bear family pool party is the cutest backyard invasion ever',
+    'sarcastic_1': {'headline': 'Bearly tolerated: bear family pool party leaves homeowners shaken', 'score': 0.1956},
+    'sarcastic_2': {'headline': 'New trend alert: pool-side bear selfies are all the rage', 'score': 0.1316},
+    'sarcastic_3': {'headline': 'Ursine overcrowding: bear family's pool party crashes Yelp', 'score': 0.1342},
+    'sarcastic_4': {'headline': 'Paws-itive feedback: bear family's backyard bash gets 5-star review', 'score': 0.1457},
+    'sarcastic_5': {'headline': 'Local homeowners thrilled to share their pool with 800 pounds of unwanted guests', 'score': 0.5671} [WINNER],
+    'runtime': '14.0s'}
+
+241. {'factual_headline': 'dustin hoffman accusers speak out about alleged abuse in joint nbc interview',
+    'sarcastic_1': {'headline': 'Dustin Hoffman Accusers Unite In Effort To Bring Down Hollywood's Most Eligible Bachelor', 'score': 0.0638},
+    'sarcastic_2': {'headline': 'Local News Station Apologizes For Not Asking Dustin Hoffman To Be Interviewed In A Smaller, More Modest Studio', 'score': 0.3872} [WINNER],
+    'sarcastic_3': {'headline': 'Dustin Hoffman Accusers Break Silence: 'We Just Wanted To Be Cast In Some Of His Movies'', 'score': 0.0842},
+    'sarcastic_4': {'headline': 'Networks Unite To Air Back-To-Back Marathons Of Dustin Hoffman's Filmography To Help Him 'Process' Allegations', 'score': 0.0496},
+    'sarcastic_5': {'headline': 'Dustin Hoffman's Team Holds Press Conference To Explain Why Accusers Are Just 'Talented Young Actresses Seeking Career Advancement'', 'score': 0.0386},
+    'runtime': '22.21s'}
+
+242. {'factual_headline': 'another open letter to betsy devos from a public school teacher',
+    'sarcastic_1': {'headline': 'Breaking: Public School Teacher Finally Finds Time To Write Another Open Letter To Betsy DeVos, Because Priorities', 'score': 0.5767} [WINNER],
+    'sarcastic_2': {'headline': 'Betsy DeVos Receives 100th Open Letter From Public School Teacher, Still Can't Fix Problem', 'score': 0.4115},
+    'sarcastic_3': {'headline': 'Public School Teacher's Open Letter To Betsy DeVos Delayed Due To Unforeseen Circumstances: Actual School Work', 'score': 0.1182},
+    'sarcastic_4': {'headline': 'Betsy DeVos Responds To Public School Teacher's Open Letter With 6-Word Sentence: 'Thanks For The Mail'', 'score': 0.2577},
+    'sarcastic_5': {'headline': 'Public School Teacher's Latest Open Letter To Betsy DeVos Earns Him Award For 'Most Likely To Be Ignored'', 'score': 0.4472},
+    'runtime': '23.69s'}
+
+243. {'factual_headline': '6 tips to boost your career',
+    'sarcastic_1': {'headline': '6 Tips To Make Your Boss Love You More Than Their Own Family', 'score': 0.2166},
+    'sarcastic_2': {'headline': 'Because You Clearly Need To Be Told How To Get Ahead In Life', 'score': 0.1427},
+    'sarcastic_3': {'headline': '6 Surefire Ways To Boost Your Career, Unless You're Actually Talented', 'score': 0.2738} [WINNER],
+    'sarcastic_4': {'headline': 'Career-Boosting Tips That Will Definitely Make Up For Your Lack Of Skills', 'score': 0.2314},
+    'sarcastic_5': {'headline': '6 Essential Steps To Becoming A Corporate Drone And Loving Every Minute Of It', 'score': 0.0696},
+    'runtime': '15.36s'}
+
+244. {'factual_headline': 'video shows transphobic man preaching in target getting shut down by customer',
+    'sarcastic_1': {'headline': 'Local Man's Hate Speech Finally Found To Be Tolerable Threshold For Target's Customer Service', 'score': 0.5474},
+    'sarcastic_2': {'headline': 'Target Employee's Quick Thinking Saves Customer From Having To Listen To That Guy's Rants', 'score': 0.5429},
+    'sarcastic_3': {'headline': 'Transphobic Preacher's Epic Fail: Target Customer Doesn't Owe Him An Audience', 'score': 0.2009},
+    'sarcastic_4': {'headline': 'Man's Target Shopping Experience Ruined By Customer Who Refused To Engage In His Hate', 'score': 0.5639} [WINNER],
+    'sarcastic_5': {'headline': 'Target Employee Earns High Five, Possible Promotion For Intervening In Transphobic Argument', 'score': 0.3217},
+    'runtime': '19.43s'}
+
+246. {'factual_headline': 'ronda rousey eerily predicted how she would lose',
+    'sarcastic_1': {'headline': 'Ronda Rousey's Unnecessarily Specific Loss Vision Clearly a Sign of Her Genius', 'score': 0.4904},
+    'sarcastic_2': {'headline': 'Rousey's Predictions Prove She's a Realistic and Humble Champion', 'score': 0.0714},
+    'sarcastic_3': {'headline': 'UFC Announces New 'Predict Your Own Demise' Contest in Honor of Ronda Rousey', 'score': 0.42},
+    'sarcastic_4': {'headline': 'Ronda Rousey's Uncanny Ability to Anticipate Own Downfall Raises Eyebrows', 'score': 0.1583},
+    'sarcastic_5': {'headline': 'Rousey's Premonitions Now Being Used as a Motivational Tool for Athletes Everywhere', 'score': 0.5059} [WINNER],
+    'runtime': '19.54s'}
+
+245. {'factual_headline': '#xmasgiftsfromtrump wish list will give trump a very un-merry christmas',
+    'sarcastic_1': {'headline': 'BREAKING: Trump's Christmas Wish List Dominated By Selfless Requests For More Gold, Less Criticism', 'score': 0.4706},
+    'sarcastic_2': {'headline': 'Trump's #XmasGiftsFromTrump Wish List Is A Masterclass In Humility And Selflessness (Not)', 'score': 0.1815},
+    'sarcastic_3': {'headline': 'This Year's Xmas Gifts To Trump Will Be A Miraculous, Unprecedented, And Totally Not Predictable Display Of Generosity', 'score': 0.0686},
+    'sarcastic_4': {'headline': 'Experts Puzzled By Trump's Mysterious Desire For Yet Another 'World's Largest' Anything For Christmas', 'score': 0.4172},
+    'sarcastic_5': {'headline': 'Trump's Xmas Wish List Features Long List Of Gifts, Short List Of People Who Actually Care', 'score': 0.5271} [WINNER],
+    'runtime': '22.82s'}
+
+248. {'factual_headline': 'gifs: the memphis grizzlies weathered this epic oklahoma city thunder storm',
+    'sarcastic_1': {'headline': 'Breaking: Grizzlies' GIF Game Now Officially Stronger Than Their Defense', 'score': 0.3653} [WINNER],
+    'sarcastic_2': {'headline': 'GIFs: The One Thing Holding The Grizzlies Franchise Together', 'score': 0.0529},
+    'sarcastic_3': {'headline': 'Grizzlies' GIF Collection Ranked Among NBA's Most Impressive Assets', 'score': 0.1768},
+    'sarcastic_4': {'headline': 'GIFs: Memphis' Secret Strategy To Distract From Terrible On-Court Performance', 'score': 0.0344},
+    'sarcastic_5': {'headline': 'GIFs: What Separates The Grizzlies From The Truly Elite Teams In The League', 'score': 0.0051},
+    'runtime': '15.98s'}
+
+247. {'factual_headline': 'a brief (pun intended) history of lawyers in movies',
+    'sarcastic_1': {'headline': 'Nation Horrified By Yet Another Unfunny, Uninspired Lawyer Character In Movies', 'score': 0.5315},
+    'sarcastic_2': {'headline': 'Moviegoers Thrilled To See Yet Another Lawyer Portrayed As Ruthless, Ambitious Shill', 'score': 0.4796},
+    'sarcastic_3': {'headline': 'New Study Reveals Lawyers In Movies Generally More Interesting Than Actual Lawyers', 'score': 0.5435} [WINNER],
+    'sarcastic_4': {'headline': 'Cinema History Expert Weighs In: 'It's Not Like We're Tired Of Seeing Lawyers As Villains, It's Just... Familiar'', 'score': 0.3937},
+    'sarcastic_5': {'headline': ''The Lincoln Lawyer' Proves That, Yes, Lawyers Can Be Interesting People When Portrayed By Matthew McConaughey', 'score': -0.0524},
+    'runtime': '22.27s'}
+
+249. {'factual_headline': 'russia denies it has compromising information on donald trump',
+    'sarcastic_1': {'headline': 'Russia Assures Nation It's Not Holding Any Secret Tapes of Trump's Greatest Hits', 'score': 0.5704} [WINNER],
+    'sarcastic_2': {'headline': 'Putin Announces Major Disinformation Campaign to Clear Up Any Misconceptions About Trump's Sordid Past', 'score': 0.4094},
+    'sarcastic_3': {'headline': 'Russian Spies Confirm They're Only Interested in Trump's Tax Returns for Academic Research Purposes', 'score': 0.3231},
+    'sarcastic_4': {'headline': 'Kremlin Officials Deny Leaking Anything But the Most Innocuous Information About Trump's Hairpiece', 'score': 0.4874},
+    'sarcastic_5': {'headline': 'Trump Slams Russia for Not Releasing Dirt on Him Yet, Calls It 'Typical Moscow Delay Tactics'', 'score': 0.065},
+    'runtime': '20.53s'}
+
+251. {'factual_headline': 'breaking uniform',
+    'sarcastic_1': {'headline': 'New Uniform Breaks With Tradition, Leaves Employees Feeling Liberated', 'score': 0.3865},
+    'sarcastic_2': {'headline': 'Breaking Uniform: 'A Game-Changer For Those Who Hate Wearing The Same Old Thing Every Day'', 'score': 0.4491} [WINNER],
+    'sarcastic_3': {'headline': 'Uniform Breaks: Company's Bold New Move Sparks Outrage Among Bureaucrats', 'score': 0.0468},
+    'sarcastic_4': {'headline': 'Uniform Finally Breaks, Employees Now Free To Wear Socks With Sandals', 'score': 0.3466},
+    'sarcastic_5': {'headline': 'Breaking Uniform: A Step Forward For Office Fashion, A Step Back For Sanity', 'score': 0.028},
+    'runtime': '17.77s'}
+
+250. {'factual_headline': 'what comics can offer to bible readers',
+    'sarcastic_1': {'headline': 'Local Bible Study Group Finds Common Ground With Comics, Except For The Whole 'Sacrificing Firstborn' Thing', 'score': 0.5194},
+    'sarcastic_2': {'headline': 'New Study Reveals Bible Readers Thriving Thanks To Comics, Which Are Basically Just Illustrated, Less-Regrettable Versions Of Their Lives', 'score': 0.5598},
+    'sarcastic_3': {'headline': 'Bible Readers Discover Comics Can Offer Similar Sense Of Unfulfilled Expectations And Unending Struggle', 'score': 0.5723} [WINNER],
+    'sarcastic_4': {'headline': 'Researchers Discover Comics Can Fill Void Left By Bible's Lacking Superheroes, Except For Maybe Samson', 'score': 0.5616},
+    'sarcastic_5': {'headline': 'Bible Readers Unite: Comics Provide Same Sense Of Moral Ambiguity And Unreliable Narrators As The Good Book', 'score': 0.1535},
+    'runtime': '22.09s'}
+
+252. {'factual_headline': '7 fascinating but forgotten facts from world war i (new book)',
+    'sarcastic_1': {'headline': '7 mind-blowing facts from World War I that will totally change everything (but we all knew them already)', 'score': 0.1676},
+    'sarcastic_2': {'headline': 'New book about World War I a must-read for historians and everyone with a pulse, sources say', 'score': 0.4816},
+    'sarcastic_3': {'headline': '7 completely new, totally not-researched facts from World War I because who needs actual historians, anyway', 'score': 0.1317},
+    'sarcastic_4': {'headline': 'New book about World War I a game-changer, according to authors who have clearly done no actual research', 'score': 0.5732} [WINNER],
+    'sarcastic_5': {'headline': '7 shocking facts from World War I that will leave you questioning the entire fabric of reality (spoiler: you won't)', 'score': 0.1297},
+    'runtime': '20.91s'}
+
+253. {'factual_headline': 'the key to setting achievable goals',
+    'sarcastic_1': {'headline': 'Setting Achievable Goals Finally Proven To Be Extremely Difficult', 'score': 0.5261},
+    'sarcastic_2': {'headline': 'New Study Reveals Most People Can't Even Be Bothered To Set Goals, Let Alone Achieve Them', 'score': 0.504},
+    'sarcastic_3': {'headline': 'Researchers Stunned To Discover Goal-Setting Actually Requires Motivation', 'score': 0.5913} [WINNER],
+    'sarcastic_4': {'headline': 'Experts Warn Goal-Savers: Remembering To Write Down Goals Is First Hurdle', 'score': 0.2495},
+    'sarcastic_5': {'headline': 'Study Finds Most People's Goals Are 'To Eat More Pizza' And 'To Not Die Alone'', 'score': 0.4472},
+    'runtime': '18.16s'}
+
+256. {'factual_headline': 'gunman kills at least two american advisers in kabul shooting',
+    'sarcastic_1': {'headline': 'US Officially Announces 'Taliban Diplomacy Program' A Success', 'score': 0.3255},
+    'sarcastic_2': {'headline': 'Kabul Shooting Latest Reminder That Some Places Are Just Too Exciting for Americans', 'score': 0.3572} [WINNER],
+    'sarcastic_3': {'headline': 'Pentagon Confirms Shootings Are 'Just a Part of the Fun' in Afghanistan', 'score': 0.054},
+    'sarcastic_4': {'headline': 'Kabul Shooting: Because What's a Few Dead Americans Between Allies?', 'score': 0.1625},
+    'sarcastic_5': {'headline': 'US to Send More Trained Professionals to Kabul to Get Shot At Again', 'score': 0.1378},
+    'runtime': '15.65s'}
+
+255. {'factual_headline': 'donald trump says refugee crisis and threats to uk identity drove brexit',
+    'sarcastic_1': {'headline': ''Finally, A Good Excuse For Not Doing His Homework': Trump Credits Refugee Crisis For UK's Decision', 'score': 0.0559},
+    'sarcastic_2': {'headline': 'Expert Says Brexit Was Actually Caused By Trump's Hairpiece Trying To Break Free', 'score': 0.3985} [WINNER],
+    'sarcastic_3': {'headline': 'Trump's Unfaltering Deductive Powers Lead Him To Conclude Brexit Was All About Refugees', 'score': 0.319},
+    'sarcastic_4': {'headline': 'After Months Of Research, Trump Confirms Brexit Was In Fact A Conspiracy To Keep Him From Building A Wall', 'score': 0.1845},
+    'sarcastic_5': {'headline': 'US Officially Declares Brexit A Foreign Policy Success, Cites Trump's 'Unmatched' Ability To 'Read Room'', 'score': 0.0147},
+    'runtime': '19.87s'}
+
+254. {'factual_headline': 'the only shopping guide for cyber monday you need',
+    'sarcastic_1': {'headline': 'The Ultimate, Life-Altering Cyber Monday Shopping Companion That Will Ruin All Your Relationships and Land You in a Psychiatric Ward', 'score': 0.0835},
+    'sarcastic_2': {'headline': 'Because Who Needs a Social Life When You Can Spend 12 Hours Scrolling Through Amazon on Cyber Monday', 'score': 0.0731},
+    'sarcastic_3': {'headline': 'The Only Shopping Guide You'll Ever Need: A 24-Hour Endurance Event That Will Test Your Marriage and Your Sanity', 'score': 0.105},
+    'sarcastic_4': {'headline': 'Your One-Stop Shop for All Cyber Monday Shopping Needs: Stress, Anxiety, and a Potential Heart Attack', 'score': 0.1308} [WINNER],
+    'sarcastic_5': {'headline': 'The Definitive Cyber Monday Shopping Companion: A Step-by-Step Guide to Sacrificing Your Holiday Spirit and Sanity', 'score': 0.121},
+    'runtime': '21.67s'}
+
+Processed: want to make meetings more productive? start walking -> Area Man Finally Achieves Productivity Breakthrough By Simply Walking Around Room During Meeting (22.14s)
+Processed: another way companies make it harder for new mothers -> New Mother Required To Use Company's 'Baby-Tracking' App To Monitor Infant's Sleep Schedule (19.96s)
+Processed: kris kobach defends using a private email for government business -> Kobach's Private Email: The Perfect Way To Keep Corruption Off The Records (19.27s)
+Processed: charles darwin and the sunmine -> Darwin's Mysterious Sun Mine Discovered To Be Actually Just A 19th-Century Airbnb Rental (18.5s)
+Processed: watch: stone brewing evacuates as wildfire approaches -> Stone Brewing Employees Horrified By Prospect Of Actually Having To Work Through Wildfire Evacuation (4.93s)
+Processed: national park service studies historic lgbtq sites for possible recognition -> Nation Horrified By Possible Recognition of LGBTQ Historical Sites (3.97s)
+Processed: safeguarding america's health system from sabotage -> Nation Horrified By Unprecedented Degree Of Bureaucratic Red Tape (2.74s)
+Processed: skydiver luke aikins makes jump without a parachute -> Area Man Successfully Dares Death, Somehow Not Killed By It (0.95s)
+Processed: the inside story of how congress sent the stock market tumbling -> Stock Market Plunges As Market Reacts To Unsettling Stability Of Nation's Politics (26.52s)
+Processed: a different kind of mom -> Local Mom Discovers Unconventional Method for Getting Kids to Eat Their Vegetables (20.63s)
+Processed: will all senate republicans kowtow to trump and the far right? -> Senate GOP To Vote As One On Every Issue, Except For The 3 Times They Won't (20.35s)
+Processed: viral photo captures incredible moment between police officer, homeless man -> Viral Photo Of Police Officer And Homeless Man Becomes Symbol Of America's True Spirit: Existential Despair (14.06s)
+Processed: uber halts self-driving car tests in california, where it didn't test much anyway -> Uber's Self-Driving Cars So Impressive, They Didn't Even Need to Test in CA (7.37s)
+Processed: donald trump thinks roger goodell is 'weak,' 'stupid' and a 'dope' -> Roger Goodell's Stupidity Evidenced By Ability to Work With 32 Different CEOs (5.35s)
+Processed: americans say the white house is creating more problems than it solves -> Poll: Americans Realize White House Running By Same People Who Created Healthcare, Economy, And News Websites (0.54s)
+Processed: trump says congress won't change libel laws, but that's a decision for the states -> New Study Reveals 95% Of Americans Agree That Trump Has No Idea What He's Talking About (0.24s)
+Processed: shirtless goofball in flag underwear invades field at world series -> Nation Horrified By Image Of Shirtless Goofball In Patriotic Underwear (33.35s)
+Processed: why chinese parents don't say 'i love you' -> Researchers Discover 'I Love You' Not On Standard Issue Chinese Parenting Package (26.67s)
+Processed: after criticism, cleveland officials to outline convention security plans -> City Officials To Outline Comprehensive Security Plan: 'Just Like The Last 10 Times We Did This' (19.99s)
+Processed: a lancet breakthrough: publishing about faith and health -> New Study Finds That Praying For Better Health Is Only Effective If You Actually Believe In God (19.53s)
+Processed: 'mudbound' oscar nominations place netflix in big leagues -> Netflix Finally Recognized as Legitimate Movie Studio By People Who Only Watch Movies When They're Nominated for Awards (14.06s)
+Processed: justin bieber interrupts performance to scold spanish audience -> Justin Bieber Interrupts Own Concert To Give Self-Oscillation Lecture to Adoring Fans (12.09s)
+Processed: nbc to dramatize menendez brothers murders in 'law & order: true crime' spinoff -> NBC Announces 'Law & Order: Dad Got Away With It' (1.4s)
+Processed: kendrick lamar, taylor swift and the weeknd lead the 2016 grammy nominations -> Grammy Nominees To Spend Entire Year Trying To Out-Emotion Each Other (0.16s)
+Processed: police assume truck was deliberately driven into berlin christmas market -> Police Convinced Truck Driver Was Just Trying To Spice Up Holiday Atmosphere (34.51s)
+Processed: dentist offers to buy back halloween candy -> Dentist Buys Back Halloween Candy, Secretly Discards It Because, Let's Be Real, It's Just Gonna Get Eaten Anyway (28.56s)
+Processed: after shooting, orlando chefs provide thousands of free meals -> Orlando Chefs Provide Thousands of Free Meals to Displaced Survivors, Because What Else Did They Have to Do After Shooting (23.85s)
+Processed: gop sen. jeff flake comes out and says it: 'my party might not deserve to lead' -> Flake's Honest Statement Sends Entire Party into Existential Crisis (17.64s)
+Processed: restaurant teaches former inmates to cook, helps them get back on their feet -> Local Restaurant Teaches Ex-Cons To Cook, Gains Free Labor, Reduced Tax Bill (13.74s)
+Processed: 5 entrepreneurial rules to live by -> New Study Confirms Only 1 in 10 Entrepreneurs Actually Follow These Rules (10.8s)
+Processed: 7 things you probably didn't know about christmas -> Area Man Celebrates Christmas By Ignoring 6.5 Of Its Known History (7.67s)
+Processed: paul beatty becomes first american to win man booker prize for fiction -> Nation Horrified That American Wins Award Without Actually Owning Island (0.18s)
+Processed: new ted cruz super-pacs take in record haul -> New Super PAC Hires Consultant to Explain to Ted Cruz What a Super PAC Is (24.65s)
+Processed: domestic abuse survivor gives young victims the support she wishes she had -> Area Woman's 'Self-Care Sunday' Actually Just Her Watching Netflix Alone (22.98s)
+Processed: your favorite female 'star wars' heroes finally get their own series -> New 'Star Wars' Series About Female Heroes Praised For Being 'Refreshing' Change Of Pace (22.87s)
+Processed: dogs smell grandma's scent, set off on quest to find her -> Local Pooch Accidentally Discovers Grandma's Secret Life (14.69s)
+Processed: smb's are changing the way they do business -> Small Business Owners Discover Revolutionary New Way To Print Checks (10.1s)
+Processed: how to really listen in a difficult conversation (6.2) -> Expert: Truly Listening Means Just Nodding And Saying 'Uh-Huh' A Lot (6.81s)
+Processed: accused killer wanted 'army of people who'd do anything he asked' -> Accused Killer 'Just Trying to Find Reliable Errand Service', (5.41s)
+Processed: what it's really like to have a miscarriage -> Area Man Still Has No Idea What To Say To Friend Who Had Miscarriage, So He Just Doesn't Say Anything (0.15s)
+Processed: businesses say anti-lgbt bills could cost texas billions -> Economists Stunned To Discover Billions In Potential Revenue Could Have Been Earned If Only Texas Had Been A Tolerant, Inclusive Place (24.46s)
+Processed: british public on the hunt for 'witches' marks' this halloween -> Local Man Confident He's Found 'Witches' Marks' In His Basement Mold (22.87s)
+Processed: the best volunteer programs do this -> Area Volunteer Opportunity Now Requires Participants To Sign 27-Page Liability Waiver (22.22s)
+Processed: social unity is most important, says pm modi on india's 70th independence day -> PM Modi Declares Social Unity Most Important, Immediately Starts Tweeting Again (20.54s)
+Processed: michael b. jordan sets fire to first 'fahrenheit 451' trailer -> Michael B. Jordan Sets Fire To First 'Fahrenheit 451' Trailer, Producers Proudly Announce 'Cinematic Experience' Will Now Be Released On Blu-Ray With Fire Damage Included (10.44s)
+Processed: dreamers face nightmare of trump's deportation force -> Nation Horrified By Reports Of Dreamers Being Forced To Use Public Transportation (6.9s)
+Processed: roe made abortions legal, but it doesn't keep women and providers safe -> Nation Horrified By Realization That Being Pregnant Is Still Very Bad For Women (5.11s)
+Processed: whoops! selfie snapper smashes sculpture days after exhibit opens -> New Exhibit Features Only Selfies Of Artist Trying To Take Perfect Shot Without Disturbing Nearby Art (0.23s)
+Processed: 9 things all parents of college kids do but hate to admit -> Area Dad Still Doesn't Understand Why His Kid Won't Just Use Their Savings To Pay Off Entire College Tuition (28.04s)
+Processed: watch: underreported story -- reuniting families with remains of dead migrants -> Border Patrol Introduces New Program To Help Families Reunite With Loved Ones Who Were Already Dead (25.45s)
+Processed: yahoo's newfront pulses to steve aoki's edm beat -> Experts Weigh In: Is Steve Aoki's NewFront Beat A Masterclass In Branding Or Just Noise? (23.8s)
+Processed: how to lose to the islamic state: obama administration considers deploying troops to iraq, focusing on assad in syria -> Military Experts Shocked - Shocked! - That Deploying Troops To Iraq Might Not Work As Planned (16.77s)
+Processed: this tattoo shop is creating a safe and accepting space for queer bodies -> Local Tattoo Shop Now Offering Free Hugs (8.76s)
+Processed: eric's bogosian's operation nemesis: can a genocide ever truly be avenged? -> New Study Reveals 100% of People Uncomfortable With Existence of Eric Bogosian's Operation Nemesis (8.64s)
+Processed: thousands protest in moscow against housing plan -> Thousands In Moscow Protest Housing Plan, Completely Ignore Actual Poverty Rate (6.32s)
+Processed: author jeff lindsay says goodbye to serial killer dexter with final novel -> Local Book Club Enjoys Dexter's Latest Novel, Except For All The Murdering Part (0.17s)
+Processed: 30 unbeleafably adorable gifts for plant lovers -> Local Hobbyist Stunned She Already Has 17 Of The 30 'Unbeleafably Adorable Gifts' (21.97s)
+Processed: koch network spent nearly $400 million in 2015 -> Koch Brothers' Donations To Local Economy Spur Record-Breaking Rise In Number Of Politicians Who Actually Care About Working-Class People (19.82s)
+Processed: nobody watched matthew mcconaughey's forgotten youtube channel until now -> Matthew McConaughey's Forgotten YouTube Channel Suddenly Discovered By 3 People (17.72s)
+Processed: those weren't nooses at university of delaware -> University Of Delaware Lifts Ban On Nooses After Realizing Everyone Already Knew What They Were (17.13s)
+Processed: what has becoming a parent done to me? -> I've Started Using Baby Talk In Conversations With Adults (7.82s)
+Processed: cuomo makes surprise afghanistan trip -> Cuomo's Brief Foray Into War-Torn Afghanistan Comes To Abrupt End After Realizing There's No Press Conference (7.11s)
+Processed: donald w. bush? -> Local Man Accidentally Named Donald W. Bush Becomes Instant Presidential Front-Runner (1.71s)
+Processed: video:  #icantbreathe poem on house floor -> Area Man Still Unable To Breathe After Entirely Predictable Politician Performance (0.21s)
+Processed: we ain't germans -> Congress Introduces Bill To Change Country's Name To 'Not Germany' (22.32s)
+Processed: luke bryan says confederate flag has become a 'symbol of racism' -> Luke Bryan To Replace Confederate Flag With Something Even More Politically Inoffensive (20.8s)
+Processed: how caitlyn jenner is helping me be a better me -> Caitlyn Jenner's Trans Empowerment Inspires Me To Finally Start Using My Gym Membership Again (17.39s)
+Processed: congressman calls trump 'an idiot' for using egypt mosque attack to promote border wall -> Nation Horrified By Congressman's Blunt Honesty, Immediately Forgets About 1000+ Children In Detention (15.87s)
+Processed: kentucky governor echoes trump: 'all sides' to blame for charlottesville violence -> Kentucky Governor Admits He Just Rolled Dice Behind Desk To Determine Moral Responsibility (12.05s)
+Processed: black ribbon in the balsam -> Black Ribbon In Balsam Believed To Be Result Of Extreme Emotive State (1.26s)
+Processed: wild tales:  outstanding black comedy at cannes -> Cannes Film Festival Judges Forced To Watch Entirely Serious Biopic About Accountant (0.72s)
+Processed: donald trump prefers violent football so more black players get hurt: espn analyst -> White House Issues Statement Confirming Trump's Fascination With Football Concussions (0.18s)
+Processed: the buttermilk biscuit recipes you want and need -> Area Man's Buttermilk Biscuit Recipe Ruined By Accidental Addition Of Hot Sauce, Regrets Ensuing (23.33s)
+Processed: jake tapper has one-word response to creepy kellyanne conway 'snl' sketch -> Jake Tapper Dances (20.75s)
+Processed: the restrictions journalists agreed to in order to attend the koch brothers' conference -> Reporters Required To Wear Blindfolds At Koch Brothers Conference To Enhance 'Clarity On Issues'], [ (18.1s)
+Processed: 'little boy' stands tall -> Hopes Held For Boy To Grow A Little More Over Next Few Years (17.86s)
+Processed: ai weiwei commemorates drowned refugees during berlin film festival -> Berlin Film Festival Attendees Bemoan Lack Of Actual Refugees (16.78s)
+Processed: poll shows support for birth control mandate on eve of court ruling -> Poll: 99% Of Americans Agree Birth Control Is A Bunch Of Old People's Business (3.44s)
+Processed: jada pinkett smith and gabrielle union end feud after 17 years -> Report: Jada, Gabrielle No Longer Using Each Other As Reason To Stay Single (1.23s)
+Processed: death row inmate loses fight over kosher food -> Kosher Meals Fail To Revive Dying Man's Will To Live (0.18s)
+Processed: huffpost rise: what you need to know on february 10 -> Nation Horrified By Yet Another Politician's Empty Promises (36.22s)
+Processed: dear mr. president: a dispatch from bowling green -> Trump's Bowling Green Expert Witness Still Unable to Find Bowling Green on Map (22.84s)
+Processed: shinto priestess killed by brother during sword attack at tokyo shrine -> Newly Released Guidelines For Shrine Visitors Include 'Don't Get Killed By Family Member' Section (22.51s)
+Processed: journalists push back on correspondents' association's response to michelle wolf -> Correspondents' Association Response Met With Collective Eye-Roll By Journalism Community (19.58s)
+Processed: nina dobrev addresses her rumored return to 'vampire diaries' -> Dobrev Coming Back To 'Vampire Diaries' As 30-Something Vampire Still Searching For Meaning (12.92s)
+Processed: theresa may, edging towards donald trump, scolds john kerry over israel -> UK Diplomats Stunned By May's Unprecedented Display Of Condescension (5.56s)
+Processed: prosecutors in tamir rice case bizarrely pointed toy gun at witness, lawyers allege -> Local Toy Store Reports Surge in Demand for Toy Guns After Prosecutors' Bizarre Display (3.09s)
+Processed: new year's eve prank leaves 4-year-old glued to mcdonald's toilet -> Area 4-Year-Old's Stuck-to-Toilet Prank Sparks Nationwide Debate on Bathroom Boundaries (0.21s)
+Processed: what's wrong with this picture? for u.s. fight against isis, everything -> ISIS Thrilled To Find Out U.S. Has No Clear Strategy, Will Just Keep Doing Same Things Over And Over Again (26.34s)
+Processed: afi docs: where policy meets art -> Documentary About AFI's Policy Initiatives Actually a Work of Art (25.26s)
+Processed: dad shoots daughter while teaching her about gun safety -> Local Man's Gun Safety Technique Praised By Family, Police (19.97s)
+Processed: the real mothers of mother's day -> Nation's Mothers Unite To Demand Better Coffee On Mother's Day (19.11s)
+Processed: 3 unexpected ways to help your kids be mindful about screen time -> New Study Reveals Best Way To Limit Screen Time Is To Just Take Away Their Devices (16.31s)
+Processed: dee bogetti's gps guide for living in the moment -> Local Man Finds Inner Peace By Following Dee Bogetti's App To The Closest Starbucks (6.8s)
+Processed: starving for a fantasy -> Local Resident Unaware That 10-Year-Old Self-Taught Tech Expert Is Actually Robot (4.43s)
+Processed: to read or not to read, part 2 -> Nation's Librarians Baffled By Sudden Surge In Requests For 'Non-Fiction' Books (0.16s)
+Processed: what you should do if you own a volkswagen that was just recalled -> Volkswagen Owners Advised To Take Recalled Cars To Local Mechanic, Who Will Probably Just Give Them A Wash (27.96s)
+Processed: success and still enjoying your 'happy place' -> Local Man Still Unable To Find Happy Place Two Years After Quitting Job (25.0s)
+Processed: hillary clinton loses lead over bernie sanders in new iowa poll -> New Poll Reveals Hillary Clinton's Lead is Only as High as Her Approval Ratings (20.38s)
+Processed: several women accuse progressive media executive don hazen of sexual harassment -> Don Hazen's Sex Life Just As Progressive As His Politics (17.52s)
+Processed: john lewis won't attend civil rights museum opening because trump is going -> John Lewis Skipping Civil Rights Museum Opening In Protest Of Trump's Decency (6.67s)
+Processed: lin-manuel miranda freestyles about life's most annoying minor inconveniences on 'ellen' -> Lin-Manuel Miranda Breaks Down In Tears On Ellen After Realizing He Has To Pay To Replace His Phone Battery (2.48s)
+Processed: is trouble brewing for the 2015 npt review conference? -> Trouble Brewing At NPT Review Conference, Says Nobody Really Caring About Disarmament (1.65s)
+Processed: huffpost hill - secret service agents really glad dark sunglasses hide bloodshot eyes -> Secret Service Agents Just Realize They Can Use Sunglasses To Hide Existential Despair (0.23s)
+Processed: i photograph to remember -> Local Man's Vacation Photos Mostly Just A Series Of Unrelated People Eating Noodles (27.13s)
+Processed: among santa fe's many virtues? history, art, culture, hospitality and killer vintage clothing -> City's Rich Cultural Heritage Now Entirely Consumed By Tourist Trinkets (24.29s)
+Processed: power plan foes from mars, backers from venus (earth actually) -> Mars Colonists Demand To Be Heard On Renewable Energy Standards After Discovering Alien Tech (20.96s)
+Processed: u.s. bobsled team pays tribute to late gold medalist steven holcomb -> Tribute to Fallen Bobsledder Includes a 30-Second Pause Before Each Run to Commemorate His Life and Speed (19.76s)
+Processed: journalists who refuse to take the same non-answer for an answer -> New Study Finds Politicians Prefer To Answer Questions With Evasive Non-Responses Over Actual Answers 99% Of The Time (8.94s)
+Processed: nukes and the global schism -> Nation's Top Diplomats Meet In Secret To Discuss Best Ways To Avoid Global Annihilation (4.98s)
+Processed: trump threatens to veto spending bill over border wall funding, then signs it -> Border Wall Funding Bill Signed, Immediately Forgotten In Favor Of New, shinier Object (3.31s)
+Processed: negro week at the 1939–1940 new york world's fair -> New York World's Fair Offers 'Negro Week' To Showcase How Far Blacks Have Come In 200 Years (0.13s)
+Processed: the major concern with the phone call with taiwan -> Taiwan's President Tasered During Phone Call, White House Insists It Was Just A 'Fascinating Discussion On Trade Policy' (36.02s)
+Processed: 6 diy stress hacks using what's in your closet -> Nation's Top DIY Stress Hacks Expert Is Actually Just A Local Janitor (30.27s)
+Processed: why companies shouldn't hide the financial risks of climate change -> Investors Overjoyed To Finally Know Exactly How Much Money They'll Lose To Climate Change (20.18s)
+Processed: the louvre gardens are teeming with rats -> New Study Reveals Louvre Rats More Sophisticated Than Most Humans (19.65s)
+Processed: a weird and wonderful cabaret chronicle: karen mason revisits her roots at 'don't tell mama!' -> Area Elder Revisits Forgotten Era Of Unapologetic Self-Aggrandizement With New Cabaret Act (18.48s)
+Processed: trump is #1 in the polls, and so was the 'macarena' -> Trump's Sudden Surge In Popularity Miraculously Coincides With His Unwavering Commitment To Dance Hits Of The 90s (6.94s)
+Processed: patrick stewart reads hilariously bad reviews of iconic tourist attractions -> Local Man Still Can't Get Tickets To See Patrick Stewart Read Mean Tweets About The Eiffel Tower (2.36s)
+Processed: safeguarding the well-being of children -> Area Man's Unwavering Dedication To Safeguarding Kids' Well-being Leaves Them Utterly Traumatized (0.2s)
+Processed: boy george opens up about happiness, being a u.s. politics junkie and more -> Boy George Reveals Secret Addiction To Watching C-SPAN For Hours On End (34.91s)
+Processed: the public health threat of private anger -> Federal Study Finds Irritability Levels Skyrocket When Neighbors Leave Their Trash Cans Out On The Street (23.64s)
+Processed: a new hbo documentary shows what it's really like inside a terror attack -> New HBO Documentary Brings Tears To Eyes Of Viewers, Not Terror Attack Victims (18.72s)
+Processed: watch: stories you won't believe from some of the world's dirtiest jobs -> Local Man's Soul Devoured By Feces-Infested Sewer Rat (18.22s)
+Processed: just a friendly and wildly hot reminder that oscar isaac is playing hamlet -> Local Teenager Vows To Finally Read Hamlet After Hearing Oscar Isaac Is Playing The Role (17.94s)
+Processed: john mccain, czar hater, calls for ebola czar -> John McCain Appointed As Newest Ebola Czar (3.01s)
+Processed: first gay couple receives marriage license at jailed kentucky clerk's office -> Kentucky Clerk's Office Now Operating As De Facto Underground Gay Club (2.36s)
+Processed: golf sensation jordan spieth loses masters after horrible meltdown; danny willett wins -> Spieth's Masterful Failure Inspires New Generation Of Golfers To Give Up On Their Dreams (0.19s)
+Processed: father of trump tower climber also has an important message for you -> Father Of Trump Tower Climber Vows To Continue Living Off Son's 15 Minutes Of Fame (33.42s)
+Processed: white nationalist calls trump's denouncement of hate groups 'kumbaya nonsense' -> Nation Horrified By Trump's Unnecessarily Strong Words Against Bigotry (19.3s)
+Processed: sanders hits bill clinton on welfare reform, trade -> Sanders Slams Clinton For Not Being Ruthless Enough In Welfare Reform Policies (18.62s)
+Processed: new details paint unsettling pictures of london attackers -> London Terrorists Clearly Just Trying To Get On The Tube During Rush Hour (17.76s)
+Processed: don't ask me to 'get over' my history with breast cancer -> Area Woman's Existential Crisis Continues Despite Therapist's Suggestion That She 'Just Let It Go' (15.0s)
+Processed: a valentine for my best friend: my life wouldn't be the same without you -> Local Man's Life Somehow Still Manageable Sans Best Friend (3.55s)
+Processed: the importance of being collaborative -> Area Man Becomes Instant Leader After Accidentally Writing 'CC' On Important Email (0.32s)
+Processed: being a facebook wallflower isn't good for you, the social site says -> New Report Warns Of Dangers Of Not Having 500+ Friends And Still Being Involved In Local Community (0.2s)
+Processed: adele tweets apology after stage rigging hits glasgow concertgoer -> Adele's Publicist Still Getting Rich Off These Apologies (37.35s)
+Processed: legends of new york's latex ball celebrate the history of voguing -> Area Man Still Trying To Master The 'Vogue' Walk (20.86s)
+Processed: voters are excited for november despite not really loving the likely nominees -> Nation Eagerly Anticipates Opportunity To Hold Its Nose And Vote For Least Worst Candidate (20.62s)
+Processed: internet personality michael buckley on giving 'sex tips' off broadway -> Local Man Suspects Michael Buckley Was Just Trying To Give Him A 'Free Consultation' (19.55s)
+Processed: trump is telling "jokes," but nobody's laughing -> Nation Horrified By President's Inept Attempt At Humor (17.62s)
+Processed: washington post journalist jailed in iran has christmas meal with family -> Journalist's Family Celebrates Christmas Knowing He's Still Alive, But Otherwise Unchanged (1.92s)
+Processed: kellie pickler hilariously misses the buzzer in celebrity 'family feud' fail -> Celebrity 'Family Feud' Contestant Stunned By High-Stakes Game Show Math (0.68s)
+Processed: jeb bush insists he's a washington outsider -> Jeb Bush Insists He's A Washington Outsider Because He's Been Living Here Since 1964 (0.19s)
+Processed: coloradans who deregistered after trump request for voter data aren't signing up again -> Election Officials Discover Re-Registration Process Is Actually More Frustrating Than They Remember (31.38s)
+Processed: watch vin diesel say 'i am groot' in different languages -> Vin Diesel Still Unable To Say 'Groot' In Native Tongue (17.46s)
+Processed: new year's resolution -- let colleges lead the way to a new normal in cuba -> Communist Party Leaders Praise Colleges For Teaching Cubans How To Make Do With Less (14.56s)
+Processed: artist's stunning image honors the moment one woman defied a neo-nazi march -> Woman Who Stood Up To Neo-Nazis Now Getting Paid $10,000 A Week To Speak (13.27s)
+Processed: paris police arrest second couple over notre dame gas cylinders -> Notre Dame Owner Still Confused About Why People Think It's a Fire Hazard (10.57s)
+Processed: the quadruple bottom line: its time has come -> New Triple Bottom Line Concept Revealed, Suddenly Quadruple Bottom Line Falls Into Place Without Any Further Explanation (8.47s)
+Processed: my 8 favorite beauty products -> Skincare Routine Now Requires 5 Hours A Day (3.91s)
+Processed: financial burden of cancer can harm quality of life -> Cancer Patients Forced To Choose Between Chemo And Rent (0.18s)
+Processed: in the weeks before trump takes office, obama's mad dash to save public lands -> Nation Horrified By Former President's Decent Human Behavior (23.09s)
+Processed: this may be holding you back from repairing a broken relationship -> Local Woman's Reluctance To Rekindle Romantic Relationship After Cheating Partner's Apology Texts Probably Reason For Split (22.17s)
+Processed: the changing holiday shopping landscape -> Report: Holiday Shopping Now Mainly Done By Raging, Sleep-Deprived Zombies (20.96s)
+Processed: this road sign is a lot less helpful than it looks -> New Study Reveals Road Signs Are 100% Less Helpful Than They Appear (18.89s)
+Processed: #brownribboncampaign reminds us oscar diversity isn't just black and white -> New Campaign Reveals Oscar Diversity Isn't Just Black And White, But Also Includes Hispanics, Asians, And One Token Irish Character (15.33s)
+Processed: australian lawmaker shoots opponents in campaign ad, draws ire after orlando -> Local Polls Show Voters Overwhelmingly Support Politician's Innovative Approach To Conflict Resolution (6.25s)
+Processed: kinda creepy peter pan pranks disney world -> Nation Horrified By Peter Pan's Latest Prank Spree, Demands Boy's Age Be Verified (0.49s)
+Processed: for america's future, engineering needs to diversify -> New Study Finds Diverse Engineering Field Would Be A Total Disaster For America (0.21s)
+Processed: blm's alicia garza launches census project to mobilize black political power -> BLM's Alicia Garza Launches Census Project To Mobilize Black People To Fill Out Survey Honestly (23.81s)
+Processed: darrelle revis to be charged in fight that leaves two men unconscious -> Darrelle Revis's Fists Of Fury Wreak Havoc On Entire Neighborhood (23.56s)
+Processed: don't pay another bill until you pay this -> Nation Horrified By Unpaid Cable Bill, Immediately Pay Entirety (17.16s)
+Processed: for a first-time marathoner, there's strength in numbers -> Nation Horrified By Marathon Runner's Surprising Resilience (9.62s)
+Processed: hate preachers on qatar campus: obama gives qatar undeserved a+ on fighting incitement -> Qatari Education System Praised for Producing More Hate Preachers Per Square Foot (9.21s)
+Processed: police audio leaked in killing of unarmed black teen christian taylor -> Newly Leaked Audio Reveals Officer's Genuine Concern: 'Did I Really Kill A Human Or Was It A Robber-Droid?' (6.5s)
+Processed: paris hilton impersonates kim kardashian for kanye west fashion line -> Paris Hilton's Impersonation of Kim Kardashian for Kanye West's Fashion Line Praised by Fashion Critics for 'Blurring Lines of Reality and Insanity' (2.54s)
+Processed: 3 reminders that can help you raise resilient kids -> Area Man Successfully Raises Resilient Kids By Pretending To Be Perfect Parent (0.17s)
+Processed: shooting at copenhagen synagogue leaves 1 dead, 2 officers wounded -> Anti-Semitic Attack On Copenhagen Synagogue Just Another Unfortunate Side Effect Of Liberal Gun Laws (34.59s)
+Processed: teen accepted into 113 colleges chooses full ride to hbcu -> Teen's 'Diversity' Narrative Complicated By Actual Acceptance Into Over 100 Colleges (32.4s)
+Processed: transgender lawmaker danica roem: trump shows there's 'no barrier' to getting elected -> Area Politician Celebrates Trump's 2020 Election Loss As Proof That Any Idiot Can Get Elected (24.95s)
+Processed: the '7th heaven' cast reunites for the first time in 8 years -> Cast Of 7th Heaven Reunites, Immediately Realizes They All Have The Same Job Now (21.12s)
+Processed: there is nothing libertarian about conservatives -> New Study Reveals Conservatives Are Actually Just Anti-Libertarian Authoritarians (17.54s)
+Processed: an introvert's guide to throwing a solid holiday party -> Holiday Party Hosts Warned: Your Guests Will Not Respect Your Personal Space (14.67s)
+Processed: fifth harmony's lauren jauregui blasts 'toxic' homophobia in poignant twitter exchange -> Jauregui's Viral Homophobia Rant Inspires Hundreds of Thousands of People to Post About Their Favorite Food on Instagram (1.87s)
+Processed: bill henderson, jazz vocalist and actor, dies at 90 -> 90-Year-Old Jazz Singer Passes Away, Finally Free From Era's Ridiculous Hats (0.23s)
+Processed: how to emotionally recover from the election -> Nation's Mental Health Professionals Unprepared For The Devastating Emotional Toll Of Politicians' Sincerity (32.88s)
+Processed: 6 essentials for a trash-free lunch -> Local Man Claims To Have Achieved 'Perfect' Trash-Free Lunch, Immediately Regrets It (32.65s)
+Processed: schools enact positive change with drama therapy -> Area School's Innovative Approach To Student Mental Health Leaves Parents Baffled (22.88s)
+Processed: 'the late show' updated trump's election night speech with annotations -> Late Show Annotations Reveal Trump's Election Night Speech Actually A Series Of Desperate Screams (16.66s)
+Processed: professor threatened with firing says wheaton college is changing the rules -> New Wheaton College Rule Mandates Professors Use Correct Version of 'Mandatory Training Session' Handouts (15.49s)
+Processed: ancient flying beast named after 'avatar' creature -> Scientists Stunned That 2000-Year-Old Flying Creature Has Same Name As Blue Cat From Movie (15.18s)
+Processed: tennessee senate passes a bill to erect a memorial to 'victims of abortion' -> State Lawmakers Recognize Sacrifices Of Uninsured, Poor Women Who Still Get Abortions Anyway (4.93s)
+Processed: why stakes is too high to bother with white tears -> Experts Warn: Crying Over White Tears A Sign Of Existential Crisis (0.19s)
+Processed: the surprising way horses can help ease alzheimer's symptoms -> Horses To Be Deployed As Nation's Next Alzheimer's Cure, Because Why Not? (35.76s)
+Processed: growing up with the holocaust as a writer -> New Memoir About Author's Holocaust-Scarred Childhood Dominated By 800-Page Footnotes (31.85s)
+Processed: 5 longevity secrets from the world's healthiest cultures -> Study Confirms World's Healthiest Cultures Also Have Best Wi-Fi (21.6s)
+Processed: huffpollster: republican women really don't like trump -> Poll: 9 Out Of 10 Republican Women Think They Could Do Better Than Donald Trump, And 8 Out Of 10 Of Them Are Already Running (17.8s)
+Processed: what we know so far about the new white house org chart -> New White House Org Chart Includes 'Director of Distracting Press Conferences' Role (16.88s)
+Processed: 8 perks of being divorced during the holidays -> Area Man's Divorce Aids In Avoidance Of Awkward Family Reunions (15.03s)
+Processed: hillary clinton's asian american outreach director leaving campaign -> Asian American Outreach Director Resigns After Realizing She Was Only Person Expected To Explain Complex Issues To Hillary (3.67s)
+Processed: why moms demand action will participate in day without a woman -> Nation's Productivity Plunges As Moms Demand Action Take A Day Off, But Still Manage To Cook, Clean, And Vacuum (0.23s)
+Processed: interview with louise munson, playwright of luigi -> New Study Reveals 9 Out Of 10 Viewers Still Can't Determine Luigi's Motivations (38.23s)
+Processed: suspect reportedly arrested over explosives sent to washington, d.c. area -> Local Man Arrested For Trying To Blow Up World Leaders In Desperate Bid To Get Noticed Online (32.74s)
+Processed: writer calls on women of color 'to divest from lena dunham' after controversy -> Lena Dunham's Career Undone By Single Tweet From Person Who's Been Reading bell hooks For Years (24.33s)
+Processed: the unexpected place you're probably overeating -> Free Sample Table At Local Convention Center A Total Loss For 47-Year-Old Man's Diet (20.54s)
+Processed: kansas state refused to investigate sexual assaults because they happened off-campus, lawsuit says -> Students Shocked, Not Surprised By College's Prioritization Of Party Culture (16.81s)
+Processed: don lemon on sean spicer: everyone 'is dumber for having listened to that' -> Local Man Still Clueless About Sean Spicer's Role In Government After 5 Years of Watching CNN (13.48s)
+Processed: nfl player avery williamson wears 9/11 cleats despite threat of fine -> Commissioner Goodell Announces Plan to Add 'Tribute Cleats' to Official NFL Equipment List, Because Why Not? (2.91s)
+Processed: trump confidant floats crazy rbg-for-merrick-garland scotus swap -> RBG Swapped With Time-Traveling Version Of Merrick Garland In Bizarre Justice Department Conspiracy (0.23s)
+Processed: south korean president meets north korea's kim jong un to talk trump summit -> South Korean President Returns Home, Immediately Forgets What He Was Talking to Kim Jong Un About (33.0s)
+Processed: michelle, ross and carson on the wild ride to 'rupaul's drag race' -> Michelle, Ross, and Carson Cast in New Reality Show 'Survival of the Most Basic' (30.47s)
+Processed: possible viking find could rewrite north american history -> Archaeological Discovery Proves Vikings Were Actually From Maplewood (25.72s)
+Processed: new details emerge in forgotten murder that snared attorney, highway patrolmen -> Community Horrified By Details of Murder That Happened 20 Years Ago (19.17s)
+Processed: sean spicer says donald trump is a 'champion' of first amendment -> Trump's Decree On Free Speech Includes Mandatory Weekly Speechwriting By Fox News Guests (14.93s)
+Processed: uncovered california: community college students' quest for mental health services -> New Study Reveals Community College Students' Emotional Maturity Still At 'Tweener' Level (11.28s)
+Processed: debra messing doesn't want you to freak out about a 'will & grace' revival just yet (update) -> Nation Horrified By Rumors Of 'The Jersey Shore' Reboot, Immediately Begins Preparing For Disaster (1.56s)
+Processed: the 6 real reasons i'm happy to be married -> Marriage Has Provided Me With A Sense Of Security, Mostly Because I'm Afraid Of Being Single Again (0.15s)
+Processed: yet another donald trump pick has a habit of spreading dangerous conspiracy theories -> New Trump Nominee Excites Critics Of Science, Reason, And Sanity (23.1s)
+Processed: khloe kardashian says no one was doing cocaine at kylie jenner's graduation party -> Khloe Kardashian Insists Kylie's Grad Party Was Completely Cocaine-Free (22.46s)
+Processed: chewbacca just got himself a 'chewbacca mom' mask -> Nation Horrified By Picture of Chewbacca in 'Chewbacca Mom' Mask, Immediately Proceeds to Get 17 More Hours of Sleep (13.66s)
+Processed: explosion at fedex facility outside san antonio may be linked to austin bombings, fbi says -> FedEx Workers Finally Understand Why They're Paid So Little (9.58s)
+Processed: fox news host disavows internment camps, after panelists suggest rounding up muslims -> Nation Holds Breath as Fox News Host Suddenly Develops Sense of Humanity (5.38s)
+Processed: cupid cop gave out roses, cards on valentine's day instead of tickets -> Local Man Arrested For Not Being Arrested By Cupid Cop On Valentine's Day (4.21s)
+Processed: minnesota café charges 35 cent 'fee' to protest minimum wage hike -> Minnesota Café Implements Revolutionary New Way To Pretend To Care About Workers By Charging 35-Cent 'Fee', (3.32s)
+Processed: an american dreamer in the age of trump -> American Man Still Holding Onto Dream of Owning Own Business, Earning Decent Pay, Having Basic Healthcare (0.2s)
+Processed: reince priebus says it's 'too late' for a new candidate to stop trump -> Priebus Concludes It's Definitely Too Late for Him or Anyone Else (32.51s)
+Processed: hillary clinton celebrates confederate flag's removal at mlk day ceremony -> Local Man Removes Confederate Flag From Hillary's Neck (23.78s)
+Processed: david brooks: obama has a 'manhood problem in the middle east' -> David Brooks' Manhood Problem Evidently Now a National Security Issue (20.47s)
+Processed: why terrorists attack us -> Local Terrorist Leader Had Disagreement With In-Laws (18.64s)
+Processed: the nypd has secretly been spying on cell phones since 2008 -> New Yorkers Shocked To Discover Police Have Been Watching Their Every Move Since 2008 (14.73s)
+Processed: stop complaining about the evolution of text language. period. -> Older Generations Still Using Incorrect Grammar, Experts Say It's Fine (5.58s)
+Processed: republicans urge obama administration to crack down on sanctuary cities -> Sanctuary City Residents Baffled By Republicans' Confusion Over What 'Sanctuary' Actually Means (5.17s)
+Processed: ed sheeran sang 'chasing cars' at a wedding, and now we're swooning -> Ed Sheeran's Wobbly Wedding Gig Now Considered Adequate Reason For Existential Crisis (0.17s)
+Processed: communication matters: getting your message out -> Local Man Discovers That Actually Listening To Others Can Be A Game-Changer (37.06s)
+Processed: voters in 14 states navigating new rules while trying to cast ballots -> Nation Horrified By Graphic Images Of People Actually Reading Voting Instructions Before Casting Ballots (36.39s)
+Processed: dozens injured after trains collide in pennsylvania -> Area Man Says 'I Knew It Was Only A Matter Of Time' Before Trains Collided In Pennsylvania (27.21s)
+Processed: father's day tribute to a family man -> Father's Day Tribute Includes 30-Minute Lecture On Importance Of Flossing (19.98s)
+Processed: un rebukes trump's jerusalem move in overwhelming vote -> UN Vote: 128 Countries Against US, 9 Countries For US, 22 Countries Against US But Only Because They're Mad About Something Else (17.41s)
+Processed: professors try to figure out what 'bae' and 'on fleek' mean -> Nation's Professors Condemned For Not Understanding Basic Internet Slang (16.01s)
+Processed: house republican spending bill seeks to block obama's carbon rules -> House Republicans Introduce Bill To Block Obama's Carbon Rules, Because Nothing Sells Like A Good Old-Fashioned 'No' (8.01s)
+Processed: democrats shouldn't panic over one poll showing donald trump ahead -> Nation Horrified By The Idea Of A Trump Presidency Being Anything But Catastrophic (0.2s)
+Processed: how humans are laying out the welcome mat for mosquitoes and the diseases they carry -> Local Residents Gladly Provide Mosquitoes With Prime Real Estate, Ideal Climate (26.44s)
+Processed: jennifer lawrence honored robert de niro at the glaad media awards the only way she knows how -> De Niro Humbled by Lawrence's Genuine, Unscripted Reaction (25.57s)
+Processed: 11 unexpected ways to use grapefruit -> Local Man Discovers New Use For Grapefruit Zest: Making His Friends Cry (18.41s)
+Processed: 'star wars' fans are freaking out because 'jedi' in 'the last jedi' is plural -> Grammar Nazis Descend Upon Star Wars Fanbase (9.81s)
+Processed: how jimmy carter learned to make his wife rosalynn a 'full' partner -> Rosalynn Carter Confirms She's Still Just Going Through the Motions of Marriage (8.51s)
+Processed: 14 photos that show the special bond between moms and daughters -> Nation Horrified By Photos Of Moms And Daughters Sharing A Laugh (7.77s)
+Processed: gop congressman complains women are 'in my grill' over obamacare repeal -> Congressman Asks For Personal Space, Nation Responds By Giving Him A Bigger Office (0.79s)
+Processed: 10 places you wouldn't have gone 10 years ago -> Any Public Restroom After 10pm (0.13s)
+Processed: religious leaders, groups are appalled by trump's immigration orders -> Area Bishops Indignant Over Trump's Failure To Enact Theocratic Immigration Policy (27.33s)
+Processed: chicago's top prosecutor will not try the officer who killed laquan mcdonald -> Justice System Successfully Demonstrates Ability To Do The Bare Minimum, Still Get Paid (26.08s)
+Processed: bloomberg gadfly debuts in bid to shake-up financial commentary space -> Former Billionaire Finally Finds Voice, Now Demands to be Heard (22.9s)
+Processed: 'big eyes' is about the 'most quiet feminist you've ever met' -> Historians Discover 'Big Eyes' Film Actually A Biopic Of Marginalized Eyeliner Brands (20.1s)
+Processed: michelle obama explains in no uncertain terms why she won't run for office -> Michelle Obama: 'My Goal Is Not To Bask In The Adoring Glow Of Politicians', I Have No Interest In Elected Office (16.72s)
+Processed: harry reid: republicans are 'acting as puppets for the nra' -> Nation Horrified By Reid's Gaffe, Quickly Returns To Normal (12.25s)
+Processed: republican food stamp bill would cut benefits, but not the size of government -> Food Stamp Bill Seeks To Save Taxpayers $10 Billion, Spend $20 Billion On New Government Buildings (1.53s)
+Processed: women in business q&a: rebecca henderson, group president, randstad professional solutions -> Local Businesswoman Rebecca Henderson Thrives On Diet Of Coffee, Cynicism, And Pretentious Conference Keynotes (0.17s)
