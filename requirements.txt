@@ -9,6 +9,7 @@ datasets>=2.14.0
 # Evaluation and Similarity Calculations
 sentence-transformers>=2.2.2
 bert-score>=0.3.13
+rouge_score
 
 # Text Preprocessing and NLP utilities
 spacy>=3.6.0
