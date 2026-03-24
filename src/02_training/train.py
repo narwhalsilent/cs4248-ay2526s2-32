@@ -100,7 +100,7 @@ def main(args):
     tokenizer = AutoTokenizer.from_pretrained(model_name)
     model = AutoModelForSeq2SeqLM.from_pretrained(model_name)
 
-    # 3. Load Silver Dataset CSVs directly via pandas (avoids fsspec cache issues)
+    # 3. Load Silver Dataset CSVs directly via pandas 
     train_df = pd.read_csv(data_cfg["train_file"])
     val_df = pd.read_csv(data_cfg["validation_file"])
     dataset = DatasetDict({
@@ -126,14 +126,13 @@ def main(args):
             padding=False
         )
 
-        # Tokenize targets
-        with tokenizer.as_target_tokenizer():
-            labels = tokenizer(
-                examples["satirical"],
-                max_length=max_tgt,
-                truncation=True,
-                padding=False
-            )
+        # Use the modern target-tokenization API supported by current transformers.
+        labels = tokenizer(
+            text_target=examples["satirical"],
+            max_length=max_tgt,
+            truncation=True,
+            padding=False
+        )
 
         # Replace pad token id with -100 so loss ignores padding
         label_ids = [
@@ -165,11 +164,30 @@ def main(args):
     def compute_metrics(eval_preds):
         preds, labels = eval_preds
 
+        # Newer trainer versions may return a tuple, and some evaluation paths hand
+        # logits instead of token ids. Normalize to integer token ids before decode.
+        if isinstance(preds, tuple):
+            preds = preds[0]
+        preds = np.asarray(preds)
+        if preds.ndim == 3:
+            preds = np.argmax(preds, axis=-1)
+        preds = np.nan_to_num(preds, nan=tokenizer.pad_token_id, posinf=tokenizer.pad_token_id, neginf=tokenizer.pad_token_id)
+        preds = preds.astype(np.int64)
+        preds = np.where(preds < 0, tokenizer.pad_token_id, preds)
+        if getattr(tokenizer, "vocab_size", None) is not None:
+            preds = np.minimum(preds, tokenizer.vocab_size - 1)
+
         # Decode predictions
         decoded_preds = tokenizer.batch_decode(preds, skip_special_tokens=True)
 
         # Replace -100 in labels (padding) before decoding
+        labels = np.asarray(labels)
         labels = np.where(labels != -100, labels, tokenizer.pad_token_id)
+        labels = np.nan_to_num(labels, nan=tokenizer.pad_token_id, posinf=tokenizer.pad_token_id, neginf=tokenizer.pad_token_id)
+        labels = labels.astype(np.int64)
+        labels = np.where(labels < 0, tokenizer.pad_token_id, labels)
+        if getattr(tokenizer, "vocab_size", None) is not None:
+            labels = np.minimum(labels, tokenizer.vocab_size - 1)
         decoded_labels = tokenizer.batch_decode(labels, skip_special_tokens=True)
 
         decoded_preds = [p.strip() for p in decoded_preds]
@@ -190,6 +208,12 @@ def main(args):
 
     # 7. Training Arguments — all values driven by config
     use_fp16 = torch.cuda.is_available()
+    num_epochs = train_cfg["num_train_epochs"]
+    batch_size = train_cfg["per_device_train_batch_size"]
+    total_steps = (len(tokenized_datasets["train"]) // batch_size) * num_epochs
+    warmup_steps = train_cfg.get("warmup_steps")
+    if warmup_steps is None:
+        warmup_steps = int(total_steps * train_cfg.get("warmup_ratio", 0.05))
 
     training_args = Seq2SeqTrainingArguments(
         output_dir=train_cfg["output_dir"],
@@ -198,7 +222,6 @@ def main(args):
         per_device_eval_batch_size=train_cfg["per_device_eval_batch_size"],
         learning_rate=float(train_cfg["learning_rate"]),
         weight_decay=train_cfg["weight_decay"],
-        warmup_ratio=train_cfg.get("warmup_ratio", 0.05),
         lr_scheduler_type=train_cfg.get("lr_scheduler_type", "linear"),
         max_grad_norm=train_cfg.get("max_grad_norm", 1.0),
         label_smoothing_factor=train_cfg.get("label_smoothing_factor", 0.0),
@@ -212,13 +235,11 @@ def main(args):
         metric_for_best_model="rougeL",
         greater_is_better=True,
         fp16=use_fp16,
+        warmup_steps=warmup_steps,
         report_to=train_cfg.get("report_to", "none")
     )
 
     # 8. Initialize Trainer
-    num_epochs = train_cfg["num_train_epochs"]
-    batch_size = train_cfg["per_device_train_batch_size"]
-    total_steps = (len(tokenized_datasets["train"]) // batch_size) * num_epochs
     gpu_eta = total_steps * 0.7  # ~0.7s per step on GPU
     cpu_eta = total_steps * 8.0  # ~8s per step on CPU
     print(f"\nTraining estimate: {total_steps} steps total ({num_epochs} epochs x {total_steps // num_epochs} steps/epoch)")
@@ -232,7 +253,7 @@ def main(args):
         args=training_args,
         train_dataset=tokenized_datasets["train"],
         eval_dataset=tokenized_datasets["validation"],
-        tokenizer=tokenizer,
+        processing_class=tokenizer,
         data_collator=data_collator,
         compute_metrics=compute_metrics,
         callbacks=[
