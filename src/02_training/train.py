@@ -1,9 +1,11 @@
 import argparse
 import os
 import time
+from datetime import datetime
 import numpy as np
 import pandas as pd
 import torch
+import torch.nn.functional as F
 import yaml
 from rouge_score import rouge_scorer as rouge_scorer_lib
 from datasets import Dataset, DatasetDict
@@ -75,9 +77,83 @@ class ProgressCallback(TrainerCallback):
         print(f"{'='*60}")
 
 
+class AntiCopySeq2SeqTrainer(Seq2SeqTrainer):
+
+    def __init__(self, *args, anti_copy_weight=0.0, pad_token_id=None, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.anti_copy_weight = anti_copy_weight
+        self.pad_token_id = pad_token_id
+
+    def _compute_anti_copy_penalty(self, logits, labels, input_ids):
+        if self.anti_copy_weight <= 0.0:
+            return logits.new_zeros(())
+
+        probs = F.softmax(logits.float(), dim=-1)
+        batch_penalties = []
+
+        for batch_idx in range(probs.size(0)):
+            source_ids = input_ids[batch_idx]
+            if self.pad_token_id is not None:
+                source_ids = source_ids[source_ids != self.pad_token_id]
+            source_ids = torch.unique(source_ids)
+            if source_ids.numel() == 0:
+                continue
+
+            example_labels = labels[batch_idx]
+            valid_positions = example_labels != -100
+            if not torch.any(valid_positions):
+                continue
+
+            valid_label_ids = example_labels[valid_positions]
+            gold_in_source = (valid_label_ids.unsqueeze(1) == source_ids.unsqueeze(0)).any(dim=1)
+            penalized_positions = torch.where(valid_positions)[0][~gold_in_source]
+            if penalized_positions.numel() == 0:
+                continue
+
+            source_copy_mass = probs[batch_idx, penalized_positions][:, source_ids].sum(dim=-1)
+            batch_penalties.append(source_copy_mass.mean())
+
+        if not batch_penalties:
+            return logits.new_zeros(())
+
+        return torch.stack(batch_penalties).mean()
+
+    def compute_loss(self, model, inputs, return_outputs=False, num_items_in_batch=None):
+        labels = inputs.get("labels")
+        input_ids = inputs.get("input_ids")
+
+        outputs = model(**inputs)
+        loss = outputs.loss
+
+        if (
+            self.anti_copy_weight > 0.0
+            and labels is not None
+            and input_ids is not None
+            and hasattr(outputs, "logits")
+        ):
+            anti_copy_penalty = self._compute_anti_copy_penalty(
+                outputs.logits,
+                labels,
+                input_ids,
+            )
+            loss = loss + self.anti_copy_weight * anti_copy_penalty
+
+        return (loss, outputs) if return_outputs else loss
+
+
 def load_config(config_path):
     with open(config_path, "r") as f:
         return yaml.safe_load(f)
+
+
+def resolve_output_dir(base_output_dir, run_name=None, auto_suffix=False):
+    if run_name:
+        return f"{base_output_dir}_{run_name}"
+    if auto_suffix:
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        return f"{base_output_dir}_{timestamp}"
+    return base_output_dir
+
 
 def main(args):
     # 1. Load config from YAML
@@ -91,9 +167,17 @@ def main(args):
     model_type = model_cfg["type"]  
     source_prefix = data_cfg.get("source_prefix", "") 
 
+    output_dir = resolve_output_dir(
+        train_cfg["output_dir"],
+        run_name=args.run_name,
+        auto_suffix=args.auto_run_name,
+    )
+    anti_copy_weight = float(train_cfg.get("anti_copy_weight", 0.0))
+
     print(f"Model     : {model_name}")
     print(f"Type      : {model_type}")
-    print(f"Output dir: {train_cfg['output_dir']}")
+    print(f"Output dir: {output_dir}")
+    print(f"Anti-copy : {anti_copy_weight}")
     print(f"Device    : {'GPU (' + torch.cuda.get_device_name(0) + ')' if torch.cuda.is_available() else 'CPU (no GPU detected)'}")
 
     # 2. Load Tokenizer and Model
@@ -216,7 +300,7 @@ def main(args):
         warmup_steps = int(total_steps * train_cfg.get("warmup_ratio", 0.05))
 
     training_args = Seq2SeqTrainingArguments(
-        output_dir=train_cfg["output_dir"],
+        output_dir=output_dir,
         num_train_epochs=train_cfg["num_train_epochs"],
         per_device_train_batch_size=train_cfg["per_device_train_batch_size"],
         per_device_eval_batch_size=train_cfg["per_device_eval_batch_size"],
@@ -248,7 +332,7 @@ def main(args):
     else:
         print(f"Estimated time  : ~{time.strftime('%H:%M:%S', time.gmtime(cpu_eta))} on CPU (consider using a GPU)")
 
-    trainer = Seq2SeqTrainer(
+    trainer = AntiCopySeq2SeqTrainer(
         model=model,
         args=training_args,
         train_dataset=tokenized_datasets["train"],
@@ -256,6 +340,8 @@ def main(args):
         processing_class=tokenizer,
         data_collator=data_collator,
         compute_metrics=compute_metrics,
+        anti_copy_weight=anti_copy_weight,
+        pad_token_id=tokenizer.pad_token_id,
         callbacks=[
             EarlyStoppingCallback(early_stopping_patience=2),
             ProgressCallback(total_epochs=num_epochs)
@@ -267,7 +353,7 @@ def main(args):
     trainer.train()
 
     # 10. Save best model
-    final_output = os.path.join(train_cfg["output_dir"], "final")
+    final_output = os.path.join(output_dir, "final")
     trainer.save_model(final_output)
     tokenizer.save_pretrained(final_output)
     print(f"\nBest model saved to: {final_output}")
@@ -279,6 +365,17 @@ if __name__ == "__main__":
         type=str,
         default="configs/bart_training.yaml",
         help="Path to training config YAML (bart_training.yaml or t5_training.yaml)."
+    )
+    parser.add_argument(
+        "--run_name",
+        type=str,
+        default=None,
+        help="Optional suffix appended to the configured output_dir."
+    )
+    parser.add_argument(
+        "--auto_run_name",
+        action="store_true",
+        help="Append a timestamp suffix to the configured output_dir."
     )
     args = parser.parse_args()
     main(args)

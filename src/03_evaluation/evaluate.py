@@ -1,6 +1,9 @@
 import argparse
 import os
 import random
+import re
+from collections import Counter
+from difflib import SequenceMatcher
 
 import numpy as np
 import pandas as pd
@@ -11,9 +14,13 @@ from transformers import AutoModelForCausalLM, AutoModelForSeq2SeqLM, AutoTokeni
 
 
 def default_output_csv(model_path):
-    model_name = os.path.basename(os.path.abspath(model_path.rstrip(os.sep)))
-    return os.path.join("outputs", "evaluation", model_name, "test_predictions.csv")
+    abs_path = os.path.abspath(model_path.rstrip(os.sep))
+    model_name = os.path.basename(abs_path)
 
+    if model_name == "final" or model_name.startswith("checkpoint-"):
+        model_name = os.path.basename(os.path.dirname(abs_path))
+
+    return os.path.join("outputs", "evaluation", model_name, "test_predictions.csv")
 
 def calculate_perplexity(texts, model, tokenizer):
     """Calculates GPT-2 perplexity for fluency."""
@@ -73,6 +80,65 @@ def generate_predictions(model, tokenizer, factual_texts, source_prefix, device,
         generated_texts.extend(tokenizer.batch_decode(outputs, skip_special_tokens=True))
 
     return [text.strip() for text in generated_texts]
+
+
+def normalize_text(text):
+    return re.sub(r"\s+", " ", str(text).strip().lower())
+
+
+def tokenize_text(text):
+    return re.findall(r"[a-z']+", normalize_text(text))
+
+
+def max_token_repeat_fraction(text):
+    tokens = tokenize_text(text)
+    if not tokens:
+        return 0.0
+    return max(tokens.count(token) for token in set(tokens)) / len(tokens)
+
+
+def factual_similarity(factual_text, generated_text):
+    return SequenceMatcher(None, normalize_text(factual_text), normalize_text(generated_text)).ratio()
+
+
+def opening_template(text):
+    tokens = tokenize_text(text)
+    if len(tokens) < 2:
+        return ""
+    return " ".join(tokens[:2])
+
+
+def analyze_generation_failures(factual_texts, generated_texts):
+    similarity_scores = [
+        factual_similarity(factual, generated)
+        for factual, generated in zip(factual_texts, generated_texts)
+    ]
+    repeat_fractions = [max_token_repeat_fraction(text) for text in generated_texts]
+    opening_templates = [opening_template(text) for text in generated_texts]
+    template_counter = Counter(template for template in opening_templates if template)
+
+    exact_copy_mask = [
+        normalize_text(factual) == normalize_text(generated)
+        for factual, generated in zip(factual_texts, generated_texts)
+    ]
+    near_copy_mask = [score >= 0.9 for score in similarity_scores]
+    high_repeat_mask = [fraction >= 0.35 for fraction in repeat_fractions]
+
+    return {
+        "similarity_scores": similarity_scores,
+        "repeat_fractions": repeat_fractions,
+        "opening_templates": opening_templates,
+        "template_counter": template_counter,
+        "exact_copy_mask": exact_copy_mask,
+        "near_copy_mask": near_copy_mask,
+        "high_repeat_mask": high_repeat_mask,
+        "exact_copy_rate": float(np.mean(exact_copy_mask)),
+        "near_copy_rate": float(np.mean(near_copy_mask)),
+        "avg_similarity_to_factual": float(np.mean(similarity_scores)),
+        "median_similarity_to_factual": float(np.median(similarity_scores)),
+        "avg_max_token_repeat_fraction": float(np.mean(repeat_fractions)),
+        "high_repeat_rate": float(np.mean(high_repeat_mask)),
+    }
 
 
 def main(args):
@@ -144,6 +210,7 @@ def main(args):
     avg_cosine = torch.mean(torch.diag(cosine_scores)).item()
 
     ppl = calculate_perplexity(generated_texts, gpt2_model, gpt2_tokenizer)
+    failure_analysis = analyze_generation_failures(factual_texts, generated_texts)
 
     results_df = pd.DataFrame(
         {
@@ -151,6 +218,12 @@ def main(args):
             "reference_satirical": reference_texts,
             "generated_satirical": generated_texts,
             "sarcasm_score": sarcasm_scores,
+            "similarity_to_factual": failure_analysis["similarity_scores"],
+            "max_token_repeat_fraction": failure_analysis["repeat_fractions"],
+            "opening_template": failure_analysis["opening_templates"],
+            "is_exact_copy": failure_analysis["exact_copy_mask"],
+            "is_near_copy": failure_analysis["near_copy_mask"],
+            "is_high_repeat": failure_analysis["high_repeat_mask"],
         }
     )
     if not args.no_save_csv:
@@ -164,6 +237,15 @@ def main(args):
     print(f"Style Accuracy (RoBERTa sarcasm prob)   : {avg_sarcasm:.4f}")
     print(f"Content Preservation (SBERT cosine)     : {avg_cosine:.4f}")
     print(f"Linguistic Fluency (GPT-2 perplexity)   : {ppl:.2f}")
+    print(f"Exact Copy Rate                         : {failure_analysis['exact_copy_rate']:.4f}")
+    print(f"Near-Copy Rate (sim >= 0.90)            : {failure_analysis['near_copy_rate']:.4f}")
+    print(f"Avg Similarity To Factual               : {failure_analysis['avg_similarity_to_factual']:.4f}")
+    print(f"Median Similarity To Factual            : {failure_analysis['median_similarity_to_factual']:.4f}")
+    print(f"High Repetition Rate                    : {failure_analysis['high_repeat_rate']:.4f}")
+    print(f"Avg Max Token Repeat Fraction           : {failure_analysis['avg_max_token_repeat_fraction']:.4f}")
+    print("\nTop Opening Templates:")
+    for template, count in failure_analysis["template_counter"].most_common(10):
+        print(f"  {count:>4}  {template}")
 
     sample_size = min(args.num_examples, len(test_df))
     if sample_size > 0:
