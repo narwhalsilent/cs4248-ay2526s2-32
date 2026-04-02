@@ -47,3 +47,12 @@ If you use Anaconda, use
 ```bash
 conda env create -f environment.yml
 ```
+
+To use evaluate.py: 
+```bash
+python3 src/03_evaluation/evaluate.py \
+  --model_path checkpoints/bart_satire/final \
+  --test_data data/silver/test.csv \
+  --num_examples 5
+```
+

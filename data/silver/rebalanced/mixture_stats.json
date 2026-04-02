@@ -1,0 +1,1265 @@
+{
+  "silver_path": "data/silver/silver_headlines.jsonl",
+  "desarcastic_path": "data/silver/desarcastic_headlines_complete.txt",
+  "seed": 42,
+  "original_to_desarcastic_ratio": 1.0,
+  "min_ngram_count": 75,
+  "ngram_sizes": [
+    2,
+    3
+  ],
+  "min_silver_confidence": 0.0,
+  "min_desarcastic_confidence": 0.1,
+  "min_desarcastic_content": 0.08,
+  "original_loaded": 14928,
+  "desarcastic_loaded": 10271,
+  "original_sampled": 10272,
+  "overused_phrase_count": 67,
+  "top_overused_phrases": [
+    [
+      "nation horrified",
+      1488
+    ],
+    [
+      "horrified by",
+      1480
+    ],
+    [
+      "nation horrified by",
+      1401
+    ],
+    [
+      "local man",
+      769
+    ],
+    [
+      "new study",
+      759
+    ],
+    [
+      "study reveals",
+      516
+    ],
+    [
+      "to be",
+      498
+    ],
+    [
+      "new study reveals",
+      477
+    ],
+    [
+      "man still",
+      419
+    ],
+    [
+      "area man",
+      403
+    ],
+    [
+      "local man's",
+      355
+    ],
+    [
+      "baffled by",
+      277
+    ],
+    [
+      "study finds",
+      275
+    ],
+    [
+      "just a",
+      261
+    ],
+    [
+      "local man still",
+      260
+    ],
+    [
+      "actually just",
+      217
+    ],
+    [
+      "new study finds",
+      207
+    ],
+    [
+      "ability to",
+      187
+    ],
+    [
+      "area man's",
+      184
+    ],
+    [
+      "forced to",
+      180
+    ],
+    [
+      "to make",
+      177
+    ],
+    [
+      "trying to",
+      169
+    ],
+    [
+      "out of",
+      168
+    ],
+    [
+      "unable to",
+      162
+    ],
+    [
+      "still not",
+      159
+    ],
+    [
+      "local woman",
+      159
+    ],
+    [
+      "to get",
+      156
+    ],
+    [
+      "lack of",
+      156
+    ],
+    [
+      "now officially",
+      152
+    ],
+    [
+      "year old",
+      152
+    ],
+    [
+      "area man still",
+      150
+    ],
+    [
+      "still unable",
+      138
+    ],
+    [
+      "still unable to",
+      138
+    ],
+    [
+      "still can't",
+      133
+    ],
+    [
+      "plan to",
+      130
+    ],
+    [
+      "to discover",
+      130
+    ],
+    [
+      "of the",
+      129
+    ],
+    [
+      "by trump's",
+      124
+    ],
+    [
+      "experts baffled",
+      119
+    ],
+    [
+      "existence of",
+      109
+    ],
+    [
+      "reveals of",
+      107
+    ],
+    [
+      "announces new",
+      106
+    ],
+    [
+      "but only",
+      100
+    ],
+    [
+      "local woman's",
+      100
+    ],
+    [
+      "years of",
+      99
+    ],
+    [
+      "in the",
+      98
+    ],
+    [
+      "sense of",
+      95
+    ],
+    [
+      "stunned by",
+      93
+    ],
+    [
+      "of people",
+      93
+    ],
+    [
+      "people who",
+      92
+    ]
+  ],
+  "split_sizes": {
+    "train": 16433,
+    "val": 2054,
+    "test": 2056
+  },
+  "source_breakdown": {
+    "train": {
+      "silver": 8217,
+      "desarcastic": 8216
+    },
+    "val": {
+      "silver": 1027,
+      "desarcastic": 1027
+    },
+    "test": {
+      "silver": 1028,
+      "desarcastic": 1028
+    }
+  },
+  "top_downweighted_examples": [
+    {
+      "factual": "news roundup for june 19, 2017",
+      "satirical": "New Study Reveals 99% Of People Still Unable To Function Without Their Phones",
+      "weight": 0.020513,
+      "repetition_penalty": 47.75,
+      "overused_phrases": [
+        [
+          "new study",
+          759
+        ],
+        [
+          "study reveals",
+          516
+        ],
+        [
+          "new study reveals",
+          477
+        ],
+        [
+          "unable to",
+          162
+        ],
+        [
+          "still unable",
+          138
+        ],
+        [
+          "still unable to",
+          138
+        ],
+        [
+          "reveals of",
+          107
+        ],
+        [
+          "of people",
+          93
+        ],
+        [
+          "study reveals of",
+          90
+        ]
+      ]
+    },
+    {
+      "factual": "what your movements may reveal about how you'll get along with another person",
+      "satirical": "New Study Reveals 87% Of People Still Unable To Read Each Other's Minds",
+      "weight": 0.020513,
+      "repetition_penalty": 47.75,
+      "overused_phrases": [
+        [
+          "new study",
+          759
+        ],
+        [
+          "study reveals",
+          516
+        ],
+        [
+          "new study reveals",
+          477
+        ],
+        [
+          "unable to",
+          162
+        ],
+        [
+          "still unable",
+          138
+        ],
+        [
+          "still unable to",
+          138
+        ],
+        [
+          "reveals of",
+          107
+        ],
+        [
+          "of people",
+          93
+        ],
+        [
+          "study reveals of",
+          90
+        ]
+      ]
+    },
+    {
+      "factual": "this is how you wear shoes with ankle straps",
+      "satirical": "Local Man Still Unable To Figure Out How To Wear Ankle Strap Shoes Despite 10 Years Of Practice",
+      "weight": 0.020974,
+      "repetition_penalty": 46.6771,
+      "overused_phrases": [
+        [
+          "local man",
+          769
+        ],
+        [
+          "man still",
+          419
+        ],
+        [
+          "local man still",
+          260
+        ],
+        [
+          "unable to",
+          162
+        ],
+        [
+          "still unable",
+          138
+        ],
+        [
+          "still unable to",
+          138
+        ],
+        [
+          "years of",
+          99
+        ],
+        [
+          "man still unable",
+          88
+        ],
+        [
+          "how to",
+          78
+        ]
+      ]
+    },
+    {
+      "factual": "bill maher thanks donald trump for exposing 'hypocritical' evangelicals",
+      "satirical": "Local Man Still Unable To Find God Despite 10 Years Of Trying",
+      "weight": 0.02098,
+      "repetition_penalty": 46.6644,
+      "overused_phrases": [
+        [
+          "local man",
+          769
+        ],
+        [
+          "man still",
+          419
+        ],
+        [
+          "local man still",
+          260
+        ],
+        [
+          "unable to",
+          162
+        ],
+        [
+          "still unable",
+          138
+        ],
+        [
+          "still unable to",
+          138
+        ],
+        [
+          "years of",
+          99
+        ],
+        [
+          "man still unable",
+          88
+        ],
+        [
+          "to find",
+          77
+        ]
+      ]
+    },
+    {
+      "factual": "here's a brand new thing you didn't know about 'the office'",
+      "satirical": "Area Man Still Unable To Find Job After Years Of Watching 'The Office' For Inspiration",
+      "weight": 0.021518,
+      "repetition_penalty": 45.4722,
+      "overused_phrases": [
+        [
+          "man still",
+          419
+        ],
+        [
+          "area man",
+          403
+        ],
+        [
+          "unable to",
+          162
+        ],
+        [
+          "area man still",
+          150
+        ],
+        [
+          "still unable",
+          138
+        ],
+        [
+          "still unable to",
+          138
+        ],
+        [
+          "years of",
+          99
+        ],
+        [
+          "man still unable",
+          88
+        ],
+        [
+          "to find",
+          77
+        ]
+      ]
+    },
+    {
+      "factual": "'13 reasons why': stop telling young women true love will save them",
+      "satirical": "Area Man Still Unable To Find Meaningful Connection After 17 Years Of Attending Bar Events",
+      "weight": 0.021518,
+      "repetition_penalty": 45.4722,
+      "overused_phrases": [
+        [
+          "man still",
+          419
+        ],
+        [
+          "area man",
+          403
+        ],
+        [
+          "unable to",
+          162
+        ],
+        [
+          "area man still",
+          150
+        ],
+        [
+          "still unable",
+          138
+        ],
+        [
+          "still unable to",
+          138
+        ],
+        [
+          "years of",
+          99
+        ],
+        [
+          "man still unable",
+          88
+        ],
+        [
+          "to find",
+          77
+        ]
+      ]
+    },
+    {
+      "factual": "trump's revised travel ban is still mired in prejudice",
+      "satirical": "Local Man Still Unable To Get Green Card Despite Being Clearly More Deserving Than Trump's In-Laws",
+      "weight": 0.022853,
+      "repetition_penalty": 42.7587,
+      "overused_phrases": [
+        [
+          "local man",
+          769
+        ],
+        [
+          "man still",
+          419
+        ],
+        [
+          "local man still",
+          260
+        ],
+        [
+          "unable to",
+          162
+        ],
+        [
+          "to get",
+          156
+        ],
+        [
+          "still unable",
+          138
+        ],
+        [
+          "still unable to",
+          138
+        ],
+        [
+          "man still unable",
+          88
+        ]
+      ]
+    },
+    {
+      "factual": "shocking gun ad by georgia gubernatorial candidate brian kemp backfires",
+      "satirical": "Local Man Still Unable To Get Seat After Brian Kemp's Chair Gets Blown To Pieces",
+      "weight": 0.022853,
+      "repetition_penalty": 42.7587,
+      "overused_phrases": [
+        [
+          "local man",
+          769
+        ],
+        [
+          "man still",
+          419
+        ],
+        [
+          "local man still",
+          260
+        ],
+        [
+          "unable to",
+          162
+        ],
+        [
+          "to get",
+          156
+        ],
+        [
+          "still unable",
+          138
+        ],
+        [
+          "still unable to",
+          138
+        ],
+        [
+          "man still unable",
+          88
+        ]
+      ]
+    },
+    {
+      "factual": "'guardians of the galaxy' hits a milestone at the box office",
+      "satirical": "Local Man Still Unable To Recall Plot Of 'Guardians Of The Galaxy' After Watching It Four Times",
+      "weight": 0.022952,
+      "repetition_penalty": 42.57,
+      "overused_phrases": [
+        [
+          "local man",
+          769
+        ],
+        [
+          "man still",
+          419
+        ],
+        [
+          "local man still",
+          260
+        ],
+        [
+          "unable to",
+          162
+        ],
+        [
+          "still unable",
+          138
+        ],
+        [
+          "still unable to",
+          138
+        ],
+        [
+          "of the",
+          129
+        ],
+        [
+          "man still unable",
+          88
+        ]
+      ]
+    },
+    {
+      "factual": "dakota access pipeline standoff lapses into violence",
+      "satirical": "Local Man Still Unable To Afford Fracking Equipment After Years Of Protesting",
+      "weight": 0.023091,
+      "repetition_penalty": 42.3077,
+      "overused_phrases": [
+        [
+          "local man",
+          769
+        ],
+        [
+          "man still",
+          419
+        ],
+        [
+          "local man still",
+          260
+        ],
+        [
+          "unable to",
+          162
+        ],
+        [
+          "still unable",
+          138
+        ],
+        [
+          "still unable to",
+          138
+        ],
+        [
+          "years of",
+          99
+        ],
+        [
+          "man still unable",
+          88
+        ]
+      ]
+    },
+    {
+      "factual": "living in our heads",
+      "satirical": "Local Man Still Unable To Escape Living In His Own Head After 20 Years Of Therapy",
+      "weight": 0.023091,
+      "repetition_penalty": 42.3077,
+      "overused_phrases": [
+        [
+          "local man",
+          769
+        ],
+        [
+          "man still",
+          419
+        ],
+        [
+          "local man still",
+          260
+        ],
+        [
+          "unable to",
+          162
+        ],
+        [
+          "still unable",
+          138
+        ],
+        [
+          "still unable to",
+          138
+        ],
+        [
+          "years of",
+          99
+        ],
+        [
+          "man still unable",
+          88
+        ]
+      ]
+    },
+    {
+      "factual": "an interview with allen iverson, the realest hall of famer",
+      "satirical": "Local Man Still Unable to Understand Why Allen Iverson Is in the Hall of Fame",
+      "weight": 0.023096,
+      "repetition_penalty": 42.2976,
+      "overused_phrases": [
+        [
+          "local man",
+          769
+        ],
+        [
+          "man still",
+          419
+        ],
+        [
+          "local man still",
+          260
+        ],
+        [
+          "unable to",
+          162
+        ],
+        [
+          "still unable",
+          138
+        ],
+        [
+          "still unable to",
+          138
+        ],
+        [
+          "in the",
+          98
+        ],
+        [
+          "man still unable",
+          88
+        ]
+      ]
+    },
+    {
+      "factual": "in memory of the ms st. louis",
+      "satirical": "Local Man Still Unable To Recall Any Slight Interest In The Ms St Louis",
+      "weight": 0.023096,
+      "repetition_penalty": 42.2976,
+      "overused_phrases": [
+        [
+          "local man",
+          769
+        ],
+        [
+          "man still",
+          419
+        ],
+        [
+          "local man still",
+          260
+        ],
+        [
+          "unable to",
+          162
+        ],
+        [
+          "still unable",
+          138
+        ],
+        [
+          "still unable to",
+          138
+        ],
+        [
+          "in the",
+          98
+        ],
+        [
+          "man still unable",
+          88
+        ]
+      ]
+    },
+    {
+      "factual": "success and still enjoying your 'happy place'",
+      "satirical": "Local Man Still Unable To Find Happy Place Two Years After Quitting Job",
+      "weight": 0.023224,
+      "repetition_penalty": 42.0592,
+      "overused_phrases": [
+        [
+          "local man",
+          769
+        ],
+        [
+          "man still",
+          419
+        ],
+        [
+          "local man still",
+          260
+        ],
+        [
+          "unable to",
+          162
+        ],
+        [
+          "still unable",
+          138
+        ],
+        [
+          "still unable to",
+          138
+        ],
+        [
+          "man still unable",
+          88
+        ],
+        [
+          "to find",
+          77
+        ]
+      ]
+    },
+    {
+      "factual": "tehran. waiting for normality",
+      "satirical": "Local Man Still Unable to Find Decent Wi-Fi Signal in Downtown Tehran",
+      "weight": 0.023224,
+      "repetition_penalty": 42.0592,
+      "overused_phrases": [
+        [
+          "local man",
+          769
+        ],
+        [
+          "man still",
+          419
+        ],
+        [
+          "local man still",
+          260
+        ],
+        [
+          "unable to",
+          162
+        ],
+        [
+          "still unable",
+          138
+        ],
+        [
+          "still unable to",
+          138
+        ],
+        [
+          "man still unable",
+          88
+        ],
+        [
+          "to find",
+          77
+        ]
+      ]
+    },
+    {
+      "factual": "calls to lgbtq mental health hotlines rise after trump's anti-transgender action",
+      "satirical": "Local Man Still Unable To Find Words To Describe How Mad He Is At Trump, Continues To Call Hotlines",
+      "weight": 0.023224,
+      "repetition_penalty": 42.0592,
+      "overused_phrases": [
+        [
+          "local man",
+          769
+        ],
+        [
+          "man still",
+          419
+        ],
+        [
+          "local man still",
+          260
+        ],
+        [
+          "unable to",
+          162
+        ],
+        [
+          "still unable",
+          138
+        ],
+        [
+          "still unable to",
+          138
+        ],
+        [
+          "man still unable",
+          88
+        ],
+        [
+          "to find",
+          77
+        ]
+      ]
+    },
+    {
+      "factual": "international travel: opera, luxurious lodging and great food in venice, italy",
+      "satirical": "Area Man Still Unable To Afford Room In Palace, Forced To Stay In Hostel",
+      "weight": 0.023414,
+      "repetition_penalty": 41.7088,
+      "overused_phrases": [
+        [
+          "man still",
+          419
+        ],
+        [
+          "area man",
+          403
+        ],
+        [
+          "forced to",
+          180
+        ],
+        [
+          "unable to",
+          162
+        ],
+        [
+          "area man still",
+          150
+        ],
+        [
+          "still unable",
+          138
+        ],
+        [
+          "still unable to",
+          138
+        ],
+        [
+          "man still unable",
+          88
+        ]
+      ]
+    },
+    {
+      "factual": "stuntin' is a habit: 'atlanta' shows us that white notions of success will never work for black people",
+      "satirical": "Area Man Still Unable to Explain What 'Atlanta' is Even Trying to Say",
+      "weight": 0.023449,
+      "repetition_penalty": 41.6461,
+      "overused_phrases": [
+        [
+          "man still",
+          419
+        ],
+        [
+          "area man",
+          403
+        ],
+        [
+          "trying to",
+          169
+        ],
+        [
+          "unable to",
+          162
+        ],
+        [
+          "area man still",
+          150
+        ],
+        [
+          "still unable",
+          138
+        ],
+        [
+          "still unable to",
+          138
+        ],
+        [
+          "man still unable",
+          88
+        ]
+      ]
+    },
+    {
+      "factual": "huffpost rise: what you need to know on december 9",
+      "satirical": "Area Man Still Unable To Convince Anyone He's A Successful Entrepreneur Despite Years Of Working From His Couch",
+      "weight": 0.023744,
+      "repetition_penalty": 41.1155,
+      "overused_phrases": [
+        [
+          "man still",
+          419
+        ],
+        [
+          "area man",
+          403
+        ],
+        [
+          "unable to",
+          162
+        ],
+        [
+          "area man still",
+          150
+        ],
+        [
+          "still unable",
+          138
+        ],
+        [
+          "still unable to",
+          138
+        ],
+        [
+          "years of",
+          99
+        ],
+        [
+          "man still unable",
+          88
+        ]
+      ]
+    },
+    {
+      "factual": "unencumbered by the facts...",
+      "satirical": "Area Man Still Unable To Believe He's Not The Smartest Person In The Room",
+      "weight": 0.02375,
+      "repetition_penalty": 41.1054,
+      "overused_phrases": [
+        [
+          "man still",
+          419
+        ],
+        [
+          "area man",
+          403
+        ],
+        [
+          "unable to",
+          162
+        ],
+        [
+          "area man still",
+          150
+        ],
+        [
+          "still unable",
+          138
+        ],
+        [
+          "still unable to",
+          138
+        ],
+        [
+          "in the",
+          98
+        ],
+        [
+          "man still unable",
+          88
+        ]
+      ]
+    },
+    {
+      "factual": "china's sexiest panda obliterates own record in latest sex romp",
+      "satirical": "Area Man Still Unable To Find Meaning In Life",
+      "weight": 0.023885,
+      "repetition_penalty": 40.867,
+      "overused_phrases": [
+        [
+          "man still",
+          419
+        ],
+        [
+          "area man",
+          403
+        ],
+        [
+          "unable to",
+          162
+        ],
+        [
+          "area man still",
+          150
+        ],
+        [
+          "still unable to",
+          138
+        ],
+        [
+          "still unable",
+          138
+        ],
+        [
+          "man still unable",
+          88
+        ],
+        [
+          "to find",
+          77
+        ]
+      ]
+    },
+    {
+      "factual": "dangerous and delusional",
+      "satirical": "Area Man Still Unable To Find Meaning In Life",
+      "weight": 0.023885,
+      "repetition_penalty": 40.867,
+      "overused_phrases": [
+        [
+          "man still",
+          419
+        ],
+        [
+          "area man",
+          403
+        ],
+        [
+          "unable to",
+          162
+        ],
+        [
+          "area man still",
+          150
+        ],
+        [
+          "still unable to",
+          138
+        ],
+        [
+          "still unable",
+          138
+        ],
+        [
+          "man still unable",
+          88
+        ],
+        [
+          "to find",
+          77
+        ]
+      ]
+    },
+    {
+      "factual": "receding floodwaters reveal extent of houston area's post-harvey destruction",
+      "satirical": "Area Man Still Unable To Find Keys To Flooded Home, Gives Up Hope Of Ever Being Productive Again",
+      "weight": 0.023885,
+      "repetition_penalty": 40.867,
+      "overused_phrases": [
+        [
+          "man still",
+          419
+        ],
+        [
+          "area man",
+          403
+        ],
+        [
+          "unable to",
+          162
+        ],
+        [
+          "area man still",
+          150
+        ],
+        [
+          "still unable",
+          138
+        ],
+        [
+          "still unable to",
+          138
+        ],
+        [
+          "man still unable",
+          88
+        ],
+        [
+          "to find",
+          77
+        ]
+      ]
+    },
+    {
+      "factual": "news roundup for september 22, 2017",
+      "satirical": "Area Man Still Unable To Find Job Despite Having 'Lots Of Experience'",
+      "weight": 0.023885,
+      "repetition_penalty": 40.867,
+      "overused_phrases": [
+        [
+          "man still",
+          419
+        ],
+        [
+          "area man",
+          403
+        ],
+        [
+          "unable to",
+          162
+        ],
+        [
+          "area man still",
+          150
+        ],
+        [
+          "still unable",
+          138
+        ],
+        [
+          "still unable to",
+          138
+        ],
+        [
+          "man still unable",
+          88
+        ],
+        [
+          "to find",
+          77
+        ]
+      ]
+    },
+    {
+      "factual": "kylie jenner sports massive septum ring in her latest photo shoot",
+      "satirical": "Area Man Still Unable To Find Septum Ring On His Own Face Despite 100-Year Search",
+      "weight": 0.023885,
+      "repetition_penalty": 40.867,
+      "overused_phrases": [
+        [
+          "man still",
+          419
+        ],
+        [
+          "area man",
+          403
+        ],
+        [
+          "unable to",
+          162
+        ],
+        [
+          "area man still",
+          150
+        ],
+        [
+          "still unable",
+          138
+        ],
+        [
+          "still unable to",
+          138
+        ],
+        [
+          "man still unable",
+          88
+        ],
+        [
+          "to find",
+          77
+        ]
+      ]
+    }
+  ]
+}
