@@ -57,7 +57,23 @@ fi
 
 for cfg_path in "${CONFIGS[@]}"; do
   CONFIG_NAME="$(basename "${cfg_path}" .yaml)"
-  RUN_NAME_FOR_CFG="${RUN_NAME}_${CONFIG_NAME}"
+  CONFIG_TAG="$(
+  python - <<'PY' "${cfg_path}"
+import sys
+import yaml
+
+with open(sys.argv[1], encoding="utf-8") as f:
+    cfg = yaml.safe_load(f)
+
+print(cfg["model"]["type"])
+PY
+  )"
+
+  if [ "${#CONFIGS[@]}" -eq 1 ]; then
+    RUN_NAME_FOR_CFG="${RUN_NAME}"
+  else
+    RUN_NAME_FOR_CFG="${RUN_NAME}_${CONFIG_TAG}"
+  fi
 
   BASE_OUTPUT_DIR="$(
   python - <<'PY' "${cfg_path}"

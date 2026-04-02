@@ -1,6 +1,9 @@
 import argparse
+import json
 import os
+import re
 import time
+from difflib import SequenceMatcher
 from datetime import datetime
 import numpy as np
 import pandas as pd
@@ -9,6 +12,7 @@ import torch.nn.functional as F
 import yaml
 from rouge_score import rouge_scorer as rouge_scorer_lib
 from datasets import Dataset, DatasetDict
+from sentence_transformers import SentenceTransformer, util
 from transformers import (
     AutoTokenizer,
     AutoModelForSeq2SeqLM,
@@ -16,7 +20,9 @@ from transformers import (
     Seq2SeqTrainer,
     DataCollatorForSeq2Seq,
     EarlyStoppingCallback,
-    TrainerCallback
+    TrainerCallback,
+    pipeline,
+    AutoModelForCausalLM,
 )
 
 class ProgressCallback(TrainerCallback):
@@ -153,6 +159,387 @@ def resolve_output_dir(base_output_dir, run_name=None, auto_suffix=False):
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
         return f"{base_output_dir}_{timestamp}"
     return base_output_dir
+
+
+def build_inputs(factual_texts, source_prefix):
+    if source_prefix:
+        return [source_prefix + text for text in factual_texts]
+    return factual_texts
+
+
+def batched(iterable, batch_size):
+    for start_idx in range(0, len(iterable), batch_size):
+        yield start_idx, iterable[start_idx:start_idx + batch_size]
+
+
+def normalize_text(text):
+    return re.sub(r"\s+", " ", str(text).strip().lower())
+
+
+def tokenize_text(text):
+    return re.findall(r"[a-z']+", normalize_text(text))
+
+
+def deduplicate_candidates(candidates):
+    seen = set()
+    deduped = []
+    for candidate in candidates:
+        key = normalize_text(candidate)
+        if not key or key in seen:
+            continue
+        seen.add(key)
+        deduped.append(candidate)
+    return deduped or [""]
+
+
+def factual_similarity(factual_text, generated_text):
+    return SequenceMatcher(None, normalize_text(factual_text), normalize_text(generated_text)).ratio()
+
+
+def lexical_overlap_fraction(source_text, candidate_text):
+    source_tokens = set(tokenize_text(source_text))
+    candidate_tokens = tokenize_text(candidate_text)
+    if not source_tokens or not candidate_tokens:
+        return 0.0
+    overlap = sum(token in source_tokens for token in candidate_tokens)
+    return overlap / len(candidate_tokens)
+
+
+def longest_shared_ngram_ratio(source_text, candidate_text, max_n=4):
+    source_tokens = tokenize_text(source_text)
+    candidate_tokens = tokenize_text(candidate_text)
+    if len(source_tokens) < 2 or len(candidate_tokens) < 2:
+        return 0.0
+
+    max_shared = 0
+    max_considered_n = min(max_n, len(source_tokens), len(candidate_tokens))
+    for n in range(2, max_considered_n + 1):
+        source_ngrams = {
+            tuple(source_tokens[idx:idx + n])
+            for idx in range(len(source_tokens) - n + 1)
+        }
+        if not source_ngrams:
+            continue
+        for idx in range(len(candidate_tokens) - n + 1):
+            if tuple(candidate_tokens[idx:idx + n]) in source_ngrams:
+                max_shared = n
+    return max_shared / max(1, min(len(source_tokens), len(candidate_tokens), max_n))
+
+
+def copy_penalty(source_text, candidate_text):
+    exact_copy = float(normalize_text(source_text) == normalize_text(candidate_text))
+    sequence_similarity = factual_similarity(source_text, candidate_text)
+    lexical_overlap = lexical_overlap_fraction(source_text, candidate_text)
+    shared_ngram_ratio = longest_shared_ngram_ratio(source_text, candidate_text)
+    return {
+        "exact_copy": exact_copy,
+        "sequence_similarity": sequence_similarity,
+        "lexical_overlap": lexical_overlap,
+        "shared_ngram_ratio": shared_ngram_ratio,
+        "copy_penalty": (
+            1.5 * exact_copy
+            + 0.5 * sequence_similarity
+            + 0.3 * lexical_overlap
+            + 0.2 * shared_ngram_ratio
+        ),
+    }
+
+
+def generate_candidate_predictions(
+    model,
+    tokenizer,
+    factual_texts,
+    source_prefix,
+    device,
+    batch_size,
+    max_length,
+    num_beams,
+    num_candidates,
+    candidate_strategy,
+    temperature,
+    top_p,
+):
+    model_inputs = build_inputs(factual_texts, source_prefix)
+    all_candidates = []
+    total_batches = (len(model_inputs) + batch_size - 1) // batch_size
+
+    for _, batch in batched(model_inputs, batch_size):
+        encoded = tokenizer(
+            batch,
+            return_tensors="pt",
+            max_length=max_length,
+            truncation=True,
+            padding=True
+        ).to(device)
+
+        generation_kwargs = {
+            "max_length": max_length,
+            "num_return_sequences": num_candidates,
+        }
+        if candidate_strategy == "sample":
+            generation_kwargs.update(
+                {
+                    "do_sample": True,
+                    "num_beams": 1,
+                    "temperature": temperature,
+                    "top_p": top_p,
+                }
+            )
+        else:
+            generation_kwargs.update(
+                {
+                    "num_beams": max(num_beams, num_candidates),
+                    "num_beam_groups": 1,
+                }
+            )
+
+        with torch.no_grad():
+            outputs = model.generate(**encoded, **generation_kwargs)
+
+        decoded = tokenizer.batch_decode(outputs, skip_special_tokens=True)
+        for offset in range(0, len(decoded), num_candidates):
+            candidates = [text.strip() for text in decoded[offset:offset + num_candidates]]
+            all_candidates.append(deduplicate_candidates(candidates))
+
+    if len(all_candidates) != len(factual_texts):
+        raise ValueError("Candidate generation count mismatch.")
+
+    return all_candidates
+
+
+def calculate_text_perplexities(texts, model, tokenizer, batch_size):
+    if tokenizer.pad_token_id is None:
+        tokenizer.pad_token = tokenizer.eos_token
+
+    perplexities = []
+    for _, batch in batched(texts, batch_size):
+        encoded = tokenizer(
+            batch,
+            return_tensors="pt",
+            truncation=True,
+            padding=True,
+        )
+        input_ids = encoded["input_ids"].to(model.device)
+        attention_mask = encoded["attention_mask"].to(model.device)
+
+        with torch.no_grad():
+            outputs = model(input_ids=input_ids, attention_mask=attention_mask)
+
+        shift_logits = outputs.logits[:, :-1, :].contiguous()
+        shift_labels = input_ids[:, 1:].contiguous()
+        shift_mask = attention_mask[:, 1:].contiguous().float()
+
+        token_losses = F.cross_entropy(
+            shift_logits.view(-1, shift_logits.size(-1)),
+            shift_labels.view(-1),
+            reduction="none",
+        ).view(shift_labels.size())
+        token_losses = token_losses * shift_mask
+        seq_losses = token_losses.sum(dim=1) / shift_mask.sum(dim=1).clamp_min(1.0)
+        perplexities.extend(torch.exp(seq_losses).cpu().tolist())
+
+    return perplexities
+
+
+def score_candidates(
+    factual_texts,
+    candidate_groups,
+    sarcasm_clf,
+    sbert_model,
+    gpt2_model,
+    gpt2_tokenizer,
+    batch_size,
+    style_weight,
+    similarity_weight,
+    copy_weight,
+    fluency_weight,
+):
+    flat_candidates = []
+    candidate_index = []
+    for example_idx, candidates in enumerate(candidate_groups):
+        for candidate in candidates:
+            flat_candidates.append(candidate)
+            candidate_index.append(example_idx)
+
+    sarcasm_results = sarcasm_clf(flat_candidates, batch_size=batch_size)
+    sarcasm_scores = [
+        result["score"] if result["label"].lower() == "sarcastic" else 1 - result["score"]
+        for result in sarcasm_results
+    ]
+    fluency_perplexities = calculate_text_perplexities(
+        flat_candidates,
+        gpt2_model,
+        gpt2_tokenizer,
+        batch_size=batch_size,
+    )
+
+    source_embeddings = sbert_model.encode(factual_texts, convert_to_tensor=True, show_progress_bar=True)
+    candidate_embeddings = sbert_model.encode(flat_candidates, convert_to_tensor=True, show_progress_bar=True)
+
+    grouped = [[] for _ in factual_texts]
+    for flat_idx, candidate in enumerate(flat_candidates):
+        example_idx = candidate_index[flat_idx]
+        similarity_score = util.cos_sim(
+            source_embeddings[example_idx].unsqueeze(0),
+            candidate_embeddings[flat_idx].unsqueeze(0),
+        ).item()
+        copy_metrics = copy_penalty(factual_texts[example_idx], candidate)
+        fluency_penalty = float(np.log(max(fluency_perplexities[flat_idx], 1e-8)))
+        total_score = (
+            style_weight * sarcasm_scores[flat_idx]
+            + similarity_weight * similarity_score
+            - copy_weight * copy_metrics["copy_penalty"]
+            - fluency_weight * fluency_penalty
+        )
+        grouped[example_idx].append(
+            {
+                "candidate_text": candidate,
+                "sarcasm_score": sarcasm_scores[flat_idx],
+                "semantic_similarity": similarity_score,
+                "fluency_perplexity": fluency_perplexities[flat_idx],
+                "fluency_penalty": fluency_penalty,
+                **copy_metrics,
+                "rerank_score": total_score,
+            }
+        )
+
+    return grouped
+
+
+def build_preference_pairs(
+    factual_texts,
+    reference_texts,
+    candidate_groups,
+    source_prefix,
+    pair_mode,
+    min_score_margin,
+):
+    preference_pairs = []
+
+    for example_idx, candidates in enumerate(candidate_groups):
+        ranked = sorted(candidates, key=lambda item: item["rerank_score"], reverse=True)
+        if len(ranked) < 2:
+            continue
+
+        prompt_text = factual_texts[example_idx]
+        prompt_with_prefix = (source_prefix or "") + prompt_text
+        if pair_mode == "best_vs_worst":
+            pair_indices = [(0, len(ranked) - 1)]
+        else:
+            pair_indices = [
+                (chosen_idx, rejected_idx)
+                for chosen_idx in range(len(ranked))
+                for rejected_idx in range(chosen_idx + 1, len(ranked))
+            ]
+
+        for chosen_idx, rejected_idx in pair_indices:
+            chosen = ranked[chosen_idx]
+            rejected = ranked[rejected_idx]
+            if chosen["candidate_text"] == rejected["candidate_text"]:
+                continue
+            score_margin = chosen["rerank_score"] - rejected["rerank_score"]
+            if score_margin < min_score_margin:
+                continue
+            preference_pairs.append(
+                {
+                    "example_idx": example_idx,
+                    "prompt": prompt_text,
+                    "prompt_with_prefix": prompt_with_prefix,
+                    "reference_satirical": reference_texts[example_idx],
+                    "chosen": chosen["candidate_text"],
+                    "rejected": rejected["candidate_text"],
+                    "score_margin": score_margin,
+                    "chosen_score": chosen["rerank_score"],
+                    "rejected_score": rejected["rerank_score"],
+                    "chosen_sarcasm": chosen["sarcasm_score"],
+                    "rejected_sarcasm": rejected["sarcasm_score"],
+                    "chosen_similarity": chosen["semantic_similarity"],
+                    "rejected_similarity": rejected["semantic_similarity"],
+                    "chosen_copy_penalty": chosen["copy_penalty"],
+                    "rejected_copy_penalty": rejected["copy_penalty"],
+                    "pair_mode": pair_mode,
+                }
+            )
+
+    return preference_pairs
+
+
+def save_jsonl(records, output_path):
+    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+    with open(output_path, "w", encoding="utf-8") as handle:
+        for record in records:
+            handle.write(json.dumps(record, ensure_ascii=True) + "\n")
+
+
+def export_preference_pairs(
+    model,
+    tokenizer,
+    datasets_by_split,
+    source_prefix,
+    device,
+    args,
+    output_dir,
+):
+    print("\nLoading preference evaluators...")
+    sarcasm_clf = pipeline(
+        "text-classification",
+        model="helinivan/english-sarcasm-detector",
+        device=0 if device == "cuda" else -1
+    )
+    sbert_model = SentenceTransformer("all-MiniLM-L6-v2", device=device)
+    gpt2_tokenizer = AutoTokenizer.from_pretrained("gpt2")
+    gpt2_model = AutoModelForCausalLM.from_pretrained("gpt2").to(device)
+    gpt2_model.eval()
+
+    requested_splits = [split.strip() for split in args.preference_splits.split(",") if split.strip()]
+    for split_name in requested_splits:
+        if split_name not in datasets_by_split:
+            raise ValueError(f"Unknown preference split: {split_name}")
+
+        split_df = datasets_by_split[split_name]
+        factual_texts = split_df["factual"].astype(str).tolist()
+        reference_texts = split_df["satirical"].astype(str).tolist()
+
+        print(f"\nGenerating preference data for split: {split_name} ({len(split_df)} examples)")
+        candidate_groups = generate_candidate_predictions(
+            model=model,
+            tokenizer=tokenizer,
+            factual_texts=factual_texts,
+            source_prefix=source_prefix,
+            device=device,
+            batch_size=args.preference_batch_size,
+            max_length=args.preference_max_length,
+            num_beams=args.preference_num_beams,
+            num_candidates=args.preference_num_candidates,
+            candidate_strategy=args.preference_candidate_strategy,
+            temperature=args.preference_temperature,
+            top_p=args.preference_top_p,
+        )
+        scored_candidates = score_candidates(
+            factual_texts=factual_texts,
+            candidate_groups=candidate_groups,
+            sarcasm_clf=sarcasm_clf,
+            sbert_model=sbert_model,
+            gpt2_model=gpt2_model,
+            gpt2_tokenizer=gpt2_tokenizer,
+            batch_size=args.preference_batch_size,
+            style_weight=args.preference_style_weight,
+            similarity_weight=args.preference_similarity_weight,
+            copy_weight=args.preference_copy_weight,
+            fluency_weight=args.preference_fluency_weight,
+        )
+        preference_pairs = build_preference_pairs(
+            factual_texts=factual_texts,
+            reference_texts=reference_texts,
+            candidate_groups=scored_candidates,
+            source_prefix=source_prefix,
+            pair_mode=args.preference_pair_mode,
+            min_score_margin=args.preference_min_margin,
+        )
+
+        split_output_path = os.path.join(output_dir, f"{split_name}_preference_pairs.jsonl")
+        save_jsonl(preference_pairs, split_output_path)
+        print(f"Saved {len(preference_pairs)} preference pairs to: {split_output_path}")
 
 
 def main(args):
@@ -358,6 +745,21 @@ def main(args):
     tokenizer.save_pretrained(final_output)
     print(f"\nBest model saved to: {final_output}")
 
+    if args.export_preferences:
+        preference_output_dir = args.preference_output_dir or os.path.join(output_dir, "preferences")
+        export_preference_pairs(
+            model=trainer.model,
+            tokenizer=tokenizer,
+            datasets_by_split={
+                "train": train_df,
+                "validation": val_df,
+            },
+            source_prefix=source_prefix,
+            device="cuda" if torch.cuda.is_available() else "cpu",
+            args=args,
+            output_dir=preference_output_dir,
+        )
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Fine-tune BART or T5 on the silver satire dataset.")
     parser.add_argument(
@@ -377,5 +779,104 @@ if __name__ == "__main__":
         action="store_true",
         help="Append a timestamp suffix to the configured output_dir."
     )
+    parser.add_argument(
+        "--export_preferences",
+        action="store_true",
+        help="After SFT finishes, generate preference pairs from the trained model."
+    )
+    parser.add_argument(
+        "--preference_output_dir",
+        type=str,
+        default=None,
+        help="Directory where train/validation preference JSONL files will be saved."
+    )
+    parser.add_argument(
+        "--preference_splits",
+        type=str,
+        default="train,validation",
+        help="Comma-separated splits to export preference pairs for."
+    )
+    parser.add_argument(
+        "--preference_batch_size",
+        type=int,
+        default=16,
+        help="Batch size for preference candidate generation and scoring."
+    )
+    parser.add_argument(
+        "--preference_max_length",
+        type=int,
+        default=128,
+        help="Maximum decoding length for preference candidate generation."
+    )
+    parser.add_argument(
+        "--preference_num_beams",
+        type=int,
+        default=4,
+        help="Beam width when preference_candidate_strategy=beam."
+    )
+    parser.add_argument(
+        "--preference_num_candidates",
+        type=int,
+        default=8,
+        help="How many candidates to generate per example before building preference pairs."
+    )
+    parser.add_argument(
+        "--preference_candidate_strategy",
+        type=str,
+        choices=["beam", "sample"],
+        default="sample",
+        help="How to generate multiple candidates for preference data."
+    )
+    parser.add_argument(
+        "--preference_temperature",
+        type=float,
+        default=0.9,
+        help="Sampling temperature when preference_candidate_strategy=sample."
+    )
+    parser.add_argument(
+        "--preference_top_p",
+        type=float,
+        default=0.95,
+        help="Top-p threshold when preference_candidate_strategy=sample."
+    )
+    parser.add_argument(
+        "--preference_style_weight",
+        type=float,
+        default=2.0,
+        help="Reranking weight for sarcasm score."
+    )
+    parser.add_argument(
+        "--preference_similarity_weight",
+        type=float,
+        default=1.0,
+        help="Reranking weight for semantic similarity."
+    )
+    parser.add_argument(
+        "--preference_copy_weight",
+        type=float,
+        default=1.5,
+        help="Penalty weight for copy-heavy candidates."
+    )
+    parser.add_argument(
+        "--preference_fluency_weight",
+        type=float,
+        default=0.15,
+        help="Penalty weight for GPT-2 log-perplexity during preference reranking."
+    )
+    parser.add_argument(
+        "--preference_pair_mode",
+        type=str,
+        choices=["best_vs_worst", "all_pairs"],
+        default="best_vs_worst",
+        help="Whether to keep one pair per example or all valid ordered pairs."
+    )
+    parser.add_argument(
+        "--preference_min_margin",
+        type=float,
+        default=0.05,
+        help="Minimum reranker score gap required before saving a preference pair."
+    )
     args = parser.parse_args()
+    if args.export_preferences and args.preference_num_candidates <= 1:
+        parser.error("--export_preferences requires --preference_num_candidates > 1.")
     main(args)
