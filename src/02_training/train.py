@@ -778,7 +778,7 @@ def main(args):
         fp16=use_fp16,
         warmup_steps=warmup_steps,
         report_to=train_cfg.get("report_to", "none"),
-        remove_unused_columns=False
+        remove_unused_columns=False,
         push_to_hub=train_cfg.get("push_to_hub", False),
         hub_model_id=f"narwhalsilent/satire-sft-{args.run_name}", # Replace with your actual username
         hub_strategy="end",
