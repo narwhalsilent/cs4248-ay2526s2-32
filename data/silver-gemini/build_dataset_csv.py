@@ -53,22 +53,11 @@ if __name__ == "__main__":
         )
     ], ignore_index=True)
 
-    combined_df_truncated = combined_df[combined_df['style_score'] >= 0.5].copy()
-
-    combined_df.drop(columns=['style_score'], inplace=True)
-    combined_df_truncated.drop(columns=['style_score'], inplace=True)
-
     # Normalize confidence scores such that min is 0 and average is 1
     min_confidence = combined_df['confidence_score'].min()
     combined_df['confidence_score'] = combined_df['confidence_score'] - min_confidence
     avg_confidence = combined_df['confidence_score'].mean()
     combined_df['confidence_score'] = combined_df['confidence_score'] / avg_confidence
-
-    min_confidence_truncated = combined_df_truncated['confidence_score'].min()
-    combined_df_truncated['confidence_score'] = combined_df_truncated['confidence_score'] - min_confidence_truncated
-    avg_confidence_truncated = combined_df_truncated['confidence_score'].mean()
-    combined_df_truncated['confidence_score'] = combined_df_truncated['confidence_score'] / avg_confidence_truncated
-
 
     if not os.path.exists('combined_data_full'):
         os.makedirs('combined_data_full')
@@ -77,14 +66,24 @@ if __name__ == "__main__":
 
     train_df, temp_df = train_test_split(combined_df, test_size=0.2, random_state=42)
     test_df, val_df = train_test_split(temp_df, test_size=0.5, random_state=42)
+    
+    train_df_truncated = train_df.copy()
+    train_df_truncated = train_df_truncated[train_df_truncated['style_score'] > 0.5]
+
+    min_confidence_truncated = train_df_truncated['confidence_score'].min()
+    train_df_truncated['confidence_score'] = train_df_truncated['confidence_score'] - min_confidence_truncated
+    avg_confidence_truncated = train_df_truncated['confidence_score'].mean()
+    train_df_truncated['confidence_score'] = train_df_truncated['confidence_score'] / avg_confidence_truncated
+
+    train_df.drop(columns=['style_score'], inplace=True)
+    test_df.drop(columns=['style_score'], inplace=True)
+    val_df.drop(columns=['style_score'], inplace=True)
+    train_df_truncated.drop(columns=['style_score'], inplace=True)
 
     train_df.to_csv('combined_data_full/train.csv', index=False)
     test_df.to_csv('combined_data_full/test.csv', index=False)
     val_df.to_csv('combined_data_full/val.csv', index=False)
 
-    train_df_truncated, temp_df_truncated = train_test_split(combined_df_truncated, test_size=0.2, random_state=42)
-    test_df_truncated, val_df_truncated = train_test_split(temp_df_truncated,
-                                                            test_size=0.5, random_state=42)
     train_df_truncated.to_csv('combined_data_truncated/train.csv', index=False)
-    test_df_truncated.to_csv('combined_data_truncated/test.csv', index=False)
-    val_df_truncated.to_csv('combined_data_truncated/val.csv', index=False)
+    test_df.to_csv('combined_data_truncated/test.csv', index=False)
+    val_df.to_csv('combined_data_truncated/val.csv', index=False)
