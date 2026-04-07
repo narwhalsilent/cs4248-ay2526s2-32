@@ -13,7 +13,7 @@ import yaml
 from rouge_score import rouge_scorer as rouge_scorer_lib
 from datasets import Dataset, DatasetDict
 from sentence_transformers import SentenceTransformer, util
-from torch.utils.data import SequentialSampler
+from torch.utils.data import DistributedSampler, SequentialSampler
 from transformers import (
     AutoTokenizer,
     AutoModelForSeq2SeqLM,
@@ -92,11 +92,25 @@ class AntiCopySeq2SeqTrainer(Seq2SeqTrainer):
         self.pad_token_id = pad_token_id
         self.training_strategy = training_strategy
 
-    def _get_train_sampler(self):
-        # Curriculum learning requires seeing data in a fixed, sorted order (no shuffling)
+    def _get_train_sampler(self, *args, **kwargs):
         if self.training_strategy == "curriculum":
-            return SequentialSampler(self.train_dataset)
-        return super()._get_train_sampler()
+            # Gracefully extract the dataset whether HF passes it as positional or kwarg
+            dataset = args[0] if len(args) > 0 else kwargs.get("dataset", self.train_dataset)
+            
+            # If running on a single GPU
+            if self.args.world_size <= 1:
+                return SequentialSampler(dataset)
+            # If running on Multi-GPU (torchrun 2x T4)
+            else:
+                return DistributedSampler(
+                    dataset,
+                    num_replicas=self.args.world_size,
+                    rank=self.args.process_index,
+                    shuffle=False # CRITICAL: Keeps your confidence_score sort order intact!
+                )
+        
+        # For vanilla and weighted strategies, let HF handle the default random sampler
+        return super()._get_train_sampler(*args, **kwargs)
 
     def _compute_anti_copy_penalty(self, logits, labels, input_ids):
         if self.anti_copy_weight <= 0.0:
