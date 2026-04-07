@@ -8,8 +8,6 @@ set -e
 
 # Define your parameter space
 CONFIGS=(
-  "configs/bart_training_full.yaml" 
-  "configs/bart_training_truncated.yaml" 
   "configs/t5_training_full.yaml" 
   "configs/t5_training_truncated.yaml"
 )

@@ -25,6 +25,7 @@ training:
   predict_with_generate: true
   fp16: true
   anti_copy_weight: 0.1
+  push_to_hub: true
 
 generation:
   num_beams: 2
