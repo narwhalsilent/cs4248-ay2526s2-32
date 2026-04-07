@@ -781,8 +781,7 @@ def main(args):
         remove_unused_columns=False,
         push_to_hub=train_cfg.get("push_to_hub", False),
         hub_model_id=f"narwhalsilent/satire-sft-{args.run_name}", # Replace with your actual username
-        hub_strategy="end",
-        hub_private=True
+        hub_strategy="end"
     )
 
     # 8. Initialize Trainer
@@ -816,8 +815,9 @@ def main(args):
     trainer.train()
 
     # 10. Save best model
-    final_output = os.path.join(output_dir, "final")
-    trainer.save_model(final_output)
+    # Handled by push_to_hub
+    # final_output = os.path.join(output_dir, "final")
+    # trainer.save_model(final_output)
     tokenizer.save_pretrained(final_output)
     print(f"\nBest model saved to: {final_output}")
 
