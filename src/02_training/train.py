@@ -111,7 +111,25 @@ class AntiCopySeq2SeqTrainer(Seq2SeqTrainer):
         
         # For vanilla and weighted strategies, let HF handle the default random sampler
         return super()._get_train_sampler(*args, **kwargs)
-
+    
+    def prediction_step(self, model, inputs, prediction_loss_only, ignore_keys=None):
+        """
+        Intercept the batch during evaluation and strip custom columns
+        so model.generate() doesn't crash.
+        """
+        # Create a shallow copy of inputs so we don't mutate the original dictionary
+        clean_inputs = inputs.copy()
+        
+        # Strip out our custom column before passing to the generation loop
+        clean_inputs.pop("confidence_score", None)
+        
+        return super().prediction_step(
+            model, 
+            clean_inputs, 
+            prediction_loss_only, 
+            ignore_keys=ignore_keys
+        )
+    
     def _compute_anti_copy_penalty(self, logits, labels, input_ids):
         if self.anti_copy_weight <= 0.0:
             return logits.new_zeros(())
