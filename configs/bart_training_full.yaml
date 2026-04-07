@@ -14,7 +14,7 @@ training:
   output_dir: "checkpoints/bart_satire_full"
   num_train_epochs: 5
   per_device_train_batch_size: 16
-  per_device_eval_batch_size: 16
+  per_device_eval_batch_size: 64
   learning_rate: 3e-5
   weight_decay: 0.01
   logging_steps: 50
@@ -27,5 +27,5 @@ training:
   anti_copy_weight: 0.1
 
 generation:
-  num_beams: 4
+  num_beams: 2
   temperature: 0.9

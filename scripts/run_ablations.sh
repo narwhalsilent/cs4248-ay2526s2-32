@@ -1,6 +1,8 @@
 #!/bin/bash
 # run_ablations.sh
 
+export PYTHONUNBUFFERED=1
+
 # Exit immediately if a command exits with a non-zero status
 set -e
 
