@@ -1,2 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+*.csv linguist-generated
+*.json linguist-generated
+*.jsonl linguist-generated
+data/raw/* linguist-vendored
