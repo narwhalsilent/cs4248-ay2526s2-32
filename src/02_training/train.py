@@ -13,6 +13,7 @@ import yaml
 from rouge_score import rouge_scorer as rouge_scorer_lib
 from datasets import Dataset, DatasetDict
 from sentence_transformers import SentenceTransformer, util
+from torch.utils.data import DistributedSampler, SequentialSampler
 from transformers import (
     AutoTokenizer,
     AutoModelForSeq2SeqLM,
@@ -85,11 +86,50 @@ class ProgressCallback(TrainerCallback):
 
 class AntiCopySeq2SeqTrainer(Seq2SeqTrainer):
 
-    def __init__(self, *args, anti_copy_weight=0.0, pad_token_id=None, **kwargs):
+    def __init__(self, *args, anti_copy_weight=0.0, pad_token_id=None, training_strategy="vanilla",  **kwargs):
         super().__init__(*args, **kwargs)
         self.anti_copy_weight = anti_copy_weight
         self.pad_token_id = pad_token_id
+        self.training_strategy = training_strategy
 
+    def _get_train_sampler(self, *args, **kwargs):
+        if self.training_strategy == "curriculum":
+            # Gracefully extract the dataset whether HF passes it as positional or kwarg
+            dataset = args[0] if len(args) > 0 else kwargs.get("dataset", self.train_dataset)
+            
+            # If running on a single GPU
+            if self.args.world_size <= 1:
+                return SequentialSampler(dataset)
+            # If running on Multi-GPU (torchrun 2x T4)
+            else:
+                return DistributedSampler(
+                    dataset,
+                    num_replicas=self.args.world_size,
+                    rank=self.args.process_index,
+                    shuffle=False # CRITICAL: Keeps your confidence_score sort order intact!
+                )
+        
+        # For vanilla and weighted strategies, let HF handle the default random sampler
+        return super()._get_train_sampler(*args, **kwargs)
+    
+    def prediction_step(self, model, inputs, prediction_loss_only, ignore_keys=None):
+        """
+        Intercept the batch during evaluation and strip custom columns
+        so model.generate() doesn't crash.
+        """
+        # Create a shallow copy of inputs so we don't mutate the original dictionary
+        clean_inputs = inputs.copy()
+        
+        # Strip out our custom column before passing to the generation loop
+        clean_inputs.pop("confidence_score", None)
+        
+        return super().prediction_step(
+            model, 
+            clean_inputs, 
+            prediction_loss_only, 
+            ignore_keys=ignore_keys
+        )
+    
     def _compute_anti_copy_penalty(self, logits, labels, input_ids):
         if self.anti_copy_weight <= 0.0:
             return logits.new_zeros(())
@@ -128,8 +168,29 @@ class AntiCopySeq2SeqTrainer(Seq2SeqTrainer):
         labels = inputs.get("labels")
         input_ids = inputs.get("input_ids")
 
+        weights = inputs.pop("confidence_score", None)
+
         outputs = model(**inputs)
         loss = outputs.loss
+
+        if self.training_strategy == "weighted" and weights is not None:
+            # Manually compute weighted loss
+            logits = outputs.logits
+            loss_fct = torch.nn.CrossEntropyLoss(reduction="none")
+            
+            # calculate token-wise loss
+            loss = loss_fct(logits.view(-1, logits.size(-1)), labels.view(-1))
+            loss = loss.view(labels.size()) # Reshape to [batch_size, seq_len]
+            
+            # Multiply by sample weights (broadcast over sequence length)
+            loss = loss * weights.unsqueeze(1)
+            
+            # Mask out padding and reduce
+            mask = (labels != -100).float()
+            loss = (loss * mask).sum() / mask.sum()
+        else:
+            # Vanilla loss
+            loss = outputs.loss
 
         if (
             self.anti_copy_weight > 0.0
@@ -574,6 +635,11 @@ def main(args):
     # 3. Load Silver Dataset CSVs directly via pandas 
     train_df = pd.read_csv(data_cfg["train_file"])
     val_df = pd.read_csv(data_cfg["validation_file"])
+
+    if args.training_strategy == "curriculum":
+        # Sort descending so the model sees the highest confidence (cleanest/easiest) data first
+        train_df = train_df.sort_values(by="confidence_score", ascending=False)
+
     dataset = DatasetDict({
         "train": Dataset.from_pandas(train_df, preserve_index=False),
         "validation": Dataset.from_pandas(val_df, preserve_index=False)
@@ -611,6 +677,10 @@ def main(args):
             for label in labels["input_ids"]
         ]
         model_inputs["labels"] = label_ids
+
+        if "confidence_score" in examples:
+            model_inputs["confidence_score"] = examples["confidence_score"]
+
         return model_inputs
 
     tokenized_datasets = dataset.map(
@@ -707,7 +777,11 @@ def main(args):
         greater_is_better=True,
         fp16=use_fp16,
         warmup_steps=warmup_steps,
-        report_to=train_cfg.get("report_to", "none")
+        report_to=train_cfg.get("report_to", "none"),
+        remove_unused_columns=False,
+        push_to_hub=train_cfg.get("push_to_hub", False),
+        hub_model_id=f"narwhalsilent/satire-sft-{args.run_name}", # Replace with your actual username
+        hub_strategy="end"
     )
 
     # 8. Initialize Trainer
@@ -732,7 +806,8 @@ def main(args):
         callbacks=[
             EarlyStoppingCallback(early_stopping_patience=2),
             ProgressCallback(total_epochs=num_epochs)
-        ]
+        ],
+        training_strategy=args.training_strategy
     )
 
     # 9. Train
@@ -740,8 +815,9 @@ def main(args):
     trainer.train()
 
     # 10. Save best model
-    final_output = os.path.join(output_dir, "final")
-    trainer.save_model(final_output)
+    # Handled by push_to_hub
+    # final_output = os.path.join(output_dir, "final")
+    # trainer.save_model(final_output)
     tokenizer.save_pretrained(final_output)
     print(f"\nBest model saved to: {final_output}")
 
@@ -875,6 +951,12 @@ if __name__ == "__main__":
         type=float,
         default=0.05,
         help="Minimum reranker score gap required before saving a preference pair."
+    )
+    parser.add_argument(
+        "--training_strategy",
+        type=str,
+        choices=["vanilla", "weighted", "curriculum"], default="vanilla",
+        help="Strategy for sampling preference pairs during training."
     )
     args = parser.parse_args()
     if args.export_preferences and args.preference_num_candidates <= 1:

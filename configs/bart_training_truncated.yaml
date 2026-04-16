@@ -1,0 +1,32 @@
+# configs/bart_training_truncated.yaml
+
+model:
+  name_or_path: "facebook/bart-base"
+  type: "bart"
+
+data:
+  train_file: "data/silver-gemini/combined_data_truncated/train.csv"
+  validation_file: "data/silver-gemini/combined_data_truncated/val.csv"
+  max_source_length: 128
+  max_target_length: 128
+
+training:
+  output_dir: "checkpoints/bart_satire_truncated"
+  num_train_epochs: 5
+  per_device_train_batch_size: 16
+  per_device_eval_batch_size: 64
+  learning_rate: 3e-5
+  weight_decay: 0.01
+  logging_steps: 50
+  evaluation_strategy: "epoch"
+  save_strategy: "epoch"
+  save_only_model: true
+  save_total_limit: 1
+  predict_with_generate: true
+  fp16: true
+  anti_copy_weight: 0.1
+  push_to_hub: true
+
+generation:
+  num_beams: 2
+  temperature: 0.9
