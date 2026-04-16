@@ -39,6 +39,18 @@ The project employs a multi-factor evaluation framework:
 
 In addtion, human evaluation is performed.
 
+## Project Files
+
+We summarise the main files relevant to the project.
+
+* The script for generating silver dataset before rejection sampling is `data/silver-gemini/process_satire.py` aand its desatirized counterpart.
+* The silver dataset before rejection sampling is `data/silver-gemini/scored_satirized_headlines.json` and its desatirized counterpart.
+* The analysis for score relationship and rejection sampling metric is `notebooks/score_relationship.ipynb`.
+* The silver dataset after rejection sampling is `data/silver-gemini/combined_data_full`, which has been spit into training, validation and test sets. It has a counterpart with left-tail truncation.
+* The training and evaluation scripts can be found in `src/02_training` and `src/03_evaluation`.
+* The trained SFT models are available at [this link](https://huggingface.co/narwhalsilent/models).
+* The evaluation results is in `outputs/evaluation`.
+
 ## Installation
 
 Install the required external libraries and frameworks:
